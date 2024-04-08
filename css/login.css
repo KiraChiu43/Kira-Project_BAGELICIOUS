@@ -1,0 +1,576 @@
+@import url(./reset.css);
+
+/*---------- indec.css頁面重複地方 ----------*/
+
+/* * {
+    outline: 1px solid red;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #F9E5DA;
+    position: relative;
+    /*.begelimg"的父相子絕*/
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+/*---------- ig fb  teitter follow icon ----------*/
+
+.media p {
+    display: flex;
+    /*橫向排列*/
+}
+
+.med_con {
+    color: #354E52;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.media {
+    display: flex;
+    padding-left: 10px;
+    float: right;
+    transform: rotate(90DEG);
+    z-index: 5;
+    position: fixed;
+    /*定位*/
+    top: 400px;
+    right: -75px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: #69AFAD; */
+}
+
+
+/*---------- nav ----------*/
+
+.nav {
+    width: 1440px;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+}
+
+.nav .logo {
+    width: 130px;
+    height: 130px;
+    padding-left: 31px;
+    margin-right: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 40px;
+    margin-right: 8px;
+}
+
+
+.nav ul li {
+    font-size: 20px;
+    display: flex;
+    position: relative;
+}
+
+.nav ul li a {
+    /* display: flex; */
+    /*a行內元素轉塊元素*/
+    width: 155px;
+    height: 47px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+    color: #F9E5DA;
+    background-color: #BA5E62;
+    border-radius: 20px;
+    margin: 0 0 0 25px;
+    font-size: 19px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    /* justify-content: space-around; */
+    box-sizing: border-box;
+}
+
+.nav i {
+    width: 32px;
+    height: 32px;
+    color: #F9E5DA;
+    /* padding: 8px 0 12px 8px; */
+    line-height: 32px;
+    display: inline-block;
+}
+
+.nav p {
+    display: inline-block;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
+}
+
+/*---------- search ----------*/
+
+.search {
+    display: flex;
+    margin-top: 40px;
+    z-index: 5;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.search input {
+    margin-left: 10px;
+    width: 200px;
+    height: 47px;
+    border-radius: 25px;
+    background-color: #BA5E62;
+    color: #F9E5DA;
+    font-size: 19px;
+    border: none;
+    margin-right: 23px;
+    text-align: center;
+    line-height: 47px;
+}
+
+.search button {
+    background-color: #BA5E62;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-right: 50px;
+}
+
+.search button img {
+    float: left;
+    padding: 2px 0 0 5px;
+}
+
+.search i {
+    color: #F9E5DA;
+}
+
+/*---------- title:文字 ----------*/
+.subtitle {
+    display: flex;
+    /*設flex布局*/
+    flex-direction: row;
+    /*設主軸為水平方向*/
+    width: 669px;
+    height: 73px;
+    color: #69AFAD;
+    font-size: 60px;
+    opacity: 90%;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-left: 59px;
+    margin-top: 30px;
+}
+
+.title .subtitle h2:not(:first-child) {
+    padding-left: 33px;
+}
+
+.subtitle p {
+    display: block;
+    line-height: 73px;
+    width: 223px;
+    height: 14px;
+    color: #E7A4A6;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-shadow: 1px;
+    padding-bottom: 104px;
+    /* padding-right: 33px; */
+    margin-left: 18px;
+    background-color: #ba5e62;
+    clip-path: polygon(71% 0, 100% 24%, 100% 64%, 0 64%, 0 0);
+    text-align: center;
+    /* line-height: 1.6px; */
+    /* margin: 0 auto;*/
+}
+
+/*about: (3)背景底圖*/
+.backgroundimg {
+    position: relative;
+    z-index: -1;
+}
+
+.logoimg {
+    position: absolute;
+    width: 800px;
+    transform: rotate(-10deg);
+    opacity: 20%;
+    /* outline: 3px solid red; */
+    left: 767px;
+    top: 37px;
+    z-index: 0;
+}
+
+/*-------------------- login頁 --------------------*/
+
+/*-----店標題-----*/
+.check_title {
+    margin-top: 201px;
+    margin-right: 96px;
+    margin-left: 333px;
+    width: 1078px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+/*-----標題:菜單-----*/
+.check_title .hd {
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+    width: 1050px;
+    border-bottom: 2px solid ;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ba5e62;
+    line-height: 0.8;
+    text-align: left;
+}
+
+.check {
+    width: 1210px;
+    border-bottom: 4px solid #69AFAD;
+    margin-bottom: 32px;
+    margin-left: 130px;
+}
+
+.checktitle {
+    color: #69AFAD;
+    font-size: 28px;
+    /* font-weight: 700px; */
+    font-weight: bold;
+    margin-left: 59px;
+    padding-bottom: 21px;
+    padding-top: 50px;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+
+/*-----------------------------會員登入頁面-----------------------------*/
+
+
+/* Start Global rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* End Global rules */
+
+/* Start body rules */
+body {
+    /* background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%); */
+    /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    font-family: 'Vibur', cursive;
+    /*   the main font */
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+    /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||||*/
+/* Start form  attributes */
+form {
+    width: 450px;
+    min-height: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 4%;
+    background-image: linear-gradient(-225deg, #f0bcbd 80%, #69AFAD 20%);
+    z-index: 5;
+}
+
+/* form Container */
+form .con {
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    margin: 10px auto;
+}
+
+/* the header form form */
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+
+/* Login title form form */
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+}
+
+/*  A welcome message or an explanation of the login form */
+header p {
+    letter-spacing: 0.05em;
+}
+
+
+.input-item {
+    background: #fff;
+    color: #333;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+
+/* Show/hide password Font Icon */
+#eye {
+    background: #fff;
+    color: #333;
+
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    padding: 15px 9px 19px 0px;
+    border-radius: 0px 5px 5px 0px;
+
+    float: right;
+    position: relative;
+    right: 1%;
+    /* top: 0%; */
+    z-index: 5;
+
+    cursor: pointer;
+}
+
+/* inputs form  */
+input[class="form-input"] {
+    width: 240px;
+    height: 50px;
+
+    margin-top: 2%;
+    padding: 15px;
+
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+
+    outline: none;
+    border: none;
+
+    border-radius: 0px 5px 5px 0px;
+    transition: 0.2s linear;
+
+}
+
+input[id="txt-input"] {
+    width: 250px;
+}
+
+/* focus  */
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+
+/* //////////////////////////////////////////// */
+/* //////////////////////////////////////////// */
+
+/* input[type="text"] {min-width: 250px;} */
+/* buttons  */
+button {
+    display: inline-block;
+    color: #252537;
+
+    width: 280px;
+    height: 50px;
+
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+
+    margin: 7% auto;
+    letter-spacing: 0.05em;
+}
+
+/* Submits */
+.submits {
+    width: 48%;
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+
+/*       Forgot Password button FAF3DD  */
+.frgt-pass {
+    background: transparent;
+}
+
+/*     Sign Up button  */
+.sign-up {
+    background: #B8F2E6;
+}
+
+
+/* buttons hover */
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+/* buttons hover Animation */
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}
+
+
+/*底部*/
+.colorBlock {
+    padding-top: 150px;
+    height: 46px;
+    display: block;
+    margin-top: 40px;
+    /* margin-bottom: 120Ppx;  */
+}
+
+
+/*footer區*/
+footer {
+    background-color: #69AFAD;
+    margin-top: 45px;
+}
+
+.footer_con {
+    display: flex;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    padding-left: 158px;
+    display: inline-block;
+}
+
+.top h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #354E52;
+    /* width: 416px;
+    height: 44px; */
+    padding-top: 40px;
+    line-height: 1;
+}
+
+.top h2 {
+    font-size: 50px;
+    font-weight: 100;
+    color: #354E52;
+    padding-left: 19.5px;
+    /* width: 377px;
+    height: 36px; */
+    padding-top: 20px;
+    line-height: 1;
+}
+
+.mid h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1;
+    margin-top: 19px;
+}
+
+.mid_con h4 {
+    /* height: 18px; */
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 455px;
+    border-bottom: 1px solid #354E52;
+    padding: 10px 0 5px 10px;
+}
+
+.mid_con a {
+    /* display: inline; */
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.mailicon {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.mailicon i {
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+
+.mid_con {
+    display: flex;
+    /* margin-top: 15px; */
+}
+
+
+.mid {
+    display: flex;
+    /*並排*/
+    flex-direction: column;
+    /*直向往下排列*/
+    padding-left: 166px;
+    padding-top: 44px;
+
+}
+
+.bottom {
+    margin-top: 15px;
+    text-align: center;
+    color: #ffffff;
+}

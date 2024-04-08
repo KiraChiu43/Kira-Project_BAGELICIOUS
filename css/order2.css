@@ -1,0 +1,606 @@
+/*------------------- 第四頁點餐三步驟 -------------*/
+@import url(./reset.css);
+
+
+/*-------------------- 第一頁 --------------------*/
+
+/* * {
+    outline: 1px solid red;
+}  */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #F9E5DA;
+    position: relative;
+    /*.begelimg"的父相子絕*/
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+/*---------- ig fb  teitter follow icon ----------*/
+
+.media p {
+    display: flex;
+    /*橫向排列*/
+}
+
+.med_con {
+    color: #354E52;
+    text-align: center;
+    line-height: 27px;
+    margin-right: 10px;
+}
+
+.media .md_icon {
+    border-radius: 50%;
+    background-color: #354E52;
+    color: #F9E5DA;
+    /* line-height: 30px; */
+    width: 27px;
+    height: 27px;
+    /* margin: 0 5px 0 5px;
+    border: 1px solid #354E52; */
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.md_icon1 {
+    color: #354E52;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.media {
+    display: flex;
+    /* padding-left: 15px; */
+    float: right;
+    transform: rotate(90DEG);
+    z-index: 5;
+    position: fixed;
+    /*定位*/
+    top: 520px;
+    right: -75px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: #69AFAD; */
+}
+
+
+/*---------- nav ----------*/
+
+.nav {
+    width: 1440px;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+}
+
+.nav .logo {
+    width: 130px;
+    height: 130px;
+    padding-left: 31px;
+    margin-right: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .nav {
+    width: 1090px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+} */
+
+.nav ul {
+    display: flex;
+    margin-top: 40px;
+    margin-right: 8px;
+}
+
+
+.nav ul li {
+    font-size: 20px;
+    display: flex;
+    position: relative;
+}
+
+.nav ul li a {
+    /* display: flex; */
+    /*a行內元素轉塊元素*/
+    width: 155px;
+    height: 47px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+    color: #F9E5DA;
+    background-color: #BA5E62;
+    border-radius: 20px;
+    margin: 0 0 0 25px;
+    font-size: 19px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    /* justify-content: space-around; */
+    box-sizing: border-box;
+}
+
+.nav i {
+    width: 32px;
+    height: 32px;
+    color: #F9E5DA;
+    /* padding: 8px 0 12px 8px; */
+    line-height: 32px;
+    display: inline-block;
+}
+
+.nav p {
+    display: inline-block;
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; */
+}
+
+
+/* .nav li nth(1)a:hover {
+    font-size: bold;
+    font-size: 20px;
+    background-color: #F9E5DA;
+    color: #BA5E62;
+    margin-bottom: 1px solid #BA5E62;
+    box-shadow: 0 5px #bA5E62;
+    transform: translateY(4px);
+} */
+
+/*---------- search ----------*/
+
+.search {
+    display: flex;
+    margin-top: 40px;
+    z-index: 5;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.search input {
+    margin-left: 10px;
+    width: 200px;
+    height: 47px;
+    border-radius: 25px;
+    background-color: #BA5E62;
+    color: #F9E5DA;
+    font-size: 19px;
+    border: none;
+    margin-right: 23px;
+    text-align: center;
+    line-height: 47px;
+}
+
+.search button {
+    background-color: #BA5E62;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-right: 50px;
+}
+
+.search button img {
+    float: left;
+    padding: 2px 0 0 5px;
+}
+
+.search i {
+    color: #F9E5DA;
+}
+
+/*--------------------共同頁面區結束--------------------*/
+
+/*--------------------P4 Order三步驟 --------------------*/
+/*-----標題----*/
+.bageli_title1 .hd {
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+    width: 1050px;
+    border-bottom: 2px solid #BA5E62;
+    font-size: 50px;
+    font-weight: 800;
+    color: #ba5e62;
+    line-height: 0.8;
+}
+
+.order{
+    width: 1210px;
+    border-bottom: 4px solid #69AFAD;
+    margin-bottom: 32px;
+    margin-left: 130px;
+}
+
+.order_set {
+    width: 1210px;
+    /* border-bottom: 4px solid #EFA5A6; */
+    /* margin-bottom: px; */
+    margin-left: 90px;
+}
+
+.banner_title{
+    color: #69AFAD;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 59px;
+    padding-bottom: 21px;
+    padding-top: 50px;
+}
+
+.orderimg {
+    width: 1044px;
+    height: 356px;
+    padding-left: 196px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/*預定三步驟文字*/
+
+.order_set {
+    padding-top: 70px;
+    display: flex;
+    /* margin-left: 40px; */
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.order_set h2 {
+    width: 240px;
+    height: 37px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #354E52;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+    padding-right: 30px;
+
+}
+
+.banner {
+    width: 1001px;
+    height: 260px;
+}
+
+.order_set h3 {
+    font-size: 24px;
+    color: #354E52;
+    text-align: left;
+    line-height: 45px;
+    margin-left: 50px;
+    font-size: 700;
+}
+
+/*第一個步驟*/
+.order_set {
+    padding-left: 60px;
+    /* padding-top: 40px; */
+    /* display: flex;
+    position: relative; */
+    /* margin-left: 110px; */
+    margin-right: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.banner h2 {
+    width: 240px;
+    height: 37px;
+    color: #ffffff;
+    background-color: #354E52;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 37px;
+    font-weight: 800;
+}
+
+
+.banner h3 {
+    font-size: 36px;
+    color: #000000;
+    text-align: left;
+    line-height: 80px;
+    margin: 30px 16px 0 40px;
+    font-weight: 600;
+}
+
+.order_set>h3 {
+    margin: 30px 16px 0 0;
+}
+
+.order_step {
+    display: flex;
+    height: 50px;
+    width: 1250px;
+    margin-top: 40px;
+}
+
+.order_cont {
+    width: 350px;
+    height: 150px;
+    padding: 24px 33px 12px 26px;
+}
+
+.order_step {
+    width: 350px;
+    height: 190px;
+    display: flex;
+    border: 6px dashed #EFA5A6;
+    border-radius: 40px;
+    background-color: #fff;
+    margin-top: 28px; 
+    margin-right: 60px;
+}
+
+.order_steps{
+    display: flex;
+    margin-left: 150px;
+}
+
+.order_step p {
+    padding: 33px 10px 33px 10px;
+    font-size: 21px;
+    color: #354E52;
+    font-weight: 600;
+    line-height: 1.8;
+    margin-top: 15px;
+    position: relative;
+}
+
+.order_step {
+    position: relative;
+    margin-right: 90px;
+}
+
+.order_steps h1 {
+    width: 120px;
+    height: 55px;
+    border-radius: 60px;
+    background-color: #EFA5A6;
+    color: #F9E5DA;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    z-index: 1;
+}
+
+.order_step h3 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #974B4E;
+    width: 150px;
+    /* height: 180px; */
+    padding-left: 26px;
+    line-height: 180px;
+}
+
+/* .order_step li:not(:last-child) {
+    padding-right: 40px;
+}  */
+
+/*立即下單按鈕*/
+
+.order_button {
+    width: 190px;
+    height: 50px;
+    background-color: #BA5E62;
+    color: #F9E5DA;
+    filter: drop-shadow(3px 5px 4px rgba(52, 19, 19, 0.8));
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 40px;
+    position: relative;
+    top: 66px;
+    left: 648px;
+}
+
+.order_button a {
+    color: #F9E5DA;
+}
+
+.order_button i {
+    color: #F9E5DA;
+    margin-left: 10px;
+}
+
+/* 店舖位置標題*/
+
+section {
+    margin-top: 100px;
+    /* margin: 0 auto; */
+}
+
+.shop {
+    width: 1210px;
+    border-bottom: 4px solid #69AFAD;
+    margin-bottom: 32px;
+    margin-left: 129px;
+    margin-top: -75px;
+}
+
+.shoptitle {
+    color: #69AFAD;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding-bottom: 21px;
+    padding-top: 80px;
+    /* padding-top: -30px;  */
+ } 
+
+.shopimg {
+    max-width: 1280px;
+    height: 450px;
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    margin-left: 125px;
+}
+
+.shopimg {
+    margin-right: 300px;
+    max-width: 650px;
+    margin-top: 80px;
+}
+
+.shop2 {
+    position: relative;
+}
+
+.shop2 h1 {
+    font-size: 44px;
+    color: #BA5E62;
+    font-weight: 800;
+    position: absolute;
+    top: -5px;
+    left: 170px;
+}
+
+.shop2 h4 {
+    font-size: 44px;
+    color: #BA5E62;
+    font-weight: 800;
+    position: absolute;
+    top: 110px;
+    left: 170px;
+}
+
+.shop2 h3 {
+    font-size: 48px;
+    color: #EFA5A6;
+    text-shadow: 3px 1px rgba(153, 0, 0, 0.57);
+    font-weight: 800;
+    position: absolute;
+    top: 50px;
+    left: 180px;
+}
+.shop_name h2{
+    width: 180px;
+    height: 120px;
+    /* background-color: #BA5E62; */
+    color: #F9E5DA;
+    /* filter: drop-shadow(3px 5px 4px rgba(52, 19, 19, 0.8)); */
+    font-weight: 800;
+    font-size: 28px;
+    color: #BA5E62;
+    position: absolute;
+    top: 890px;
+    left: 23px;
+}
+
+.shop_name h2 i {
+    padding-left: 5px;
+}
+
+.shop_name {
+    /* width: 396px; */
+    height: 40px;
+    font-weight: 750;
+    font-size: 24px;
+    color: #BA5E62;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding-left: 10px;
+}
+
+/*-----shop content-----*/
+
+.shop_name {
+    width: 1076px;
+    max-height: 108px;
+    /* margin-bottom: 40px; */
+    /* margin-top: 680px; */
+}
+
+.shop_name h2{
+    width: 476px;
+    height: 50px;
+    color: #BA5E62;
+    position: absolute;
+    top: 1870px;
+    left: 163px;
+}
+
+.shop_cont {
+    margin-top: 110px;
+    max-width: 250px;
+    height: 165px;
+}
+
+.shop_cont ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0px;
+}
+
+.shop_cont h3 {
+    background-color: rgba(239, 165, 166, 0.3);
+    color: rgba(186, 94, 98, 0.8);
+    border-bottom: 1px solid rgba(239, 165, 166, 0.3);
+    font-size: 20px;
+    font-weight: 800;
+    width: 250px;
+    height: 36px;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.shop_cont p {
+    padding-top: 20px;
+    color: #BA5E62;
+    font-size: 18px;
+    font-weight: 500;
+    width: 356px;
+    max-height: 80px;
+    text-align: left;
+    padding-bottom: 10px;
+    line-break: 70px;
+    padding-left: 30px;
+
+}
+
+.shop_title li {
+    width: 356px;
+}
+
+.shop_hd1,
+.shop_hd2 {
+    padding-left: 10px;
+}
+.order_step1_1 {
+    width: 340px;
+    height: 170px;
+    display: flex;
+    border: 6px dashed #EFA5A6;
+    border-radius: 40px;
+    background-color: #fff;
+    margin-top: 28px;
+}
