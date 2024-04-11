@@ -357,6 +357,10 @@ footer {
     color: #ffffff;
 }
 
+.submit{
+    margin-bottom: 300px;
+}
+
 
 /*-------------------- login頁 --------------------*/
 
@@ -431,7 +435,7 @@ body {
 } */
 
 form {
-    width: 450px;
+    width: 650px;
     min-height: 500px;
     height: auto;
     border-radius: 5px;
@@ -449,7 +453,7 @@ header {
 
 /* Login title form form */
 header h2 {
-    font-size: 250%;
+    font-size: 300%;
     font-family: 'Playfair Display', serif;
     color: #3e403f;
 }
@@ -457,12 +461,17 @@ header h2 {
 /*  A welcome message or an explanation of the login form */
 header p {
     letter-spacing: 0.05em;
+    color: #3e403f;
+    font-size: 140%;
+    font-family: 'Playfair Display', serif;
+    color: #3e403f;
+    font-weight: 600;
 }
 
 .inputContainer {
     /*表單內屬性*/
     position: relative;
-    height: 45px;
+    height: 50px;
     width: 90%;
     margin-bottom: 30px;
 }
@@ -495,32 +504,80 @@ header p {
     color: transparent;
 }
 
-.label {
+.label, .check_{
     position: absolute;
-    top: 50px;
+    bottom: 30px;
     left: 20px;
-    padding: 0 10px;
+    padding: 0 15px;
     background-color: #E7A4A6;
     border-radius: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.check{
+    position: absolute;
+    bottom: 549px;
+    left: 400px;
     color: #ffff;
     font-size: 20px;
     transition: 0.5s;
     z-index: 0;
 }
 
+/*其他意見區塊設定*/
+label{
+    margin: 5px;
+    display: block;
+  }
+  .name,.phone,.email,.info,.submit{
+    width: 95%;
+  }
+  
+  /*其他意見*/
+  .info{ 
+    height: 150px;
+    width: 580px;
+    border-radius: 10px;
+    border: 1px solid #DADCE0;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+    background-color: #fff;
+
+    color: #d4cece;
+    text-align: left;
+    font-weight: 400;
+
+    margin: 5px;
+    display: block;
+  }
+
+  /* .info */
+  
+  .submit{
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+
 /*按鈕屬性*/
 .submitBtn,
 .btn {
     display: block;
     margin-left: auto;
-    padding: 15px 30px;
+    padding: 15px 20px;
     border: none;
     /* background-color: #BA5E62; */
     color: #BA5E62;
-    border-radius: 6px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 30px;
+    font-size: 18px;
+    margin-top: 85px;
 }
 
 .submitBtn:hover {
@@ -544,11 +601,11 @@ header p {
 }
 
 .label {
-    top: -7px;
-    left: 3px;
+    top: -17px;
+    left: 13px;
     z-index: 10;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: #fff;
 }
 
@@ -563,17 +620,18 @@ header p {
 }
 
 .btn .button {
-    width: 300px;
+    width: 310px;
     height: 50px;
+    font-weight: 800;
     display: block;
     margin-left: auto;
     padding: 15px 30px;
     border: none;
     /* background-color: #BA5E62; */
     color: #BA5E62;
-    border-radius: 6px;
+    border-radius: 15px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 30px;
     text-align: center;
     text-align: center;

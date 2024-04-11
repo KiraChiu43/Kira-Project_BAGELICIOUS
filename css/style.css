@@ -4,7 +4,15 @@
 
 /* * {
     outline: 1px solid red;
-} */
+}  */
+
+/*設置不會有橫向卷軸*/
+.wrapper{
+    max-width: 1440px;
+    overflow: hidden;
+    position: relative;
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +38,7 @@ body {
     color: #354E52;
     text-align: top;
     line-height: 40px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .media .md_icon {
@@ -45,14 +53,14 @@ body {
     display: inline;
     text-align: center;
     font-size: 15px;
-    margin-left: 6px;
+    margin-left: 8px;
 }
 
 .md_icon1 {
     color: #354E52;
     font-size: 16px;
     font-weight: 500;
-    padding-left: 10px;
+    /* padding-left: 5px; */
 }
 
 .media {
@@ -63,8 +71,8 @@ body {
     z-index: 5;
     position: fixed;
     /*定位*/
-    top: 500px;
-    right: -75px;
+    top: 580px;
+    right: -35px;
     font-size: 14px;
     line-height: 40px;
     text-align: center;
@@ -76,7 +84,7 @@ body {
 /*---------- nav ----------*/
 
 .nav {
-    width: 1440px;
+    width: 1510px;
     display: flex;
     position: fixed;
     z-index: 5;
@@ -105,7 +113,7 @@ a {
 .nav ul {
     display: flex;
     margin-top: 40px;
-    margin-right: 8px;
+    margin-right: 38px;
 }
 
 
@@ -123,11 +131,11 @@ a {
     margin: 0 auto;
     text-align: center;
     line-height: 47px;
-    color: #F9E5DA;
-    background-color: #BA5E62;
+    color: #ba5e62;
+    /* background-color: #BA5E62; */
     border-radius: 20px;
-    margin: 0 0 0 25px;
-    font-size: 19px;
+    margin: -10px 0 0 25px;
+    font-size: 20px;
     text-align: center;
     padding: 0 15px 0 0;
     /* justify-content: space-around; */
@@ -750,6 +758,7 @@ a {
     padding-top: 20px;
     letter-spacing: 4px;
     margin: 0 333px 47px 0;
+    padding-left: 13px;
 }
 
 /*follow區*/
