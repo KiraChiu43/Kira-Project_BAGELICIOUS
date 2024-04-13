@@ -340,7 +340,7 @@ form .con {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 
-    margin: 10px auto;
+    text-align: center;
 }
 
 /* the header form form */
@@ -365,7 +365,7 @@ header p {
 .input-item {
     background: #fff;
     color: #333;
-    padding: 14.5px 0px 15px 9px;
+    padding: 15.5px 0px 15px 9px;
     border-radius: 5px 0px 0px 5px;
 }
 
@@ -392,11 +392,13 @@ header p {
 
 /* inputs form  */
 input[class="form-input"] {
-    width: 240px;
+    width: 280px;
     height: 50px;
 
-    margin-top: 2%;
-    padding: 15px;
+    margin-top: 10%;
+    left: 200px;
+    /* margin-left: 30px; */
+    padding: 25px;
 
     font-size: 16px;
     font-family: 'Abel', sans-serif;
@@ -405,13 +407,13 @@ input[class="form-input"] {
     outline: none;
     border: none;
 
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
     transition: 0.2s linear;
 
 }
 
 input[id="txt-input"] {
-    width: 250px;
+    width: 280px;
 }
 
 /* focus  */
@@ -448,8 +450,10 @@ button {
     letter-spacing: 0.05em;
 }
 
-.other{
+.other_0k{
     width: 580px;
+    background-color: #fff;
+    color:#ba5e62;
 }
 
 .btn submits frgt-pass{
@@ -470,10 +474,11 @@ button {
 }
 
 /*     Sign Up button  */
-.sign-up {
+.shop, .other_ok{
     /* background: #B8F2E6; */
     color:#354E52;
     border: 1px solid #69AFAD;
+    margin-right: 50px;
 }
 
 
@@ -605,4 +610,21 @@ footer {
     margin-top: 15px;
     text-align: center;
     color: #ffffff;
+}
+
+.field-set{
+    font-size: 20px;
+}
+
+.log-in a{
+    color: #BA5E62;
+
+}
+
+.log-in:hover{
+    background-color: #BA5E62;
+}
+
+.log-in:hover a{
+    color: #fff;
 }

@@ -6,238 +6,314 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAGELICIOUS-PickUp</title>
     <link rel="icon" href="./img/front/logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/teat1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-    <!--ig fb  twitter follow icon--->
-  <section class="media">
-    <a href="order.html" class="md_icon1"><i class="fa-light fa-hashtag">Order</i></a>
-    <a class="md_icon" href="checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
-    <a class="md_icon1"><i class="fa-light fa-hashtag">Follow</i></a>
-    <a class="md_icon" href=""><i class="fa-brands fa-square-instagram"></i></a>
-    <a class="md_icon" href=""><i class="fa-brands fa-facebook"></i></a>
-  </section>
+    <div class="header">
+        <!--ig fb  twitter follow icon--->
+        <section class="media">
+            <a href="order.html" class="md_icon1"></a>
+            <a class="md_icon" href="checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
+            <a class="md_icon1"></a>
+            <a class="md_icon" href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a class="md_icon" href=""><i class="fa-brands fa-facebook"></i></a>
+        </section>
 
-    <nav class="nav">
+        <!-- <nav class="nav"> -->
 
         <!---logo-->
-         <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
+        <div class="logo">
+            <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
+        </div>
 
-        <!---主選單-->
-        <ul>
-            <li><a href=""><i class="fa-solid fa-circle-info"></i><p>About</p></a></li>
-            <li><a href="menu.html"><i class="fa-solid fa-utensils"></i><p>Menu</p></a></li>
-            <li><a href="QA.html"><i class="fa-solid fa-circle-question"></i><p>Q&A</p></a></li>
-            <li><a href="order.html"><i class="fa-solid fa-cart-shopping"></i><p>Order</p></a></li>
-            <li><a href="login.html"><i class="fa-solid fa-user"></i><p>Log In</p></a></li>
+        <!--主選單-->
+        <ul id="nav">
+            <li class="slide1"></li>
+            <li class="slide2"></li>
+            <li><a href="index.html" title="About">About</a></li>
+            <li><a href="menu.html" title="Menu">Menu</a></li>
+            <li><a href="order.html" title="Order">Order</a></li>
+            <li><a href="QA.html" title="Q&A">Q&A</a></li>
+            <li><a href="login.html" title="LogIn">LogIn</a></li>
         </ul>
 
         <!---搜索框-->
-        <div class="search">
+        <!-- <div class="search">
             <input type="text" value="Search...">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
-    </nav>
+    </nav> -->
 
-    <!--header-->
-    <header class="pickup_header">
-        <div class="bageli_title1">
-            <h1 class="hd">BAGELICIOUS</h1>
-        </div>
-        <!--pickup標題區 引用<about>abouttitle -->
-        <div class="menu">
-            <h2 class="menutitle">線上預訂單</h2>
-        </div>
-
-        <div class="pick_title">
-            <!--pickup副標題區 引用<order>shop_name -->
-            <div class="shopName">
-                <h2><a href=""></a><i class="fa-solid fa-location-dot"></i>BAGELICIOUS西門店</a></h2>
-                
+        <!--header-->
+        <header class="pickup_header">
+            <div class="bageli_title1">
+                <h1 class="hd">BAGELICIOUS</h1>
+            </div>
+            <!--pickup標題區 引用<about>abouttitle -->
+            <div class="menu">
+                <h2 class="menutitle">線上預訂單</h2>
             </div>
 
-                <div class="Pick">
-                    <h2><a href="order.html"><i class="fa-solid fa-hand-point-up"></i>預定三步驟點我看更多</a>
-                    </h2>
-                    <h3><a href="">預定<br></a>
-                        <p>Tue, 04/09, 02:35 pm</p>
-                    </h3>
-                    <h4><a href="">取貨<br>
-                            <p>Tue, 04/09,03:00pm<p></a>
-                    </h4>
+            <div class="pick_title">
+                <!--pickup副標題區 引用<order>shop_name -->
+                <div class="shopName">
+                    <h2><a href=""></a><i class="fa-solid fa-location-dot"></i>BAGELICIOUS西門店</a></h2>
+
                 </div>
-                
 
-            <div class="pick_search">
-                <ul class="pick-bd">
-                    <li><a href="">貝果三明治</a></li>
-                    <li><a href="">貝果 + 乳酪抹醬</a></li>
-                    <li><a href="">客製化貝果</a></li>
-                    <li><a href="">單顆貝果</a></li>
-                    <li><a href="">自製奶油乳酪</a></li>
-                    <li><a href="">飲品</a></li>
-                </ul>
-                
+                <div class="orderTwo">
+                    <ul class="Pick1">
+                        <li>
+                            <label for="order_date">預定取貨日期</label>
+                            <select name="date" id="order_date">
+                                <option value="-"></option>
+                                <option value="4/29">4/29(一)</option>
+                                <option value="4/30">4/30(二)</option>
+                                <option value="5/01">5/01(三)</option>
+                                <option value="5/02">5/02(四)</option>
+                                <option value="5/03">5/03(五)</option>
+                            </select>
+                        </li>
+                    </ul>
+
+                    <ul class="Pick2">
+                        <li>
+                            <label for="order_date">預定取貨時間</label>
+                            <select name="date" id="order_date">
+                                <option value="-"></option>
+                                <option value="10:30-11">10:30 ~ 11:00</option>
+                                <option value="11:00-11:30">11:00 ~ 11:30</option>
+                                <option value="11:30-12:00">12:00 ~ 13:30</option>
+                                <option value="14:00-14:30">14:00 ~ 14:30</option>
+                                <option value="15:00-15:30">15:00 ~ 15:30</option>
+                                <option value="15:30-16:00">15:30 ~ 16:00</option>
+                                <option value="16:30-17:00">16:30 ~ 17:00</option>
+                                <option value="17:30-18:30">17:30 ~ 18:30</option>
+                                <option value="18:30-19:30">18:30 ~ 19:30</option>
+                                <!-- <option value="ps">提醒您，送出成功後就不可取消訂單。</option> -->
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="pick_search">
+                    <ul class="pick-bd">
+                        <li><a href="">貝果三明治</a></li>
+                        <li><a href="">貝果 + 乳酪抹醬</a></li>
+                        <li><a href="">客製化貝果</a></li>
+                        <li><a href="">單顆貝果</a></li>
+                        <li><a href="">自製奶油乳酪</a></li>
+                        <li><a href="">飲品</a></li>
+                    </ul>
+
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-    <!--第一區pickup_main-->
-    <main class="pickup_main">
+        <!--第一區pickup_main-->
+        <main class="pickup_main">
 
-        <h1>BAGELICIOUS貝果三明治</h1>
-        <h6>BAGELICIOUS的貝果三明治都是現點現做的。建議嘗試各種口味，或選擇你想要的配料來做美味的搭配！</h6>
-        
-        
-        <!--貝果三明治-->
-        <!--第一層菜單-->
-    <div class="sectionMenu">
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels01_1X.png" alt="">
-            <p class="dns1">$100</p>
-            <h5>雞蛋&乳酪<br>煎蛋、BAGELICIOUS自製乳酪。</h5>
-        </div>
+            <h1>BAGELICIOUS貝果三明治</h1>
+            <h6>BAGELICIOUS的貝果三明治都是現點現做的。建議嘗試各種口味，或選擇你想要的配料來做美味的搭配！</h6>
+            <!-- <main class="pickup_main"> -->
+
+            <!-- <h1>BAGELICIOUS貝果三明治</h1>
+                <h6>BAGELICIOUS的貝果三明治都是現點現做的。建議嘗試各種口味，或選擇你想要的配料來做美味的搭配！</h6> -->
 
 
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels02_1X.png" alt="">
-            <p class="dns1">$145</p>
-            <h5>培根起士蛋貝果DOUBLE<br>雙倍份量的雞蛋與切達起士。</h5>
-        </div>
-    </div>
-
-    <!--第二層-->
-    <div class="sectionMenu">
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels03_1X.png" alt="">
-            <p class="dns1">$140</p>
-            <h5>脆皮馬鈴薯烤腸<br>煎蛋、切達起士、脆腸。</h5>
-        </div>
+            <!--貝果三明治-->
+            <!--第一層菜單-->
+            <div class="sectionMenu">
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels01_1X.png" alt="">
+                    <p class="dns1">$100</p>
+                    <h5>雞蛋&乳酪<br>煎蛋、BAGELICIOUS自製乳酪。</h5>
+                    <!-- <p class="add">+</p> -->
+                </div>
 
 
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels04_1X.png" alt="">
-            <p class="dns1">$160</p>
-            <h5>牛肉起士蛋Mix自製義式肉醬<br>煎蛋、帕瑪森起士(或切達起士二擇一)、BAGELICIOUS每日限量肉醬。</h5>
-        </div>
-    </div>
-
-    <!--第三層-->
-    <div class="sectionMenu">
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels05_1X.png" alt="">
-            <p class="dns1">$140</p>
-            <h5>燻鮭魚乳酪<br>酸豆、紅洋蔥、蒔蘿。</h5>
-        </div>
-
-
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels06_1X.png" alt="">
-            <p class="dns1">$85</p>
-            <h5>蛋奶蔬食<br>烤辣椒、酪梨、蔬菜。</h5>
-        </div>
-    </div>
-
-    <!--第四層-->
-    <div class="sectionMenu">
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels07_1X.png" alt="">
-            <p class="dns1">$120</p>
-            <h5>雞蛋馬鈴薯乳酪<br>煎蛋、馬鈴薯、炒洋蔥、BAGELICIOUS特調乳酪。</h5>
-        </div>
-
-
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels08_1X.png" alt="">
-            <p class="dns1">$140</p>
-            <h5>泰式蒜香鮮蝦x期間限定<br>草蝦、雞肉(或青木瓜絲二擇一)、香茅、BAGELICIOUS特調檸檬塔塔醬。</h5>
-        </div>
-    </div>
-
-     <!--第五層菜單-->
-     <div class="sectionMenu">
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/bagels09_1X.png" alt="">
-            <p class="dns1">$140</p>
-            <h5>雞肉起士&酪梨蔬菜<br>燻火雞、蘋果、酪梨、番茄、蔬菜、帕瑪森起士(或切達起士二擇一)。</h5>
-        </div>
-     </div>
-
-        <!--第二區pickup_main-->
-        <!--客製化-->
-    <!-- <main class="pickup_main"> -->
-
-        <h1>客製化BAGELICIOUS貝果 + 乳酪抹醬</h1>
-        <h6>想獨享的最佳選擇</h6>
-        
-        <div class="sectionMenu">
-            <div class="begalMenu">
-                <img class="prod1" src="./img/PickUp/bagels10_1X.png" alt="">
-                <p class="dns1">$100</p>
-                <h5>貝果/顆 + 抹醬/份<br>貝果與抹醬價格因口味而異，請於訂購時選擇。</h5>
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels02_1X.png" alt="">
+                    <p class="dns1">$145</p>
+                    <h5>培根起士蛋貝果DOUBLE<br>雙倍份量的雞蛋與切達起士。</h5>
+                </div>
             </div>
-    
-    
-            <!-- <div class="begalMenu">
-                <img class="prod1" src="./img/PickUp/bagels02_1X.png" alt="">
-                <p class="dns1">$145</p>
-                <h5>培根起士蛋貝果DOUBLE<br>雙倍份量的雞蛋、雙倍份量的切達起士。</h5>
-            </div> -->
-        </div>
 
-        <!--第三區pickup_main-->
-        <!--貝果-->
-        <!-- <main class="pickup_main"> -->
+            <!--第二層-->
+            <div class="sectionMenu">
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels03_1X.png" alt="">
+                    <p class="dns1">$140</p>
+                    <h5>脆皮馬鈴薯烤腸<br>煎蛋、切達起士、脆腸。</h5>
+                </div>
+
+
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels04_1X.png" alt="">
+                    <p class="dns1">$160</p>
+                    <h5>牛肉起士蛋Mix自製義式肉醬<br>煎蛋、帕瑪森起士(或切達起士二擇一)、BAGELICIOUS每日限量肉醬。</h5>
+                </div>
+            </div>
+
+            <!--第三層-->
+            <div class="sectionMenu">
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels05_1X.png" alt="">
+                    <p class="dns1">$140</p>
+                    <h5>燻鮭魚乳酪<br>酸豆、紅洋蔥、蒔蘿。</h5>
+                </div>
+
+
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels06_1X.png" alt="">
+                    <p class="dns1">$85</p>
+                    <h5>蛋奶蔬食<br>烤辣椒、酪梨、蔬菜。</h5>
+                </div>
+            </div>
+
+            <!--第四層-->
+            <div class="sectionMenu">
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels07_1X.png" alt="">
+                    <p class="dns1">$120</p>
+                    <h5>雞蛋馬鈴薯乳酪<br>煎蛋、馬鈴薯、炒洋蔥、BAGELICIOUS特調乳酪。</h5>
+                </div>
+
+
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels08_1X.png" alt="">
+                    <p class="dns1">$140</p>
+                    <h5>泰式蒜香鮮蝦x期間限定<br>草蝦、雞肉(或青木瓜絲二擇一)、香茅、BAGELICIOUS特調檸檬塔塔醬。</h5>
+                </div>
+            </div>
+
+            <!--第五層菜單-->
+            <div class="sectionMenu">
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels09_1X.png" alt="">
+                    <p class="dns1">$140</p>
+                    <h5>雞肉起士&酪梨蔬菜<br>燻火雞、蘋果、酪梨、番茄、蔬菜、帕瑪森起士(或切達起士二擇一)。</h5>
+                </div>
+            </div>
+
+            <!--第二區pickup_main-->
+            <!--客製化-->
+            <!-- <main class="pickup_main"> -->
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <div class="modal">
+                <h1>客製化BAGELICIOUS貝果 + 乳酪抹醬</h1>
+                <h6>想獨享的最佳選擇</h6>
+            </div>
+            <div class="dialog">
+                <div class="dialog_title">
+                    <img src="./img/Checkout/checkout2X_img01.png" alt="">
+                    <!-- <p class="arror">X</p> -->
+
+                </div>
+
+                <div class="contentorder">
+                    <h2>一人份貝果與抹醬</h2>
+                    <h3>抹醬:冷藏3天。<br>價格因口味而異，購買請選擇口味與顆數。</h3>
+
+                    <h2>Bagel-選項</h2>
+                    <h4>必選*</h4>
+                    <div class="one">請選擇1項，如須購買1個以上，請選擇完畢後個別送單。</div>
+                    <div class="bagel01">
+                        <p class="bagel01_1">原味</p>
+                        <p class="bagel01_2">奶蛋素</p>
+                        <p class="bagel01_3">蜂蜜燕麥+$15</p>
+                        <p class="bagel01_4">蜂蜜燕麥+$10</p>
+                    </div>
+
+                    <h2>Bagel奶油乳酪-選項</h2>
+                    <h4>必選*</h4>
+                    <div class="one">請選擇1項，如須購買1個以上，請選擇完畢後個別送單。</div>
+                    <div class="bagel01">
+                        <p class="bagel01_1">原味</p>
+                        <p class="bagel01_2">蜂蜜堅果+$40</p>
+                        <p class="bagel01_3">莓果+$40</p>
+                        <p class="bagel01_4">蘋果焦糖+$40</p>
+                    </div>
+
+
+                    <h2>Bagel額外配料-選項</h2>
+                    <h4>可複選*</h4>
+                    <div class="one">請選擇1項，如須購買1個以上，請選擇完畢後個別送單。</div>
+                    <div class="bagel02">
+                        <p class="bagel01_1">雙倍肉 /份+$55</p>
+                        <p class="bagel01_2">酪梨 /份+$45</p>
+                        <p class="bagel01_3">煎蛋 /份+$35</p>
+                        <p class="bagel01_4">薯餅 /份+$37</p>
+                        <p class="bagel01_5">切片起士 /份+$25</p>
+                        <p class="bagel01_6">不需要額外配料</p>
+                    </div>
+
+                    <h2>套餐加購</h2>
+                    <h4>如有需要請選擇*</h4>
+                    <div class="one">請選擇1項，如須購買1個以上，請選擇完畢後個別送單。</div>
+                    <div class="bagel03">
+                        <p class="bagel01_1">奶油乳酪原味+$35</p>
+                        <p class="bagel01_2">奶油乳酪-其他口味+$40</p>
+                        <p class="bagel01_3">其他配料-酪梨醬 /份+$45</p>
+                        <p class="bagel01_4">其他備料(於備註欄內說明，取貨時補差額)+$35</p>
+                        <p class="bagel01_5">飲品-可樂+$40</p>
+                        <p class="bagel01_6">飲品-可樂或美式+$50</p>
+                        <p class="bagel01_5">飲品-拿鐵+$80</p>
+                        <p class="bagel01_6">不需要額外配料</p>
+                    </div>
+
+                    <form>
+                        <h2>備註欄位</h2>
+                        <h4>如您有表內未提及的額外需求，或對某物質過敏，請填寫於該欄位*</h4>
+                        <textarea name="ps" id="ps" cols="30" rows="10" placeholder="">
+                            </textarea>
+                    </form>
+                </div>
+
+                <div class="buttons">
+                    <div class="cancelBtn">取消</div>
+                    <a href="./checkout.html"></a><div class="okBtn">確定</div>
+                </div>
+            </div>
+
+            <div class="sectionMenu showDialogBtn">
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/bagels10_1X.png" alt="">
+                    <p class="dns1">$85+</p>
+                    <h5>貝果/顆 + 抹醬/份<br>貝果與抹醬價格因口味而異，請於訂購時選擇。</h5>
+                </div>
+            </div>
+
+            <!--第三區pickup_main-->
+            <!--貝果-->
+            <!-- <main class="pickup_main"> -->
 
             <h1>單顆BAGELICIOUS貝果</h1>
             <!-- <h6>想獨享的最佳選擇</h6> -->
-            
+
             <div class="sectionMenu">
                 <div class="begalMenu">
                     <img class="prod1" src="./img/PickUp/bagels11_1X.png" alt="">
-                    <p class="dns1">$100</p>
+                    <p class="dns1">$50+</p>
                     <h5>貝果<br>常溫保存3天，冷凍7天。<br>
                         價格因口味而異，請於訂購時選擇。
                     </h5>
                 </div>
             </div>
-        
-        <!--第四區pickup_main-->
-        <!--奶油乳酪-->
-    <!-- <main class="pickup_main"> -->
 
-        <!-- <h1>BAGELICIOUs自製奶油乳酪</h1>
-        <h6>奶油乳酪每日新鮮現作，適合搭配各種新鮮餡料！</h6>
-        
-        <div class="sectionMenu">
-            <div class="begalMenu">
-                <img class="prod1" src="./img/PickUp/creamcheese01_1X.png" alt="">
-                <p class="dns1">$35</p>
-                <h5>2 OZ 奶油乳酪<br>塗抹 1 個貝果的份量。<br>
-                    價格因口味而異，請於訂購時一併選擇。</h5>
-                </h5>
-            </div>
-    
-    
-            <div class="begalMenu">
-                <img class="prod1" src="./img/PickUp/bagels121_1X.png" alt="">
-                <p class="dns1">$35</p>
-                <h5>8 OZ 奶油乳酪<br>塗抹 2~3個貝果的份量。<br>
-                    價格因口味而異，請於訂購時一併選擇。</h5>
-                </h5>
-            </div>
-        </div> -->
-    
-        <!-- <main class="pickup_main"> -->
+            <!-- <main class="pickup_main"> -->
 
             <h1>BAGELICIOUs自製奶油乳酪</h1>
             <h6>奶油乳酪每日新鮮現作，適合搭配各種新鮮餡料！</h6>
-            
+
             <div class="sectionMenu">
                 <div class="begalMenu">
                     <img class="prod1" src="./img/PickUp/creamcheese01_1X.png" alt="">
@@ -246,8 +322,8 @@
                         價格因口味而異，請於訂購時選擇。</h5>
                     </h5>
                 </div>
-        
-        
+
+
                 <div class="begalMenu">
                     <img class="prod1" src="./img/PickUp/bagels12_1X.png" alt="">
                     <p class="dns1">$35</p>
@@ -257,77 +333,105 @@
                 </div>
             </div>
 
-        <!--飲-->
-        <!--第五層菜單-->
+            <!--飲-->
+            <!--第五層菜單-->
             <h1>BAGELICIOUs飲品</h1>
-        <h6>BAGELICIOUS的貝果三明治都是現點現做的。建議嘗試各種口味，或選擇你想要的配料來做美味的搭配！</h6>
-        
-    <div class="sectionMenu">
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/drink01_1X.png" alt="">
-            <p class="dns1">$55</p>
-            <h5>美式<br>冰/熱請於訂購時選擇。</h5>
-        </div>
+            <h6>BAGELICIOUS的貝果三明治都是現點現做的。建議嘗試各種口味，或選擇你想要的配料來做美味的搭配！</h6>
+
+            <div class="sectionMenu">
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/drink01_1X.png" alt="">
+                    <p class="dns1">$55</p>
+                    <h5>美式<br>冰/熱請於訂購時選擇。</h5>
+                </div>
 
 
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/drink02_1X.png" alt="">
-            <p class="dns1">$80</p>
-            <h5>拿鐵<br>冰/熱請於訂購時選擇。</h5>
-        </div>
-    </div>
-
-    <!--第二層-->
-    <div class="sectionMenu">
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/drink03_1X.png" alt="">
-            <p class="dns1">$140</p>
-            <h5>可樂<br>冰/常溫請於訂購時選擇。</h5>
-        </div>
-
-
-        <div class="begalMenu">
-            <img class="prod1" src="./img/PickUp/drink04_1X.png" alt="">
-            <p class="dns1">$160</p>
-            <h5>蘋果汁<br>冰/常溫請於訂購時選擇。</h5>
-        </div>
-    </div>
-</main>
-
-<!--確認送出按鈕-->
-<div class="order_button2">
-    <a href="checkout.html">確認送出<i class="fa-solid fa-hand-point-up"></i></a>
-</div>
-
-<!--footer區域star-->
-<div class="colorBlock">
-    <img src="./img/front/footer colorblock.png" alt="">
-</div>
-
-<footer>
-    <div class="footer_con">
-
-        <div class="top">
-            <h1>BAGELICIOUS</h1>
-            <h2>TIBAME STUDIO</h2>
-        </div>
-
-        <div class="mid">
-            <h3>NEWSLETTER</h3>
-
-            <div class="mid_con">
-                <a href="" class="mailicon">
-                    <i class="fa-regular fa-envelope"></i></a>
-                <h4>Subscribe to Our Newsletter</h4>
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/drink02_1X.png" alt="">
+                    <p class="dns1">$80</p>
+                    <h5>拿鐵<br>冰/熱請於訂購時選擇。</h5>
+                </div>
             </div>
+
+            <!--第二層-->
+            <div class="sectionMenu">
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/drink03_1X.png" alt="">
+                    <p class="dns1">$140</p>
+                    <h5>可樂<br>冰/常溫請於訂購時選擇。</h5>
+                </div>
+
+
+                <div class="begalMenu">
+                    <img class="prod1" src="./img/PickUp/drink04_1X.png" alt="">
+                    <p class="dns1">$160</p>
+                    <h5>蘋果汁<br>冰/常溫請於訂購時選擇。</h5>
+                </div>
+            </div>
+        </main>
+
+
+        <!--確認送出按鈕-->
+        <div class="order_button2">
+            <a href="checkout.html">確認送出<i class="fa-solid fa-hand-point-up"></i></a>
         </div>
-    </div>
 
-    <div class="bottom">
-        <p>© BAGELICIOUS KC., LTD. All rights reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>
-            如有侵權問題，請來信milkchiu0403@hotmail.com</p>
-    </div>
-</footer>
+        <!--footer區域start-->
+        <div class="colorBlock">
+            <img src="./img/front/footer colorblock.png" alt="">
+        </div>
 
+        <footer>
+            <div class="footer_con">
+
+                <div class="top">
+                    <h1>BAGELICIOUS</h1>
+                    <h2>TIBAME STUDIO</h2>
+                </div>
+
+                <div class="mid">
+                    <h3>NEWSLETTER</h3>
+
+                    <div class="mid_con">
+                        <a href="" class="mailicon">
+                            <i class="fa-regular fa-envelope"></i></a>
+                        <h4>Subscribe to Our Newsletter</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <p>© BAGELICIOUS KC., LTD. All rights
+                    reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>如有侵權問題，請來信milkchiu0403@hotmail.com</p>
+            </div>
+
+        </footer>
+        <!--footer區域end-->
+        <script src="./nav.js"></script>
+        <script src="./js/JS-big.js"></script>
+
+        <script>
+            $(".showDialogBtn").click(function () {
+                $(".modal").css("display", "block"); // 顯示modal，遮住畫面背景。
+                $(".dialog").css("display", "block"); // 顯示dialog。
+
+                $(".dialog").animate({
+                    opacity: '1',
+                    top: '50px' // 決定對話框要滑到哪個位置停止。		   
+                }, 550);
+            });
+
+            $(".cancelBtn").click(function () {
+                $(".dialog").animate({
+                    opacity: '0',
+                    top: '-50px' // 需與CSS設定的起始位置相同，以保證下次彈出視窗的效果相同。			   
+                }, 350, function () {
+                    // 此區塊為callback function，會在動畫結束時被呼叫。
+                    $(".modal").css("display", "none"); // 隱藏modal。
+                    $(".dialog").css("display", "none"); // 隱藏dialog。
+                });
+            });	
+        </script>
 </body>
+
 </html>

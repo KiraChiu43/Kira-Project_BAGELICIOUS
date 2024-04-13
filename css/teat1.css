@@ -809,888 +809,6 @@ footer {
 }
 
 
-/*-----------------------------MENU頁面-----------------------------*/
-
-/*-----店標題-----*/
-.bageli_title1 {
-    margin-top: 201px;
-    margin-right: 96px;
-    margin-left: 333px;
-    width: 1078px;
-    margin-bottom: 40px;
-}
-
-/*-----標題:菜單-----*/
-.bageli_title1 .hd {
-    /* position: absolute;
-    top: 0px;
-    left: 0px; */
-    width: 1050px;
-    border-bottom: 1px solid #BA5E62;
-    font-size: 50px;
-    font-weight: 800;
-    color: #ba5e62;
-    line-height: 0.8;
-}
-
-.menu {
-    width: 1210px;
-    border-bottom: 4px solid #69AFAD;
-    margin-bottom: 32px;
-    margin-left: 130px;
-}
-
-.menutitle {
-    color: #69AFAD;
-    font-size: 28px;
-    /* font-weight: 700px; */
-    font-weight: bold;
-    margin-left: 59px;
-    padding-bottom: 21px;
-    padding-top: 50px;
-    /* border: 1px solid red; */
-}
-
-/*-----菜單第一張img-----*/
-
-.menu img {
-    /* margin-top: 58px; */
-    width: 1284px;
-    /* height: 580px; */
-}
-
-.menu_main {
-    width: 1050px;
-    height: 36px;
-}
-
-/*-----菜單主標副標-----*/
-.maintitle {
-    color: #69AFAD;
-    font-size: 28px;
-    font-weight: bold;
-    margin-left: 59px;
-}
-
-.menu_main {
-    width: 1050px;
-    /* height: 36px; */
-    margin-left: 130px;
-    margin-top: 50px;
-}
-
-.menuimg {
-    text-align: center;
-}
-
-.menuimg img {
-    /* width: 1284px; */
-    height: 580px;
-}
-
-.menu_main {
-    width: 1050px;
-    /* line-height: 1; */
-    text-align: center;
-    margin-bottom: 180px;
-}
-
-.menu_main h2 {
-    /* height: 36px; */
-    font-size: 50px;
-    font-weight: 800;
-    line-height: .75;
-    /**/
-    border-bottom: 1px solid #69AFAD;
-}
-
-.menu_main p {
-    font-size: 22px;
-    color: #354E52;
-    font-weight: 800;
-    margin-top: 50px;
-    /* padding-bottom: 30px; */
-    padding-left: 65px;
-    /* padding-bottom: 20px; */
-}
-
-.main_con {
-    width: 1210px;
-    font-size: 28px;
-    font-weight: 800;
-    border-bottom: 4px solid #69AFAD;
-    color: #69AFAD;
-    /* padding-left: 136px; */
-    margin-top: 50px;
-    margin-left: 1px;
-    padding-bottom: 29px;
-    margin-left: 136px;
-}
-
-/*-----菜單套餐區說明-----*/
-.meun_cont {
-    padding-left: 195px;
-    padding-top: 40px;
-}
-
-.meun_cont h2 {
-    width: 150px;
-    height: 45px;
-    color: #ffffff;
-    background-color: #354E52;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 45px;
-    margin-top: 30px;
-
-}
-
-.meun_cont p {
-    padding-top: 10px;
-    font-size: 18px;
-}
-
-/*-----菜單九顆貝果區-----*/
-
-.menu_content {
-    /* width: 1214px; */
-    /* height: 1373px; */
-    display: grid;
-    /* grid-gap: 2rem; */
-    grid-template-columns: repeat(22, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    margin-top: -150px;
-    text-align: center;
-    margin-right: 120px;
-    padding-top: 30px;
-}
-
-.menu_content p {
-    padding-top: 20px;
-}
-
-.menu_content .menu1_img {
-    text-align: left;
-    border-radius: 50%;
-    height: 300px;
-    grid-area: menu1_img;
-    grid-column: 4/9;
-    grid-row: 2/5;
-    background-image: url(../img/meun/menu_prod001.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu1_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu1_bd;
-    grid-column: 4/9;
-    grid-row: 4/4;
-}
-
-.menu_content .menu2_img {
-    border-radius: 50%;
-    height: 300px;
-    grid-area: menu2_img;
-    grid-column: 11/16;
-    grid-row: 3/5;
-    background-image: url(../img/meun/menu_prod002.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu2_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu2_bd;
-    grid-column: 11/16;
-    grid-row: 5/6;
-}
-
-.menu_content .menu3_img {
-    border-radius: 50%;
-    height: 300px;
-    grid-area: menu3_img;
-    grid-column: 18/23;
-    grid-row: 2/6;
-    background-image: url(../img/meun/menu_prod003.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu3_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu3_bd;
-    grid-column: 18/23;
-    grid-row: 4/5;
-}
-
-.menu_content .menu4_img {
-    height: 300px;
-    border-radius: 50%;
-    grid-area: menu4_img;
-    grid-column: 4/9;
-    grid-row: 6/8;
-    background-image: url(../img/meun/menu_prod004.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu4_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu4_bd;
-    grid-column: 4/9;
-    grid-row: 8/9;
-}
-
-.menu_content .menu5_img {
-    height: 300px;
-    border-radius: 50%;
-    grid-area: menu5_img;
-    grid-column: 11/16;
-    grid-row: 7/9;
-    background-image: url(../img/meun/menu_prod005.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu5_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu5_bd;
-    grid-column: 11/16;
-    grid-row: 9/10;
-}
-
-.menu_content .menu6_img {
-    height: 300px;
-    border-radius: 50%;
-    grid-area: menu6_img;
-    grid-column: 18/23;
-    grid-row: 6/8;
-    background-image: url(../img/meun/menu_prod006.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu6_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu6_bd;
-    grid-column: 18/23;
-    grid-row: 8/9;
-}
-
-.menu_content .menu7_img {
-    height: 300px;
-    border-radius: 50%;
-    grid-area: menu7_img;
-    grid-column: 4/9;
-    grid-row: 10/12;
-    background-image: url(../img/meun/menu_prod007.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu7_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu7_bd;
-    grid-column: 4/9;
-    grid-row: 12/13;
-}
-
-.menu_content .menu8_img {
-    height: 300px;
-    border-radius: 50%;
-    grid-area: menu8_img;
-    grid-column: 11/16;
-    grid-row: 11/13;
-    background-image: url(../img/meun/menu_prod008.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu8_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu8_bd;
-    grid-column: 11/16;
-    grid-row: 13/14;
-}
-
-.menu_content .menu9_img {
-    height: 300px;
-    border-radius: 50%;
-    grid-area: menu9_img;
-    grid-column: 18/23;
-    grid-row: 10/12;
-    background-image: url(../img/meun/menu_prod009.svg);
-    background-repeat: no-repeat;
-}
-
-.menu_content .menu9_bd {
-    margin-top: 30px;
-    color: #354E52;
-    font-size: 18px;
-    grid-area: menu9_bd;
-    grid-column: 18/23;
-    grid-row: 12/13;
-}
-
-.menu_content h2 {
-    /* height: 45px; */
-    background-color: #354E52;
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 300px;
-    text-align: center;
-}
-
-/*-----cream cheese-----*/
-
-.creamnav {
-    /* max-width: 1440px; */
-    width: 1440px;
-    /* margin: 0 auto; */
-}
-
-.creamnav .img {
-    width: 1374px;
-    height: 404px;
-    background-image: url(../img/meun/cream-cheese-top-optimize.jpg);
-}
-
-.creamtitle {
-    /* display: flex; */
-    width: 1001px;
-    height: 240px;
-    margin: 0 auto;
-    /* justify-content: center; */
-}
-
-.creamnav h3 {
-    margin-top: 40px;
-}
-
-.creamtitle ul {
-    display: flex;
-    width: 961px;
-    justify-content: space-between;
-    /*空間平分給子*/
-    margin-top: 40px;
-    margin-left: 50px;
-}
-
-.creamtitle li {
-    width: 180px;
-    height: 260px;
-}
-
-.creamtitle img {
-    display: block;
-    width: 160px;
-    height: 160px;
-    margin-bottom: 20px;
-}
-
-
-.creamtitle ul h2 {
-    width: 131px;
-    height: 20px;
-    color: #354E52;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    /* line-height: 20px; */
-    margin-bottom: 20px;
-
-    width: 160px;
-    /*菜單外觀樣式*/
-    height: 35px;
-    color: #ffffff;
-    background-color: #354E52;
-}
-
-.creamtitle ul p {
-    width: 160px;
-    font-size: 18px;
-    line-height: 1;
-    text-align: center;
-    /* margin-top: 20px; */
-}
-
-.settitle h3,
-.bannertitle h3 {
-    width: 1151px;
-    height: 115px;
-    border-bottom: 4px solid #69AFAD;
-    font-size: 30px;
-    font-weight: 800;
-    color: #69afad;
-    margin-left: 1px;
-    margin-left: 136px;
-}
-
-.cream .cream_nav {
-    background-image: url(../img/meun/creammenu_nev.jpg);
-    height: 404px;
-}
-
-.cream img {
-    width: 160px;
-    height: 160px;
-    margin-bottom: 30px;
-}
-
-.cream ul {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-left: 114px;
-    margin-right: 219px;
-}
-
-.cream li {
-    padding-left: 107px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.settitle h2 {
-    width: 200px;
-    height: 40px;
-    color: #ffffff;
-    background-color: #354E52;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0 auto;
-    line-height: 45px;
-    /* margin-top: 30px; */
-    margin: 20px 35px 0 35px;
-    font-size: 20px;
-    display: inline-block;
-}
-
-.bannertitle>h2 {
-    width: 131px;
-    height: 45px;
-    color: #ffffff;
-    background-color: #354E52;
-    margin-bottom: 85px;
-    margin-top: 35px;
-    margin-right: 22px;
-    margin-left: 150px;
-    padding-left: 60px;
-    display: inline-block;
-    line-height: 45px;
-    font-size: 18px;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.bannerSet .banner_p {
-    width: 250px;
-    font-size: 18px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.bannerSet h2 {
-    /* width: 200px; */
-    /* height: 70px; */
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 10px;
-    /* padding-left: 50px; */
-    margin-left: 50px;
-
-    width: 170px;
-    /*菜單外觀樣式*/
-    height: 35px;
-    color: #F9E5DA;
-    background-color: #354E52;
-
-    margin-top: 20px;
-    text-align: center;
-}
-
-.banner_img1 {
-    background-image: url(../img/meun/menu_add01.png);
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    background-repeat: no-repeat;
-}
-
-.banner_img2 {
-    background-image: url(../img/meun/menu_add02.png);
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    background-repeat: no-repeat;
-}
-
-.banner_img3 {
-    background-image: url(../img/meun/menu_3.jpg);
-    background-position: center center;
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    /* outline: 1px red solid; */
-}
-
-.bannerSet ul {
-    width: 1144px;
-}
-
-.bannerSet p {
-    /* margin-left: 0px; */
-    text-align: center;
-}
-
-.banner_img4 {
-    background-image: url(../img/meun/add_img02.png);
-    background-position: center center;
-    border-radius: 50%;
-    width: 250px;
-    height: 259px;
-}
-
-.bannerSet li {
-    margin-left: 80px;
-}
-
-.bannertitle p {
-    display: inline-block;
-    margin-left: 10px;
-}
-
-.settitle {
-    padding-top: 120px;
-    /* display: flex; */
-    /* align-items:center; */
-    /* justify-content: center; */
-}
-
-.settitle h2 {
-    display: inline-block;
-    margin-left: 157px;
-}
-
-.settitle p {
-    display: inline-block;
-    font-size: 20px;
-    padding-right: 0;
-}
-
-/*-----cream cheese-----*/
-
-.creamnav {
-    width: 1374px;
-    height: 950px;
-    margin-top: 40px;
-}
-
-.craamnav img {
-    display: block;
-    width: 1374px;
-    height: 404px;
-    /* background-image: url(../img/meun/cream-cheese-top-optimize.jpg); */
-}
-
-
-
-.bannerSet ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.setThree {
-    display: block;
-    border-radius: 50%;
-}
-
-.settitle h3,
-.creamnav h3,
-.bannertitle h3 {
-    width: 1151px;
-    height: 115px;
-    border-bottom: 4px solid #69AFAD;
-    font-size: 30px;
-    font-weight: 800;
-    color: #69afad;
-    margin-left: 1px;
-    margin-left: 136px;
-}
-
-.cream .cream_nav {
-    background-image: url(../img/meun/creammenu_nev.jpg);
-    height: 404px;
-}
-
-.cream img {
-    width: 160px;
-    height: 160px;
-    margin-bottom: 30px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.cream ul {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-left: 114px;
-    margin-right: 219px;
-}
-
-.cream li {
-    padding-left: 107px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-
-.settitle h2 {
-    width: 200px;
-    height: 40px;
-    color: #ffffff;
-    background-color: #354E52;
-    font-size: 20px;
-    font-weight: 400;
-    /* text-align: center; */
-    line-height: 45px;
-    margin-top: 30px;
-    /* margin-top: 20px; */
-    font-size: 24px;
-}
-
-
-.settitle {
-    padding-top: 120px;
-}
-
-.settitle h2 {
-    display: inline-block;
-    margin-left: 157px;
-}
-
-.settitle p {
-    display: inline-block;
-    font-size: 20px;
-    /* padding-right: ; */
-}
-
-
-/*淺綠標題區*/
-.banner {
-    width: 1151px;
-    height: 115px;
-    /* border-bottom: 4px solid #69AFAD; */
-    margin-left: 1px;
-    margin-left: 136px;
-}
-
-.banner h3,
-.bannertitle h3 {
-    font-size: 28px;
-    font-weight: 800;
-    color: #69AFAD;
-}
-
-/*加購區內容*/
-
-.banner ul {
-    display: flex;
-}
-
-.bamm .banner_set h2 {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.banner_set p {
-    font-size: 18px;
-    color: #354E52;
-    font-weight: 400;
-}
-
-.banner_set .set_3 img {
-    padding-top: 100%;
-}
-
-/*底部*/
-.colorBlock {
-    padding-top: 30px;
-    height: 46px;
-    display: block;
-    margin-top: 80px;
-}
-
-
-/*footer區*/
-footer {
-    background-color: #69AFAD;
-}
-
-.footer_con {
-    display: flex;
-}
-
-.top {
-    display: flex;
-    flex-direction: column;
-    padding-left: 158px;
-    display: inline-block;
-}
-
-.top h1 {
-    font-size: 60px;
-    font-weight: 800;
-    color: #354E52;
-    /* width: 416px;
-    height: 44px; */
-    padding-top: 40px;
-    line-height: 1;
-}
-
-.top h2 {
-    font-size: 50px;
-    font-weight: 100;
-    color: #354E52;
-    padding-left: 19.5px;
-    /* width: 377px;
-    height: 36px; */
-    padding-top: 20px;
-    line-height: 1;
-}
-
-.mid h3 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF;
-    line-height: 1;
-    margin-top: 19px;
-}
-
-.mid_con h4 {
-    /* height: 18px; */
-    font-size: 15px;
-    color: #FFFFFF;
-    font-weight: 400;
-    width: 455px;
-    border-bottom: 1px solid #354E52;
-    padding: 10px 0 5px 10px;
-}
-
-.mid_con a {
-    /* display: inline; */
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-.mid_con {
-    display: flex;
-    /* margin-top: 15px; */
-}
-
-
-.mid {
-    display: flex;
-    /*並排*/
-    flex-direction: column;
-    /*直向往下排列*/
-    padding-left: 166px;
-    padding-top: 44px;
-
-}
-
-.bottom {
-    margin-top: 15px;
-    text-align: center;
-    color: #ffffff;
-}
-
-/*-----------------------------QA頁面-----------------------------*/
-/*-----標題:QA-----*/
-.bageli_title1 .hd {
-    /* position: absolute;
-    top: 0px;
-    left: 0px; */
-    width: 1050px;
-    border-bottom: 1px solid #BA5E62;
-    font-size: 50px;
-    font-weight: 800;
-    color: #ba5e62;
-    line-height: 0.8;
-}
-
-.QA {
-    width: 1210px;
-    border-bottom: 4px solid #69AFAD;
-    margin-bottom: 32px;
-    margin-left: 130px;
-}
-
-.QAtitle {
-    color: #69AFAD;
-    font-size: 28px;
-    /* font-weight: 700px; */
-    font-weight: bold;
-    margin-left: 59px;
-    padding-bottom: 21px;
-    padding-top: 50px;
-    /* border: 1px solid red; */
-}
-
-.QAimg {
-    width: 919px;
-    height: 446px;
-    padding-left: 260px;
-    padding-right: 261px;
-    padding-top: 81px;
-}
-
-/**內容**/
-.QA_content {
-    margin-top: 92px;
-    margin-left: 230px;
-}
-
-.QA_content h3 {
-    background-color: rgba(239, 165, 166, 0.3);
-    color: rgba(186, 94, 98, 0.8);
-    border-bottom: 1px solid rgba(239, 165, 166, 0.3);
-    font-size: 21px;
-    font-weight: 800;
-    width: 981px;
-    padding-left: 30px;
-}
-
-.QA_content p {
-    padding-top: 20px;
-    padding-top: 40px;
-    color: #BA5E62;
-    font-size: 18px;
-    font-weight: 400;
-    padding-left: 30px;
-    line-height: 1.8;
-    /* width: 350px; */
-}
-
-.QA_cont p:not(:nth-child(1)) {
-    margin-bottom: 80px;
-}
-
 /*-----------------------------PickUp頁面-----------------------------*/
 
 .shopName,
@@ -1782,7 +900,7 @@ footer {
 }
 
 #order_date{
-    width: 50%;
+    width: 49%;
     text-align: center;
 }
 
@@ -1995,6 +1113,60 @@ footer {
 .begalMenu:nth-child(1) {
     margin-top: 30px;
 }
+/* .pickup_main{
+    width: 1440vh;
+}
+
+.begalMenu, .bega2Menu {
+    display: flex;
+    background-color: #FFF;
+    border: 1px solid #BA5E62;
+    border-radius: 20px;
+    width: 470px;
+    height: 150px;
+    position: relative;
+    margin-left: 240px;
+    display: block;
+}
+
+.begalMenu img, .bega2Menu img {
+    width: 150px;
+    height: 150px;
+}
+
+.begalMenu p, .bega2Menu p {
+    background-color: #fff;
+    color: #BA5E62;
+    width: 50px;
+    height: 51px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+    position: absolute;
+    line-height: 51px;
+}
+
+.sectionMenu .add {
+    position: absolute;
+    top: 120px;
+    left: 450px;
+    color: black;
+    border-left-color: #fff;
+    border: 1px solid black;
+}
+
+.begalMenu .add, .bega2Menu .add{
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 420px;
+    border-radius: 50%;
+    border: 1px solid black;
+}  */
+
 
 /*第二個*/
 
@@ -2069,6 +1241,29 @@ footer {
     margin-top: 30px;
 }
 
+
+
+/*main 菜單*/
+/* .main1,
+.main2,
+.main3,
+.main4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 210px;
+}
+
+/* .pickup_main li {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    background-color: #FFF;
+    border: 1px solid #BA5E62;
+    border-radius: 20px;
+    width: 470px;
+    height: 150px;
+} */
 .pickup_main h6 {
     margin-top: 20px;
     color: #354E52;
@@ -2187,7 +1382,89 @@ footer {
     transform: scale(0.9);
 }
 
-/*pickup 彈跳視窗頁面*/
+/*-----------------------------彈跳視窗-----------------------------*/
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .modal {
+    position: absolute;	
+    top: 0px;
+    left: 0px;
+    z-index: 10;		
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #6a6a6aa6;	
+    		
+  }
+  
+  .dialog {		
+    position: absolute;
+    z-index: 11;
+    /* 將對話框水平置中。 */
+    left: 50%;	
+    transform: translate(-50%, 0%);			
+    top: -100px; /* 設定對話框的起始位置。 對話框滑動的距離與時間會影響淡入效果，可以自行嘗試調整。 */
+    opacity: 0; /* 將對話框設為透明。 */
+    display: none; /* 隱藏對話框。 */
+    width: 90%; /* 對話框寬度。 */
+    background: white;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    line-height: 1.7em;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    background: #1f7038ad;    		
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    border: 1px #f2e6e6 solid;
+    box-shadow: 0px 2px 8px 1px rgb(0 0 0 / 15%);
+  }
+  
+  .content {
+    padding: 4px 8px;
+  }
+  
+  .buttons {
+    /* 加上這兩個CSS，可以讓button移動到對話框下方。 */
+    /*position: absolute;
+    right: 0px;
+    */
+    text-align: right;
+    padding: 8px 14px;
+  }
+  
+  .okBtn {
+    display: inline-block;
+    background: #092b68b3;
+    color: #ffffffeb;		    
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .cancelBtn {
+    display: inline-block;
+    background: #e90202ad;
+    color: #ffffffeb;		    
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 4px 8px;
+    cursor: pointer;  
+  }
 
   /*彈跳視窗內容樣式*/
 

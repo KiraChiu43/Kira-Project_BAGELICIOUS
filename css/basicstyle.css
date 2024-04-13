@@ -1,0 +1,177 @@
+@import url(./reset.css);
+/* @import url(./teat1.css); */
+/*---------------------------------------------------------*/
+
+/* * {
+    outline: 1px solid red;
+}  */
+
+/*設置不會有橫向卷軸*/
+.wrapper {
+    max-width: 1440px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    background-color: #F9E5DA;
+    position: relative;
+    /*.begelimg"的父相子絕*/
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/*logo*/
+.header .logo{
+    display: flex;
+    margin: 0 auto;
+    margin-left: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*---------- 會員註冊標題區 ----------*/
+
+.contact {
+    position: relative;
+    margin-left: 87px;
+    margin-top: 40px;
+}
+
+/*---------- 嚴選食材副標題區 ----------*/
+
+.contact_title {
+    color: #69AFAD;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 59px;
+    padding-bottom: 16px;
+}
+
+.contact .liner {
+    height: 4px;
+    background-color: #69AFAD;
+    display: block;
+    bottom: 0;
+    left: 60px;
+}
+
+
+/*----------shoppcar/ig/fb follow icon ----------*/
+
+.media p {
+    display: flex;
+
+    /*橫向排列*/
+}
+
+.med_con {
+    color: #354E52;
+    text-align: top;
+    line-height: 40px;
+    margin-right: 5px;
+}
+
+.media .md_icon {
+    border-radius: 50%;
+    background-color: #354E52;
+    color: #F9E5DA;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    /* margin: 0 5px 0 5px;
+    border: 1px solid #354E52; */
+    display: inline;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.md_icon1 {
+    color: #354E52;
+    font-size: 16px;
+    font-weight: 500;
+    /* padding-left: 5px; */
+}
+
+.media {
+    display: flex;
+    /* padding-left: 15px; */
+    float: right;
+    transform: rotate(90DEG);
+    z-index: 5;
+    position: fixed;
+    /*定位*/
+    top: 580px;
+    right: -20px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*---------- nav ----------*/
+.nav {
+    width: 1510px;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+}
+
+.nav .logo {
+    width: 130px;
+    height: 130px;
+    padding-left: 31px;
+    margin-right: 70px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 40px;
+    margin-right: 38px;
+}
+
+
+.nav ul li {
+    font-size: 20px;
+    display: flex;
+    position: relative;
+}
+
+.nav ul li a {
+    width: 155px;
+    height: 47px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+    color: #ba5e62;
+    border-radius: 20px;
+    margin: -10px 0 0 25px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 15px 0 0;
+    box-sizing: border-box;
+}
+
+.nav i {
+    width: 32px;
+    height: 32px;
+    color: #F9E5DA;
+    line-height: 32px;
+    display: inline-block;
+}
+
+.nav p {
+    display: inline-block;
+}
+

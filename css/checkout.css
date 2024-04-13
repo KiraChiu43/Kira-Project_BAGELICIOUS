@@ -2,9 +2,9 @@
 
 /*-------------------- 第一頁 --------------------*/
 
-/* * {
+* {
     outline: 1px solid red;
-} */
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -18,37 +18,58 @@ body {
     /* overflow: hidden; */
 }
 
-/*---------- ig fb  teitter follow icon ----------*/
+/*----------shoppcar/ig/fb follow icon ----------*/
 
 .media p {
     display: flex;
+
     /*橫向排列*/
 }
 
 .med_con {
     color: #354E52;
-    text-align: center;
+    text-align: top;
     line-height: 40px;
-    margin-right: 10px;
+    margin-right: 5px;
+}
+
+.media .md_icon {
+    border-radius: 50%;
+    background-color: #354E52;
+    color: #F9E5DA;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    /* margin: 0 5px 0 5px;
+    border: 1px solid #354E52; */
+    display: inline;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.md_icon1 {
+    color: #354E52;
+    font-size: 16px;
+    font-weight: 500;
+    /* padding-left: 5px; */
 }
 
 .media {
     display: flex;
-    padding-left: 10px;
+    /* padding-left: 15px; */
     float: right;
     transform: rotate(90DEG);
     z-index: 5;
     position: fixed;
     /*定位*/
-    top: 400px;
-    right: -75px;
+    top: 580px;
+    right: -20px;
     font-size: 14px;
     line-height: 40px;
     text-align: center;
     margin: 0 auto;
-    /* background-color: #69AFAD; */
 }
-
 
 /*---------- nav ----------*/
 
@@ -69,6 +90,8 @@ body {
 
 a {
     text-decoration: none;
+    color: #bA5E62;
+    cursor: pointer;
 }
 
 .nav ul {
@@ -394,7 +417,6 @@ input {
     height: 22px;
     text-align: center;
     line-height: 40px;
-    /* margin-top: 20px; */
 }
 
 .main li:nth-child(2) {
@@ -545,6 +567,7 @@ textarea {
     display: flex;
     justify-content: end;
     padding-top: 10px;
+    margin-left: 0px;
 }
 
 /*-----同意事項區-----*/

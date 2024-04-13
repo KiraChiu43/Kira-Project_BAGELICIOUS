@@ -9,88 +9,111 @@
   <link rel="icon" href="./img/front/logo.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="./css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-
-<div class="wrapper">
-
-  <!--ig fb  twitter follow icon--->
-  <section class="media">
-    <a href="order.html" class="md_icon1"></a>
-    <a class="md_icon" href="checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
-    <a class="md_icon1"></a>
-    <a class="md_icon" href=""><i class="fa-brands fa-square-instagram"></i></a>
-    <a class="md_icon" href=""><i class="fa-brands fa-facebook"></i></a>
-  </section>
-
-  <!---video-->
-  <video width="100%" height="auto" src="./img/front/bagels_viedo.mp4" autoplay muted loop>
-    <!-- <source src="./img/front/bagels_viedo.mp4" type="video/mp4"> -->
-  </video>
-
-  <nav class="nav">
-
-    <!---logo-->
-     <!---logo-->
-     <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
-
-    <!---主選單-->
-    <ul>
-      <li><a href=""><i class="fa-solid fa-circle-info"></i><p>About</p></a></li>
-      <li><a href="menu.html"><i class="fa-solid fa-utensils"></i><p>Menu</p></a></li>
-      <li><a href="QA.html"><i class="fa-solid fa-file-circle-question"></i><p>Q&A</p></a></li>
-      <li><a href="order.html"><i class="fa-solid fa-cart-shopping"></i><p>Order</p></a></li>
-      <li><a href="login.html"><i class="fa-solid fa-user"></i><p>Log In</p></a></li>
+  <!--主選單-->
+  <ul id="nav">
+    <li class="slide1"></li>
+    <li class="slide2"></li>
+    <li><a href="index.html" title="About">About</a></li>
+    <li><a href="menu.html" title="Menu">Menu</a></li>
+    <li><a href="order.html" title="Order">Order</a></li>
+    <li><a href="QA.html" title="Q&A">Q&A</a></li>
+    <li><a href="login.html" title="LogIn">LogIn</a></li>
   </ul>
 
-    <!---搜索框-->
-    <div class="search">
-      <input type="text" value="Search...">
-      <button><i class="fa-solid fa-magnifying-glass"></i></button>
-    </div>
-  </nav>
+  <div class="header">
+     <!--ig fb  twitter follow icon--->
+    <section class="media">
+        <a href="order.html" class="md_icon1"></a>
+        <a class="md_icon" href="checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
+        <a class="md_icon1"></a>
+        <a class="md_icon" href="https://www.instagram.com/bbagelbakery/"><i class="fa-brands fa-square-instagram"></i></a>
+        <a class="md_icon" href="https://www.facebook.com/bbagel"><i class="fa-brands fa-facebook"></i></a>
+    </section>
+
+  <!---logo-->
+  <div class="logo">
+      <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
+  </div>
+
+  <!---video-->
+    <video width="100%" height="auto" src="./img/front/bagels_viedo.mp4" autoplay muted loop>
+    <!-- <source src="./img/front/bagels_viedo.mp4" type="video/mp4"> -->
+    </video>
 
   <!--滾動貝果圖-->
-  <div class="begelimg">
-    <img src="./img/front/roll bagel.png" alt="" width="800">
-  </div>
-  <!--title-->
-  <div class="title">
-    <div class="subtitle">
-      <h2>ANGEL</h2>
-      <h2>IN</h2>
-      <h2>US</h2>
-      <h2>BAGEL</h2>
-      <p>SINCE2024</p>
-    </div>
-    <div class="maintitle">
-      <h1>BAGELICIOUS</h1>
-      <P>#BagelLove #EverythingBagel #BagelTreat</P>
-    </div>
-    <div class="banner">
-      <div></div>
-      <img src="./img/front/front img01.jpg" alt="">
-    </div>
-  </div>
-
-  <!--about標題區-->
-  <div class="about">
-    <h2 class="abouttitle">關於我</h2>
-    <div class="liner"></div>
-  </div>
-
-  <!--about內容區star-->
-  <div class="aboutmain">
-    
-    <!--about: (1)右大圖-->
-    <div class="aboutimg">
-      <img src="./img/front/front img02.svg" alt="">
+    <div class="begelimg">
+        <img src="./img/front/roll bagel.png" alt="" width="800">
+        </div>
     </div>
 
-    <!--about: (2)背景大字-->
-    <div class="main">
+ <!--標題-->
+ <div class="wrapper">
+      <div class="title_1">
+          <h1>ANGEL IN US BAGELS</h1>
+          <h2>SINCE2024</h2>
+          <h3>BAGELICIOUS</h3>
+          <h4>#BagelLove #EverythingBagel #BagelTreat</h4>
+      
+      <!--標題下方綠色色塊及照片-->
+      <div class="color"></div>
+      <img class="img_1" src="./img/front/front img01.jpg" alt="">
+    </div>
+
+      <!--關於我標題區-->
+    <div class="abouttitle">
+      <h2 class="abouttitle">關於我</h2>
+      <div class="liner"></div>
+      <!-- <div class="One_img">
+            <img src="./img/front/big_img001.jpg" alt="">
+      </div>
+
+      <div class="Two_img">
+          <img src="./img/front/small_img001.jpg" alt="">
+          <img src="./img/front/small_img002.jpg" alt="">
+          <img src="./img/front/small_img003.jpg" alt="">
+          <img src="./img/front/small_img004.jpg" alt="">
+          <img src="./img/front/small_img005.jpg" alt="">
+      </div> -->
+
+      <div class="Box">  
+        <!-- 縮小圖 -->
+        <!-- 放大圖 -->
+        <div class="big__img">
+          <img src="./img/front/big_img" width="930" height="620" class="JS-big">
+        </div>
+        <div class="small__img JS-small">
+            <img src="./img/front/big_img001.jpg" width="105" height="70" id="img1">
+            <img src="./img/front/big_img002.jpg" width="105" height="70" id="img2">
+            <img src="./img/front/big_img003.jpg" width="105" height="70" id="img3">
+            <img src="./img/front/big_img004.jpg" width="105" height="70" id="img4">
+            <img src="./img/front/big_img005.jpg" width="105" height="70" id="img5">
+        </div>
+        
+      </div>
+
+    <div class="about_hd">
+      <h2>TAIPEI<br> ANGEL IN US BAUGL</h2>
+      <h3>#BagelLove #EverythingBagel #BagelTreat</h3>
+      <h4>來自倫敦<br>你的 美式bagel專賣店</h4> 
+    </div>
+
+    <div class="about_bd">
+      <h4>歷經約8年學徒的磨練，bagrliciousc從紐約回來了</h4>
+      <h2>嚴選食材</h2>
+      <h3>法國發酵奶油 feat日本無麩質麵粉 </h3>
+      <h2>新鮮現做</h2>
+      <h3>bagrliciousc只為你手工揉捏專屬的貝果 </h3>
+      <img class="bag01" src="./img/front/illustration bagel.png" alt="">
+      <img class="bag02" src="./img/front/illustration bagel.png" alt="">
+    </div>
+
+     <!--about: (2)背景大字-->
+     <div class="main">
       <p class="words">
         BAGELICIOUS</br>
         Bagel</br>
@@ -98,56 +121,19 @@
         Taiwan</br>
     </div>
 
-    <!--about: (3)背景底圖-->
+    <!--about: (2)背景大字-->
+    <div class="words">
+      <h2>BAGELICIOUS</h2>
+      <h3>ANGEL IN US BAUGL</h3>
+
+    <!--背景底圖-->
     <div class="backgroundimg"><img src="./img/front/background logo.png" alt="" class="logoimg">
     </div>
-
-    <!--about: (4)img bar-->
-    <div class="bar">
-      <img src="./img/front/about img05.jpg" alt="">
-      <img src="./img/front/about img04.png" alt="">
-      <img src="./img/front/about img03.jpg" alt="">
-      <img src="./img/front/about img02.jpg" alt="">
-      <img src="./img/front/about img01.jpg" alt="">
     </div>
 
-    <div class="about-bottom">
-      <!--about: (5)img bar-->
-      <div class="frame">
-        <h2>TAIPEI</br>ANGEL IN US BAGEL</br></h2>
-        <p>#BagelLove #EverythingBagel #BagelTreat</p>
-        <h3>來自倫敦</br>你的 美式BAGEL專賣店</br></h3>
-      </div>
 
-      <!--about: (6)img principle-->
-      <div class="principle">
-        <div class="principle_bd">
-          <p>歷經約8年學徒的磨練，BAGELICIOUS從倫敦回來了</p>
-          <h2>嚴選食材</h2>
-          <h3>法國發酵奶油 feat. 日本無麩質麵粉 </h3>
-          <h2>新鮮現做</h2>
-          <h3>BAGELICIOUS只為你手工揉捏專屬的貝果</h3>
-          <img src="./img/front/illustration bagel.png" alt="">
-          <img class="bagelimgs" src="./img/front/illustration bagel.png" alt="">
-        </div>
-      </div>
-      <!--about內容區end-->
-
-      <!--店名分隔線區域star-->
-      <div class="bageli_title">
-        <h1 class="hd">BAGELICIOUS</h1>
-
-        <div class="liner"></div>
-
-        <div class="bd">
-          <h2>ANGEL</h2>
-          <h2>IN</h2>
-          <h2>US</h2>
-          <h2>BAGEL</h2>
-        </div>
-      </div>
-    </div>
-  </div><!--店名分隔線區域end-->
+</div>
+  
 
   <!--嚴選食材標題區-->
   <div class="contact">
@@ -248,7 +234,26 @@
 
   </footer>
 
-  </div>
+  <!-- <script>
+    $("#nav a").on("click", function () {
+      var position = $(this).parent().position();
+      var width = $(this).parent().width();
+      $("#nav .slide1").css({ opacity: 1, left: +position.left, width: width });
+    });
+    $("#nav a").on("mouseover", function () {
+      var position = $(this).parent().position();
+      var width = $(this).parent().width();
+      $("#nav .slide2").css({ opacity: 1, left: +position.left, width: width }).addClass("squeeze");
+    });
+    $("#nav a").on("mouseout", function () {
+      $("#nav .slide2").css({ opacity: 0 }).removeClass("squeeze");
+    });
+    var currentWidth = $("#nav li:nth-of-type(3) a").parent("li").width();
+    var current = $("li:nth-of-type(3) a").position();
+    $("#nav .slide1").css({ left: +current.left, width: currentWidth });
+  </script> -->
+<script src="./nav.js"></script>
+<script src="./js/JS-big.js"></script>
 </body>
 
 </html>

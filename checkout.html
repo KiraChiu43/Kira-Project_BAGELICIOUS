@@ -6,182 +6,201 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAGELICIOUS-check out</title>
     <link rel="icon" href="./img/front/logo.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/checkout.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-    <!--ig fb  twitter follow icon--->
-    <section class="media">
-        <a class="md_icon1"><i class="fa-light fa-hashtag">Order</i></a>
-        <a class="md_icon" href=""><i class="fa-solid fa-cart-plus"></i></a>
-        <a class="md_icon1"><i class="fa-light fa-hashtag">Follow</i></a>
-        <a class="md_icon" href=""><i class="fa-brands fa-square-instagram"></i></a>
-        <a class="md_icon" href=""><i class="fa-brands fa-facebook"></i></a>
-    </section>
+    <!--主選單-->
+    <ul id="nav">
+        <li class="slide1"></li>
+        <li class="slide2"></li>
+        <li><a href="#" title="About">About</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Q&A</a></li>
+        <li><a href="#">LogIn</a></li>
+    </ul>
 
-    <nav class="nav">
+    <div class="header">
+        <!--ig fb  twitter follow icon--->
+        <section class="media">
+            <a href="order.html" class="md_icon1"></a>
+            <a class="md_icon" href="checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
+            <a class="md_icon1"></a>
+            <a class="md_icon" href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a class="md_icon" href=""><i class="fa-brands fa-facebook"></i></a>
+        </section>
 
         <!---logo-->
-         <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
+        <div class="logo">
+            <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
+        </div>
 
-        <!---主選單-->
-        <ul>
-            <li><a href=""><i class="fa-solid fa-circle-info"></i><p>About</p></a></li>
-            <li><a href="menu.html"><i class="fa-solid fa-utensils"></i><p>Menu</p></a></li>
-            <li><a href="QA.html"><i class="fa-solid fa-circle-question"></i><p>Q&A</p></a></li>
-            <li><a href="order.html"><i class="fa-solid fa-cart-shopping"></i><p>Order</p></a></li>
-            <li><a href="login.html"><i class="fa-solid fa-user"></i><p>Log In</p></a></li>
-        </ul>
 
 
         <!---搜索框-->
-        <div class="search">
+        <!-- <div class="search">
             <input type="text" value="Search...">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
-    </nav>
+    </nav> -->
 
-    <!--about: (3)背景底圖-->
-    <div class="backgroundimg"><img src="./img/front/background logo.png" alt="" class="logoimg">
-    </div>
-
-    <!--header-->
-    <header class="check_header">
-        <div class="check_title">
-            <h1 class="hd">BAGELICIOUS</h1>
+        <!--about: (3)背景底圖-->
+        <div class="backgroundimg"><img src="./img/front/background logo.png" alt="" class="logoimg">
         </div>
-        <!--pickup標題區 引用<about>abouttitle -->
-        <div class="check">
-            <h2 class="checktitle">你的購物車</h2>
+
+        <!--header-->
+        <header class="check_header">
+            <div class="check_title">
+                <h1 class="hd">BAGELICIOUS</h1>
+            </div>
+            <!--pickup標題區 引用<about>abouttitle -->
+            <div class="check">
+                <h2 class="checktitle">你的購物車</h2>
+            </div>
+        </header>
+
+        <!--main-->
+        <div class="main">
+            <h3>購物車(三件，共三件)</h3>
+            <ul>
+                <!--第一個產品-->
+                <li class="product_1">
+                    <img src="./img/Checkout/checkout1X_img01.png" alt="">
+                    <div class="prod">
+                        <div class="prod1">
+                            <h2>一人份貝果與抹醬</h2>
+                            <span>$50</span>
+                        </div>
+                        <div class="prod2">
+                            <h2>貝果-原味* 1</h2>
+                        </div>
+                        <div class="prod3">
+                            <h2>奶油乳酪-莓果口味 * 1</h2>
+                            <span> +$40</span>
+                        </div>
+                        <div class="prod4">
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            <input type="text" placeholder="1">
+                            <button><i class="fa-solid fa-minus"></i></button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </li>
+
+                <!--第二個產品-->
+                <li>
+                    <img src="./img/Checkout/checkout1X_img02.png" alt="">
+                    <div class="prodTwo">
+                        <div class="prod5">
+                            <!-- <input type="radio"> -->
+                            <h2>2 OZ 奶油乳酪</h2>
+                            <span> +$40</span>
+                        </div>
+                        <div class="prod6">
+                            <h2>原味* 1</h2>
+                        </div>
+                        <div class="prod7">
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            <input type="text" placeholder="1">
+                            <button><i class="fa-solid fa-minus"></i></button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </li>
+
+                <!--第三個產品-->
+                <li>
+                    <img src="./img/Checkout/checkout1X_img03.png" alt="">
+                    <div class="prodThree">
+                        <div class="prod8">
+                            <!-- <input type="radio"> -->
+                            <h2>拿鐵</h2>
+                            <span> +$85</span>
+                        </div>
+                        <div class="drink">
+                            <h2>飲品溫度：</h2><br>
+                            <input type="radio" name="drink" value="cold">冷<br>
+                            <input type="radio" name="drink" value="hot">熱
+                        </div>
+                        <div class="ps">
+                            <h2>備註欄：</h2><textarea placeholder="其他需要我們知道的需求"></textarea>
+                        </div>
+
+                        <!--add欄位-->
+                        <div class="prod9">
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            <input type="text" placeholder="1">
+                            <button><i class="fa-solid fa-minus"></i></button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </li>
+            </ul>
         </div>
-    </header>
 
-    <!--main-->
-    <div class="main">
-        <h3>購物車(三件，共三件)</h3>
-        <ul>
-            <!--第一個產品-->
-            <li class="product_1">
-                <img src="./img/Checkout/checkout1X_img01.png" alt="">
-                <div class="prod">
-                    <div class="prod1">
-                        <h2>一人份貝果與抹醬</h2>
-                        <span>$50</span>
-                    </div>
-                    <div class="prod2">
-                        <h2>貝果-原味* 1</h2>
-                    </div>
-                    <div class="prod3">
-                        <h2>奶油乳酪-莓果口味 * 1</h2>
-                        <span> +$40</span>
-                    </div>
-                    <div class="prod4">
-                        <button><i class="fa-solid fa-plus"></i></button>
-                        <input type="text" placeholder="1">
-                        <button><i class="fa-solid fa-minus"></i></button>
+        <!--同意事項區-->
+        <div class="check_">
+            <input type="checkbox" id="aaa">我已確認訂購商品細節無誤。
+            <br><input type="checkbox" id="aaa">提醒您，訂單送出務必記下您的取餐號碼，收到簡訊通知後至店取餐。
+        </div>
+        <div class="btn">
+            <button type="button" class="button"><a href="okarder.html">確定訂單</a></button>
+            <button type="button" class="button"><a href="#">忍痛取消</a></button>
+        </div>
+        <!--footer區域star-->
+        <div class="colorBlock">
+            <img src="./img/front/footer colorblock.png" alt="">
+        </div>
+
+        <footer>
+            <div class="footer_con">
+
+                <div class="top">
+                    <h1>BAGELICIOUS</h1>
+                    <h2>TIBAME STUDIO</h2>
+                </div>
+
+                <div class="mid">
+                    <h3>NEWSLETTER</h3>
+
+                    <div class="mid_con">
+                        <a href="" class="mailicon">
+                            <i class="fa-regular fa-envelope"></i></a>
+                        <h4>Subscribe to Our Newsletter</h4>
                     </div>
                 </div>
-                <i class="fa-solid fa-rectangle-xmark"></i>
-            </li>
-
-
-            <!--第二個產品-->
-            <li>
-                <img src="./img/Checkout/checkout1X_img02.png" alt="">
-                <div class="prodTwo">
-                    <div class="prod5">
-                        <!-- <input type="radio"> -->
-                        <h2>2 OZ 奶油乳酪</h2>
-                        <span> +$40</span>
-                    </div>
-                    <div class="prod6">
-                        <h2>原味* 1</h2>
-                    </div>
-                    <div class="prod7">
-                        <button><i class="fa-solid fa-plus"></i></button>
-                        <input type="text" placeholder="1">
-                        <button><i class="fa-solid fa-minus"></i></button>
-                    </div>
-                </div>
-                <i class="fa-solid fa-rectangle-xmark"></i>
-            </li>
-
-            <!--第三個產品-->
-            <li>
-                <img src="./img/Checkout/checkout1X_img03.png" alt="">
-                <div class="prodThree">
-                    <div class="prod8">
-                        <!-- <input type="radio"> -->
-                        <h2>拿鐵</h2>
-                        <span> +$85</span>
-                    </div>
-                    <div class="drink">
-                        <h2>飲品溫度：</h2><br>
-                        <input type="radio" name="drink" value="cold">冷<br>
-                        <input type="radio" name="drink" value="hot">熱
-                    </div>
-                    <div class="ps">
-                        <h2>備註欄：</h2><textarea placeholder="其他需要我們知道的需求"></textarea>
-                    </div>
-
-                    <!--add欄位-->
-                    <div class="prod9">
-                        <button><i class="fa-solid fa-plus"></i></button>
-                        <input type="text" placeholder="1">
-                        <button><i class="fa-solid fa-minus"></i></button>
-                    </div>
-                </div>
-                <i class="fa-solid fa-rectangle-xmark"></i>
-            </li>
-        </ul>
-    </div>
-
-    <!--同意事項區-->
-    <div class="check_">
-        <input type="checkbox" id="aaa">我已確認訂購商品細節無誤。
-        <br><input type="checkbox" id="aaa">提醒您，訂單送出務必記下您的取餐號碼，收到簡訊通知後至店取餐。
-    </div>
-    <div class="btn">
-        <button type="button" class="button"><a href="#">確定訂單</a></button>
-        <button type="button" class="button"><a href="#">忍痛取消</a></button>
-    </div>
-    <!--footer區域star-->
-    <div class="colorBlock">
-        <img src="./img/front/footer colorblock.png" alt="">
-    </div>
-
-    <footer>
-        <div class="footer_con">
-
-            <div class="top">
-                <h1>BAGELICIOUS</h1>
-                <h2>TIBAME STUDIO</h2>
             </div>
 
-            <div class="mid">
-                <h3>NEWSLETTER</h3>
-
-                <div class="mid_con">
-                    <a href="" class="mailicon">
-                        <i class="fa-regular fa-envelope"></i></a>
-                    <h4>Subscribe to Our Newsletter</h4>
-                </div>
+            <div class="bottom">
+                <p>© BAGELICIOUS KC., LTD. All rights reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>
+                    如有侵權問題，請來信milkchiu0403@hotmail.com</p>
             </div>
-        </div>
 
-        <div class="bottom">
-            <p>© BAGELICIOUS KC., LTD. All rights reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>
-                如有侵權問題，請來信milkchiu0403@hotmail.com</p>
-        </div>
-
-    </footer>
-    </div>
+        </footer>
+        <!-- </div> -->
+        <script>
+            $("#nav a").on("click", function () {
+                var position = $(this).parent().position();
+                var width = $(this).parent().width();
+                $("#nav .slide1").css({ opacity: 1, left: +position.left, width: width });
+            });
+            $("#nav a").on("mouseover", function () {
+                var position = $(this).parent().position();
+                var width = $(this).parent().width();
+                $("#nav .slide2").css({ opacity: 1, left: +position.left, width: width }).addClass("squeeze");
+            });
+            $("#nav a").on("mouseout", function () {
+                $("#nav .slide2").css({ opacity: 0 }).removeClass("squeeze");
+            });
+            var currentWidth = $("#nav li:nth-of-type(3) a").parent("li").width();
+            var current = $("li:nth-of-type(3) a").position();
+            $("#nav .slide1").css({ left: +current.left, width: currentWidth });
+        </script>
 </body>
 
 </html>
