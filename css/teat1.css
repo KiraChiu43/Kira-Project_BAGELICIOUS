@@ -1,4 +1,5 @@
 @import url(./reset.css);
+/* @import url(./style.css); */
 /* @import url(./teat1.css); */
 /*---------------------------------------------------------*/
 
@@ -26,7 +27,7 @@ body {
 }
 
 /*logo*/
-.header .logo{
+.header .logo {
     display: flex;
     margin: 0 auto;
     margin-left: 50px;
@@ -35,45 +36,45 @@ body {
     left: 0;
 }
 
-video{
+video {
     margin-top: 120px;
 }
 
 /*Wrapper字*/
-.wrapper{
+.wrapper {
     /* margin-left: 150px; */
 }
 
-.wrapper .title_1 h1{
-    display:flex;
+.wrapper .title_1 h1 {
+    display: flex;
     /* justify-content:flex-end;
     align-items: center; */
     margin-top: 30px;
     /* margin-left: 60px; */
-    color: #69AFAD; 
+    color: #69AFAD;
     font-size: 60px;
     font-weight: 800;
     display: inline;
     margin-left: 60px;
 }
 
-.wrapper .title_1 h2{
-    display:flex;
-    color: #E7A4A6; 
+.wrapper .title_1 h2 {
+    display: flex;
+    color: #E7A4A6;
     font-size: 24px;
     font-weight: 600;
     display: inline;
     margin-left: 60px;
 }
 
-.wrapper .title_1 h3{
+.wrapper .title_1 h3 {
     font-size: 130px;
     color: #EFA5A6;
     font-weight: 800;
     margin-left: 60px;
 }
 
-.wrapper .title_1 h4{
+.wrapper .title_1 h4 {
     font-size: 45px;
     color: #354E52;
     font-weight: 400;
@@ -82,7 +83,7 @@ video{
     margin-left: 60px;
 }
 
-.wrapper .color{
+.wrapper .color {
     position: absolute;
     top: 620px;
     right: 0;
@@ -93,7 +94,7 @@ video{
     z-index: -1;
 }
 
-.wrapper .img_1{
+.wrapper .img_1 {
     margin-left: 236px;
     z-index: 10;
 }
@@ -104,7 +105,7 @@ video{
     margin-top: 40px;
 }
 
-.Box .small__img{
+.Box .small__img {
     cursor: pointer;
     margin-top: 50px;
     padding-right: 10px;
@@ -130,12 +131,12 @@ video{
     margin-left: 780px;
 } */
 
-.about_hd{
+.about_hd {
     margin-left: 787px;
     margin-top: 50px;
 }
 
-.about_hd h2{
+.about_hd h2 {
     font-size: 30px;
     color: #354E52;
     font-weight: 800;
@@ -143,7 +144,7 @@ video{
     /* letter-spacing: 5px; */
 }
 
-.about_hd h3{
+.about_hd h3 {
     font-size: 20px;
     color: #354E52;
     /* font-weight: 800; */
@@ -152,7 +153,7 @@ video{
     letter-spacing: 1px;
 }
 
-.about_bd{
+.about_bd {
     background-color: #BA5E62;
     width: 643px;
     height: 240px;
@@ -164,7 +165,7 @@ video{
     position: relative;
 }
 
-.about_hd h4{
+.about_hd h4 {
     font-size: 28px;
     color: #69AFAD;
     font-weight: 800;
@@ -172,41 +173,40 @@ video{
     margin-left: -160px;
 }
 
-.about_bd h4{
+.about_bd h4 {
     font-size: 18px;
     color: #F9E5DA;
 }
 
-.about_bd h2{
+.about_bd h2 {
     color: #3e0407;
     font-size: 28px;
-    line-height:30px;
+    line-height: 30px;
     font-weight: 800;
     letter-spacing: 2px;
 }
 
-.about_bd h3{
+.about_bd h3 {
     color: #F9E5DA;
     font-size: 20px;
     font-weight: 600;
     margin-top: 30px;
 }
 
-.about_bd .bag01{
+.about_bd .bag01 {
     position: absolute;
     top: -27px;
     left: 570px;
 }
 
-.about_bd .bag02{
+.about_bd .bag02 {
     position: absolute;
     top: 140px;
     left: 570px;
 }
 
 /*店名及ANGEL IN US BAUGL副標題*/
-
-.words h2{
+.words h2 {
     color: #BA5E62;
     font-size: 50px;
     font-weight: 800;
@@ -214,10 +214,11 @@ video{
     border-bottom: 1px solid #BA5E62;
     margin-top: 69px;
 }
+
 /*(2)背景大字*/
 .main .words {
     position: absolute;
-    top:-3510px;
+    top: -3510px;
     bottom: -1141px;
     left: 100px;
     z-index: 1;
@@ -249,7 +250,7 @@ video{
     top: -1100px;
 }
 
-.words h3{
+.words h3 {
     font-weight: 800;
     color: #354E52;
     font-size: 60px;
@@ -329,66 +330,69 @@ video{
     margin: 0 auto;
 }
 
-/*---------- nav ----------*/
-.nav {
-    width: 1510px;
-    display: flex;
-    position: fixed;
-    z-index: 5;
-    top: 0;
-}
+/*跟蹤導航欄*/
 
-.nav .logo {
-    width: 130px;
-    height: 130px;
-    padding-left: 31px;
-    margin-right: 70px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.nav ul {
-    display: flex;
-    margin-top: 40px;
-    margin-right: 38px;
-}
-
-
-.nav ul li {
-    font-size: 20px;
-    display: flex;
-    position: relative;
-}
-
-.nav ul li a {
-    width: 155px;
-    height: 47px;
+#nav {
+    width: 69%;
     margin: 0 auto;
     text-align: center;
-    line-height: 47px;
-    color: #ba5e62;
-    border-radius: 20px;
-    margin: -10px 0 0 25px;
-    font-size: 20px;
-    text-align: center;
-    padding: 0 15px 0 0;
-    box-sizing: border-box;
+    margin-top: 30px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 10em;
+    display: flex;
+    list-style: none;
+    background: #f5f5f5;
+    box-shadow: 20px 40px 40px #00000033;
+    padding: 10px;
+    z-index: 1000;
 }
 
-.nav i {
-    width: 32px;
-    height: 32px;
-    color: #F9E5DA;
-    line-height: 32px;
+#nav li a {
+    position: relative;
+    /* padding: 15px 50px; */
+    padding: 5px 40px;
+    font: 500 22px Tahoma;
+    border: none;
+    outline: none;
+    color: #ba4b50;
+    font-weight: 600;
     display: inline-block;
+    text-decoration: none;
+    z-index: 3;
 }
 
-.nav p {
+#nav li i {
+    padding-right: 10px;
+} 
+
+.slide1,
+.slide2 {
+    position: absolute;
     display: inline-block;
+    height: 40px;
+    border-radius: 10em;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
 }
 
+.slide1 {
+    /* background-color: #E7A4A6; */
+    z-index: 2;
+}
+
+.slide2 {
+    opacity: 20;
+    background-color: #E7A4A6;
+    z-index: 1;
+    box-shadow: 0 0 20px #ffffffaa inset;
+}
+
+.squeeze {
+    transform: scale(0.9);
+}
 
 /*---------- search ----------*/
 
@@ -436,7 +440,7 @@ a {
 
 /*---------- begelimg ----------*/
 
-.begelimg {
+/* .begelimg {
     position: absolute;
     top: -60px;
     right: -450px;
@@ -458,9 +462,7 @@ a {
     100% {
         transform: rotate(-10deg);
     }
-}
-
-
+} */
 
 /*---------- 嚴選食材區 ----------*/
 
@@ -611,13 +613,6 @@ a {
     margin-left: 130px;
     margin-top: -20px;
     border-bottom: 1px solid #BA5E62;
-    /* position: absolute;
-    width: 1210px;
-    height: 4px;
-    background-color: #69AFAD;
-    display: block;
-    bottom: 0;
-    left: 60px; */
 }
 
 .but_follow {
@@ -696,6 +691,8 @@ a {
     border: 1px solid #BA5E62;
     background-image: url(../img/front/ig\ img05.jpg);
 }
+
+
 
 .footer_hd {
     background-color: #69AFAD;
@@ -862,7 +859,7 @@ footer {
 
 
 
-.Pick1{
+.Pick1 {
     width: 25%;
     height: 50px;
     margin-left: 190px;
@@ -877,7 +874,8 @@ footer {
     border: 1px solid #69AFAD;
 }
 
-.Pick1 label {  /*選單內*/
+.Pick1 label {
+    /*選單內*/
     /* border-radius: 5px; */
     background-color: #fff;
     color: #69AFAD;
@@ -887,24 +885,24 @@ footer {
     line-height: 50px;
 }
 
-.Pick1 select{
+.Pick1 select {
     border-radius: 5px;
     background-color: #fff;
     color: #69AFAD;
     font-size: 20px;
     font-weight: 800;
     text-align: left;
-    font-weight: 800; 
-    border: none; 
+    font-weight: 800;
+    border: none;
     line-height: 40px;
 }
 
-#order_date{
+#order_date {
     width: 49%;
     text-align: center;
 }
 
-.Pick2{
+.Pick2 {
     width: 25%;
     height: 50px;
     margin-left: 190px;
@@ -919,7 +917,8 @@ footer {
     border: 1px solid #fff;
 }
 
-.Pick2 label {  /*選單內*/
+.Pick2 label {
+    /*選單內*/
     /* border-radius: 5px; */
     background-color: #69AFAD;
     color: #fff;
@@ -929,7 +928,7 @@ footer {
     line-height: 50px;
 }
 
-.Pick2 select{
+.Pick2 select {
     width: 50%;
     border-radius: 5px;
     background-color: #69AFAD;
@@ -937,8 +936,8 @@ footer {
     font-size: 20px;
     font-weight: 800;
     text-align: left;
-    font-weight: 800; 
-    border: none; 
+    font-weight: 800;
+    border: none;
     line-height: 40px;
 }
 
@@ -1045,6 +1044,7 @@ footer {
     margin-bottom: 40px;
     font-weight: 600;
 }
+
 /*-第一區pickup_main--*/
 
 .begalMenu {
@@ -1085,7 +1085,7 @@ footer {
     font-weight: 800;
 }
 
-.sectionMenu .add{
+.sectionMenu .add {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -1093,6 +1093,7 @@ footer {
     left: 0px;
     border: 1px solid black;
 }
+
 /*第二個*/
 .sectionMenu,
 .begalMenu {
@@ -1113,6 +1114,7 @@ footer {
 .begalMenu:nth-child(1) {
     margin-top: 30px;
 }
+
 /* .pickup_main{
     width: 1440vh;
 }
@@ -1211,7 +1213,7 @@ footer {
     line-height: 33px;
 }
 
-.bega2Menu .add{
+.bega2Menu .add {
     background-color: #fff;
     color: black;
     position: absolute;
@@ -1328,7 +1330,7 @@ footer {
     margin-left: 10px;
 }
 
-#nav {
+/* #nav {
     margin-top: 30px;
     position: fixed;
     top: 0;
@@ -1347,10 +1349,11 @@ footer {
 #nav li a {
     position: relative;
     padding: 5px 50px;
-    font: 500 22px '优设标题黑';
+    font: 500 22px Tahoma;
     border: none;
     outline: none;
-    color: rgb(70, 100, 180);
+    color: #ba4b50;
+    font-weight: 700;
     display: inline-block;
     text-decoration: none;
     z-index: 3;
@@ -1366,118 +1369,121 @@ footer {
 }
 
 .slide1 {
-    background-color: rgb(170, 190, 255);
-
+    background-color: #E7A4A6;
     z-index: 2;
 }
 
 .slide2 {
     opacity: 0;
-    background-color: rgba(170, 190, 255, .5);
+    background-color: #F9E5DA;
     z-index: 1;
     box-shadow: 0 0 20px #ffffffaa inset;
 }
 
 .squeeze {
     transform: scale(0.9);
-}
+} */
 
 /*-----------------------------彈跳視窗-----------------------------*/
 
 * {
     box-sizing: border-box;
-  }
+}
 
-  body {
+body {
     margin: 0;
     padding: 0;
-  }
-  
-  .modal {
-    position: absolute;	
+}
+
+.modal {
+    position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 10;		
+    z-index: 10;
     display: none;
     width: 100%;
     height: 100%;
-    background: #6a6a6aa6;	
-    		
-  }
-  
-  .dialog {		
+    background: #6a6a6aa6;
+
+}
+
+.dialog {
     position: absolute;
     z-index: 11;
     /* 將對話框水平置中。 */
-    left: 50%;	
-    transform: translate(-50%, 0%);			
-    top: -100px; /* 設定對話框的起始位置。 對話框滑動的距離與時間會影響淡入效果，可以自行嘗試調整。 */
-    opacity: 0; /* 將對話框設為透明。 */
-    display: none; /* 隱藏對話框。 */
-    width: 90%; /* 對話框寬度。 */
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: -100px;
+    /* 設定對話框的起始位置。 對話框滑動的距離與時間會影響淡入效果，可以自行嘗試調整。 */
+    opacity: 0;
+    /* 將對話框設為透明。 */
+    display: none;
+    /* 隱藏對話框。 */
+    width: 90%;
+    /* 對話框寬度。 */
     background: white;
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     line-height: 1.7em;
-  }
-  
-  .title {
+}
+
+.title {
     text-align: center;
     padding: 8px;
     font-size: 20px;
-    background: #1f7038ad;    		
+    background: #1f7038ad;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: white;
     border: 1px #f2e6e6 solid;
     box-shadow: 0px 2px 8px 1px rgb(0 0 0 / 15%);
-  }
-  
-  .content {
+}
+
+.content {
     padding: 4px 8px;
-  }
-  
-  .buttons {
+}
+
+.buttons {
     /* 加上這兩個CSS，可以讓button移動到對話框下方。 */
     /*position: absolute;
     right: 0px;
     */
     text-align: right;
-    padding: 8px 14px;
-  }
-  
-  .okBtn {
+    padding: 15px 30px;
+}
+
+.okBtn {
     display: inline-block;
     background: #092b68b3;
-    color: #ffffffeb;		    
+    color: #ffffffeb;
     border-radius: 8px;
     border: 1px solid white;
     padding: 4px 8px;
     cursor: pointer;
-  }
-  
-  .cancelBtn {
+}
+
+.cancelBtn {
     display: inline-block;
     background: #e90202ad;
-    color: #ffffffeb;		    
+    color: #ffffffeb;
     border-radius: 8px;
     border: 1px solid white;
     padding: 4px 8px;
-    cursor: pointer;  
-  }
+    cursor: pointer;
+}
 
-  /*彈跳視窗內容樣式*/
+/*彈跳視窗內容樣式*/
 
-  .dialog{
+.dialog {
     background-color: #F9E5DA;
     border: 1px solid #BA5E62;
     opacity: 70%;
-    width: 650px;
+    width: 700px;
     border-radius: 50px;
     position: relative;
-  }
+}
 
-  .dialog .arror{
+.dialog .arror {
     position: absolute;
     top: 10px;
     left: 600px;
@@ -1487,42 +1493,44 @@ footer {
     font-weight: 600;
     border-radius: 50%;
     font-size: 35px;
-  }
-  .dialog img{
-    text-align: center;
-    width: 100%;
+}
+
+.dialog img {
+    /* text-align: center; */
+    width: 90%;
     border-radius: 50px;
-  }
-  .dialog .contentorder h2{
+}
+
+.dialog .contentorder h2 {
     font-size: 20px;
     color: #354E52;
     font-weight: 800;
     margin-left: 53px;
     padding-top: 20px;
-  }
+}
 
-  .contentorder h3{
+.contentorder h3 {
     font-size: 16px;
     color: #354E52;
     margin-left: 53px;
     /* padding-top: 20px; */
-  }
+}
 
-.contentorder h4{
-    font-size: 12px;
+.contentorder h4 {
+    font-size: 13px;
     color: #BA5E62;
     margin-left: 53px;
     /* padding-top: 20px; */
-  }
+}
 
-.contentorder .one{
-    font-size: 12px;
+.contentorder .one {
+    font-size: 14px;
     color: #354E52;
     margin-left: 53px;
     padding-bottom: 25px;
-  }
+}
 
-  .bagel01 p{
+.bagel01 p {
     height: 40px;
     background-color: #fff;
     border: 1px solid #BCBCBC;
@@ -1531,16 +1539,17 @@ footer {
     line-height: 40px;
     flex-basis: 46%;
     box-sizing: border-box;
-  }
-  .bagel01{
+}
+
+.bagel01 {
     display: flex;
     justify-content: space-around;
     height: 100px;
     flex-wrap: wrap;
-  }
+}
 
-  
-  .bagel02 p{
+
+.bagel02 p {
     height: 40px;
     background-color: #fff;
     border: 1px solid #BCBCBC;
@@ -1549,16 +1558,17 @@ footer {
     line-height: 40px;
     flex-basis: 46%;
     box-sizing: border-box;
-  }
-  .bagel02{
+}
+
+.bagel02 {
     display: flex;
     justify-content: space-around;
     height: 150px;
     flex-wrap: wrap;
-  }
+}
 
 
-  .bagel03 p{
+.bagel03 p {
     height: 40px;
     background-color: #fff;
     border: 1px solid #BCBCBC;
@@ -1567,15 +1577,35 @@ footer {
     line-height: 40px;
     flex-basis: 46%;
     box-sizing: border-box;
-  }
-  .bagel03{
+}
+
+.bagel03 {
     display: flex;
     justify-content: space-around;
     height: 210px;
     flex-wrap: wrap;
-  }
+}
 
-  form textarea{
+form textarea {
     width: 536px;
     margin-left: 53px;
-  }
+}
+
+.dialog_title{
+    position: relative;
+    display: flex;
+}
+.dialog_title img{
+    width: 100%;
+    height: 550px;
+}
+
+.contentorder .colse i{
+    position: absolute;
+    top: 600px;
+    padding-right:50px;
+    background-color: #F9E5DA;
+    border: 2px solid #3e0407;
+    width: 60px;
+    height: 60px;
+}

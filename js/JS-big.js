@@ -17,7 +17,9 @@ $(".showDialogBtn").click( function () {
 	}, 550);
   });
   
-  $(".cancelBtn").click( function () {
+  $(".exit").click( function () {
+    $(".modal").css("display", "none"); // 顯示modal，遮住畫面背景。
+	  $(".dialog").css("display", "none"); 
 	$(".dialog").animate({			   
 	  opacity: '0',
 	  top: '-50px' // 需與CSS設定的起始位置相同，以保證下次彈出視窗的效果相同。			   
@@ -27,3 +29,59 @@ $(".showDialogBtn").click( function () {
 	  $(".dialog").css("display", "none"); // 隱藏dialog。
 	});
   });	
+
+  /*QA */
+  let plus = document.querySelector(".plus")
+  let qa_p = document.querySelector(".qa_p")
+  plus.addEventListener("click", () => {
+    qa_p.style.display =
+	qa_p.style.display === "block" ? "none" : "block";
+ 
+  });
+
+  let plus2 = document.querySelector(".plus2")
+  let qa_p2 = document.querySelector(".qa_p2")
+  plus2.addEventListener("click", () => {
+    qa_p2.style.display =
+	qa_p2.style.display === "block" ? "none" : "block";
+ 
+  });
+
+  let plus3 = document.querySelector(".plus3")
+  let qa_p3 = document.querySelector(".qa_p3")
+  plus3.addEventListener("click", () => {
+    qa_p3.style.display =
+	qa_p3.style.display === "block" ? "none" : "block";
+ 
+  });
+
+  
+  let plus4 = document.querySelector(".plus4")
+  let qa_p4 = document.querySelector(".qa_p4")
+  plus4.addEventListener("click", () => {
+    qa_p4.style.display =
+	qa_p4.style.display == "block" ? "none" : "block";
+ 
+  });
+
+  let plus5 = document.querySelector(".plus5")
+  let qa_p5 = document.querySelector(".qa_p5")
+  plus5.addEventListener("click", () => {
+    qa_p5.style.display =
+	qa_p5.style.display == "block" ? "none" : "block";
+ 
+  });
+  
+  // function () {
+  //   let i = document.querySelectorAll(`.QA_content`);
+  //   let b = i.classList[1];
+  //   let seq = +b[1];
+  //   console.log(b);
+  // }
+  // let plus5 = document.querySelector(".plus5")
+  // let qa_p5 = document.querySelector(".qa_p5")
+  // plus5.addEventListener("click", () => {
+  //   qa_p5.style.display =
+	// qa_p5.style.display == "block" ? "none" : "block";
+ 
+  // });

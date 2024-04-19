@@ -7,9 +7,10 @@
     <title>BAGELICIOUS-PickUp</title>
     <link rel="icon" href="./img/front/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/teat1.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="css/teat1.css"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -35,11 +36,11 @@
         <ul id="nav">
             <li class="slide1"></li>
             <li class="slide2"></li>
-            <li><a href="index.html" title="About">About</a></li>
-            <li><a href="menu.html" title="Menu">Menu</a></li>
-            <li><a href="order.html" title="Order">Order</a></li>
-            <li><a href="QA.html" title="Q&A">Q&A</a></li>
-            <li><a href="login.html" title="LogIn">LogIn</a></li>
+            <li><a href="index.html" title="About"><i class="fa-solid fa-store"></i>About</a></li>
+            <li><a href="menu.html" title="Menu"><i class="fa-solid fa-calendar-minus"></i>Menu</a></li>
+            <li><a href="order.html" title="Order"><i class="fa-solid fa-bell"></i>Order</a></li>
+            <li><a href="QA.html" title="Q&A"><i class="fa-solid fa-comments"></i>Q&A</a></li>
+            <li><a href="login.html" title="LogIn"><i class="fa-solid fa-user"></i>LogIn</a></li>
         </ul>
 
         <!---搜索框-->
@@ -126,7 +127,6 @@
             <!-- <h1>BAGELICIOUS貝果三明治</h1>
                 <h6>BAGELICIOUS的貝果三明治都是現點現做的。建議嘗試各種口味，或選擇你想要的配料來做美味的搭配！</h6> -->
 
-
             <!--貝果三明治-->
             <!--第一層菜單-->
             <div class="sectionMenu">
@@ -202,12 +202,12 @@
                 </div>
             </div>
 
+
+            <h1>客製化BAGELICIOUS貝果 + 乳酪抹醬</h1>
+            <h6>想獨享的最佳選擇</h6>
             <!--第二區pickup_main-->
             <!--客製化-->
-            <!-- <main class="pickup_main"> -->
-
-
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- <main class="pickup_main"> -->  
             <div class="modal">
                 <h1>客製化BAGELICIOUS貝果 + 乳酪抹醬</h1>
                 <h6>想獨享的最佳選擇</h6>
@@ -215,7 +215,7 @@
             <div class="dialog">
                 <div class="dialog_title">
                     <img src="./img/Checkout/checkout2X_img01.png" alt="">
-                    <!-- <p class="arror">X</p> -->
+                    <div class="exit"><i class="bi bi-x-circle"></i></div>
 
                 </div>
 
@@ -274,13 +274,13 @@
                         <h2>備註欄位</h2>
                         <h4>如您有表內未提及的額外需求，或對某物質過敏，請填寫於該欄位*</h4>
                         <textarea name="ps" id="ps" cols="30" rows="10" placeholder="">
-                            </textarea>
+                        </textarea>
                     </form>
                 </div>
 
                 <div class="buttons">
                     <div class="cancelBtn">取消</div>
-                    <a href="./checkout.html"></a><div class="okBtn">確定</div>
+                    <a href="okarder.html" class="okBtn">確定</a>
                 </div>
             </div>
 
@@ -336,7 +336,7 @@
             <!--飲-->
             <!--第五層菜單-->
             <h1>BAGELICIOUs飲品</h1>
-            <h6>BAGELICIOUS的貝果三明治都是現點現做的。建議嘗試各種口味，或選擇你想要的配料來做美味的搭配！</h6>
+            <h6>搭配貝果的另一種選擇。</h6>
 
             <div class="sectionMenu">
                 <div class="begalMenu">
@@ -370,10 +370,10 @@
             </div>
         </main>
 
-
         <!--確認送出按鈕-->
         <div class="order_button2">
-            <a href="checkout.html">確認送出<i class="fa-solid fa-hand-point-up"></i></a>
+            <a href="checkout.html">確認送出<i class="fa-solid fa-hand-point-up"></i>
+            </a>
         </div>
 
         <!--footer區域start-->
@@ -432,6 +432,8 @@
                 });
             });	
         </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 
 </html>

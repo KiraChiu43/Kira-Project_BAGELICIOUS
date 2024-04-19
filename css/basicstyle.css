@@ -115,8 +115,71 @@ body {
     margin: 0 auto;
 }
 
+/*跟蹤導航欄*/
+
+#nav {
+    width: 69%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 10em;
+    display: flex;
+    list-style: none;
+    background: #f5f5f5;
+    box-shadow: 20px 40px 40px #00000033;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#nav li a {
+    position: relative;
+    /* padding: 15px 50px; */
+    padding: 5px 40px;
+    font: 500 22px Tahoma;
+    border: none;
+    outline: none;
+    color: #ba4b50;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 3;
+}
+
+#nav li i {
+    padding-right: 10px;
+} 
+
+.slide1,
+.slide2{
+    position: absolute;
+    display: inline-block;
+    height: 40px;
+    border-radius: 10em;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
+}
+
+.slide1 {
+    /* background-color: #E7A4A6; */
+    z-index: 2;
+}
+
+.slide2 {
+    opacity: 20;
+    background-color: #E7A4A6;
+    z-index: 1;
+    box-shadow: 0 0 20px #ffffffaa inset;
+}
+
+.squeeze {
+    transform: scale(0.9);
+}
 /*---------- nav ----------*/
-.nav {
+/* .nav {
     width: 1510px;
     display: flex;
     position: fixed;
@@ -174,4 +237,4 @@ a {
 .nav p {
     display: inline-block;
 }
-
+ */

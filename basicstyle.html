@@ -18,91 +18,72 @@
   <ul id="nav">
     <li class="slide1"></li>
     <li class="slide2"></li>
-    <li><a href="#" title="About">About</a></li>
-    <li><a href="#">Menu</a></li>
-    <li><a href="#">Order</a></li>
-    <li><a href="#">Q&A</a></li>
-    <li><a href="#">LogIn</a></li>
+    <li><a href="index.html" title="About"><i class="fa-solid fa-store"></i>About</a></li>
+    <li><a href="menu.html" title="Menu"><i class="fa-solid fa-calendar-minus"></i>Menu</a></li>
+    <li><a href="order.html" title="Order"><i class="fa-solid fa-bell"></i>Order</a></li>
+    <li><a href="QA.html" title="Q&A"><i class="fa-solid fa-comments"></i>Q&A</a></li>
+    <li><a href="login.html" title="LogIn"><i class="fa-solid fa-user"></i>LogIn</a></li>
   </ul>
 
   <div class="header">
     <!--ig fb  twitter follow icon--->
     <section class="media">
-        <a href="order.html" class="md_icon1"></a>
-        <a class="md_icon" href="checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
-        <a class="md_icon1"></a>
-        <a class="md_icon" href=""><i class="fa-brands fa-square-instagram"></i></a>
-        <a class="md_icon" href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href="order.html" class="md_icon1"></a>
+      <a class="md_icon" href="checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
+      <a class="md_icon1"></a>
+      <a class="md_icon" href=""><i class="fa-brands fa-square-instagram"></i></a>
+      <a class="md_icon" href=""><i class="fa-brands fa-facebook"></i></a>
     </section>
 
     <!---logo-->
     <div class="logo">
-        <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
+      <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
     </div>
 
     <!--header-->
-        <div class="bageli_title1">
-            <h1 class="hd">BAGELICIOUS</h1>
-        </div>
-
-        <!--order標題區 引用<about>abouttitle -->
-        <!--會員註冊標題區-->
-        <div class="contact">
-            <h2 class="contact_title">會員註冊</h2>
-            <div class="liner"></div>
-        </div>
-    </header>
-
-  <!--footer區域star-->
-  <div class="colorBlock">
-    <img src="./img/front/footer colorblock.png" alt="">
-  </div>
-
-  <footer>
-    <div class="footer_con">
-
-      <div class="top">
-        <h1>BAGELICIOUS</h1>
-        <h2>TIBAME STUDIO</h2>
-      </div>
-
-      <div class="mid">
-        <h3>NEWSLETTER</h3>
-
-        <div class="mid_con">
-          <a class="mailicon">
-            <i class="fa-regular fa-envelope"></i></a>
-          <h4>Subscribe to Our Newsletter</h4>
-        </div>
-      </div>
+    <div class="bageli_title1">
+      <h1 class="hd">BAGELICIOUS</h1>
     </div>
 
-    <div class="bottom">
+    <!--order標題區 引用<about>abouttitle -->
+    <!--會員註冊標題區-->
+    <div class="contact">
+      <h2 class="contact_title">會員註冊</h2>
+      <div class="liner"></div>
+    </div>
+    </header>
+
+    <!--footer區域star-->
+    <div class="colorBlock">
+      <img src="./img/front/footer colorblock.png" alt="">
+    </div>
+
+    <footer>
+      <div class="footer_con">
+
+        <div class="top">
+          <h1>BAGELICIOUS</h1>
+          <h2>TIBAME STUDIO</h2>
+        </div>
+
+        <div class="mid">
+          <h3>NEWSLETTER</h3>
+
+          <div class="mid_con">
+            <a class="mailicon">
+              <i class="fa-regular fa-envelope"></i></a>
+            <h4>Subscribe to Our Newsletter</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom">
         <p>© BAGELICIOUS KC., LTD. All rights
           reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>如有侵權問題，請來信milkchiu0403@hotmail.com</p>
       </div>
-  
     </footer>
-  
-    <!-- <script>
-      $("#nav a").on("click", function () {
-        var position = $(this).parent().position();
-        var width = $(this).parent().width();
-        $("#nav .slide1").css({ opacity: 1, left: +position.left, width: width });
-      });
-      $("#nav a").on("mouseover", function () {
-        var position = $(this).parent().position();
-        var width = $(this).parent().width();
-        $("#nav .slide2").css({ opacity: 1, left: +position.left, width: width }).addClass("squeeze");
-      });
-      $("#nav a").on("mouseout", function () {
-        $("#nav .slide2").css({ opacity: 0 }).removeClass("squeeze");
-      });
-      var currentWidth = $("#nav li:nth-of-type(3) a").parent("li").width();
-      var current = $("li:nth-of-type(3) a").position();
-      $("#nav .slide1").css({ left: +current.left, width: currentWidth });
-    </script> -->
-  <script src="./js.js"></script>
-  </body>
-  
-  </html>
+    
+    <script src="./js.js"></script>
+</body>
+
+</html>

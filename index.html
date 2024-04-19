@@ -6,68 +6,85 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <title>BAGELICIOUS-index</title>
-  <link rel="icon" href="./img/front/logo.png">
+  <link rel="icon" href="./img/front/logo.svg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="./css/style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- RWD  -->
+  <link rel="stylesheet" href="RWD/index_R.css">
+  <!-- gsap -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
 </head>
 
 <body>
 
-  <!--主選單-->
-  <ul id="nav">
-    <li class="slide1"></li>
-    <li class="slide2"></li>
-    <li><a href="index.html" title="About">About</a></li>
-    <li><a href="menu.html" title="Menu">Menu</a></li>
-    <li><a href="order.html" title="Order">Order</a></li>
-    <li><a href="QA.html" title="Q&A">Q&A</a></li>
-    <li><a href="login.html" title="LogIn">LogIn</a></li>
-  </ul>
+<!--主選單-->
+<ul id="nav">
+  <li class="slide1"></li>
+  <li class="slide2"></li>
+  <li><a href="index.html" title="About"><i class="fa-solid fa-store"></i>About</a></li>
+  <li><a href="menu.html" title="Menu"><i class="fa-solid fa-calendar-minus"></i>Menu</a></li>
+  <li><a href="order.html" title="Order"><i class="fa-solid fa-bell"></i>Order</a></li>
+  <li><a href="QA.html" title="Q&A"><i class="fa-solid fa-comments"></i>Q&A</a></li>
+  <li><a href="login.html" title="LogIn"><i class="fa-solid fa-user"></i>LogIn</a></li>
+</ul>
 
   <div class="header">
-     <!--ig fb  twitter follow icon--->
+    <!--ig fb  twitter follow icon--->
     <section class="media">
         <a href="order.html" class="md_icon1"></a>
         <a class="md_icon" href="checkout.html"><i class="fa-solid fa-cart-plus"></i></a>
         <a class="md_icon1"></a>
-        <a class="md_icon" href="https://www.instagram.com/bbagelbakery/"><i class="fa-brands fa-square-instagram"></i></a>
-        <a class="md_icon" href="https://www.facebook.com/bbagel"><i class="fa-brands fa-facebook"></i></a>
+        <a class="md_icon" href="https://www.instagram.com/bbagelbakery/">
+            <i class="fa-brands fa-square-instagram"></i></a>
+        <a class="md_icon" href="https://www.facebook.com/bbagel">
+            <i class="fa-brands fa-facebook"></i></a>
     </section>
 
-  <!---logo-->
-  <div class="logo">
-      <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
-  </div>
-
-  <!---video-->
-    <video width="100%" height="auto" src="./img/front/bagels_viedo.mp4" autoplay muted loop>
-    <!-- <source src="./img/front/bagels_viedo.mp4" type="video/mp4"> -->
-    </video>
-
-  <!--滾動貝果圖-->
-    <div class="begelimg">
-        <img src="./img/front/roll bagel.png" alt="" width="800">
+    <!---搜索框-->
+        <!-- <div class="search">
+            <input type="text" value="Search...">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
+    </nav> -->
+
+    <!---logo-->
+    <div class="logo">
+      <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
     </div>
 
- <!--標題-->
- <div class="wrapper">
-      <div class="title_1">
-          <h1>ANGEL IN US BAGELS</h1>
-          <h2>SINCE2024</h2>
-          <h3>BAGELICIOUS</h3>
-          <h4>#BagelLove #EverythingBagel #BagelTreat</h4>
-      
+    <!---video-->
+    <video width="100%" height="auto" src="./img/front/bagels_viedo.mp4" autoplay muted loop>
+      <!-- <source src="./img/front/bagels_viedo.mp4" type="video/mp4"> -->
+    </video>
+
+    <!--滾動貝果圖-->
+    <div class="begelimg">
+      <img class="bage" src="./img/front/roll bagel.png" alt="" width="800">
+    </div>
+  </div>
+
+  <!--標題-->
+  <div class="wrapper">
+    <div class="title_1">
+      <h2>ANGEL IN US BAGELS</h2>
+      <h6>SINCE2024</h6>
+      <h1>BAGELICIOUS</h1>
+      <h3>#BagelLove #EverythingBagel #BagelTreat</h3>
+
       <!--標題下方綠色色塊及照片-->
       <div class="color"></div>
       <img class="img_1" src="./img/front/front img01.jpg" alt="">
     </div>
 
-      <!--關於我標題區-->
-    <div class="abouttitle">
-      <h2 class="abouttitle">關於我</h2>
+    <!--關於我標題區-->
+    <div class="contact">
+      <h2 class="contact_title">關於我</h2>
       <div class="liner"></div>
+    </div>
+    <!-- <div class="abouttitle">
+      <h2 class="abouttitle">關於我</h2>
+      <div class="liner"></div> -->
       <!-- <div class="One_img">
             <img src="./img/front/big_img001.jpg" alt="">
       </div>
@@ -80,161 +97,189 @@
           <img src="./img/front/small_img005.jpg" alt="">
       </div> -->
 
-      <div class="Box">  
+      <div class="Box">
         <!-- 縮小圖 -->
         <!-- 放大圖 -->
         <div class="big__img">
-          <img src="./img/front/big_img" width="930" height="620" class="JS-big">
+          <img src="./img/front/big_img001.jpg" width="930" height="620" class="JS-big">
         </div>
         <div class="small__img JS-small">
-            <img src="./img/front/big_img001.jpg" width="105" height="70" id="img1">
-            <img src="./img/front/big_img002.jpg" width="105" height="70" id="img2">
-            <img src="./img/front/big_img003.jpg" width="105" height="70" id="img3">
-            <img src="./img/front/big_img004.jpg" width="105" height="70" id="img4">
-            <img src="./img/front/big_img005.jpg" width="105" height="70" id="img5">
+          <img src="./img/front/big_img001.jpg" width="105" height="70" id="img1">
+          <img src="./img/front/big_img002.jpg" width="105" height="70" id="img2">
+          <img src="./img/front/big_img003.jpg" width="105" height="70" id="img3">
+          <img src="./img/front/big_img004.jpg" width="105" height="70" id="img4">
+          <img src="./img/front/big_img005.jpg" width="105" height="70" id="img5">
         </div>
-        
+
       </div>
 
-    <div class="about_hd">
-      <h2>TAIPEI<br> ANGEL IN US BAUGL</h2>
-      <h3>#BagelLove #EverythingBagel #BagelTreat</h3>
-      <h4>來自倫敦<br>你的 美式bagel專賣店</h4> 
-    </div>
+      <div class="about_hd">
+        <h3>TAIPEI<br> ANGEL IN US BAGEL</h3>
+        <h6>#BagelLove #EverythingBagel #BagelTreat</h6>
+        <h5>來自倫敦<br>你的 美式bagel專賣店</h5>
+      </div>
 
-    <div class="about_bd">
-      <h4>歷經約8年學徒的磨練，bagrliciousc從紐約回來了</h4>
-      <h2>嚴選食材</h2>
-      <h3>法國發酵奶油 feat日本無麩質麵粉 </h3>
-      <h2>新鮮現做</h2>
-      <h3>bagrliciousc只為你手工揉捏專屬的貝果 </h3>
-      <img class="bag01" src="./img/front/illustration bagel.png" alt="">
-      <img class="bag02" src="./img/front/illustration bagel.png" alt="">
-    </div>
+      <div class="about_bd">
+        <h6>歷經約8年學徒的磨練，Bagrliciousc從紐約回來了</h6>
+        <h5>嚴選食材</h5>
+        <h6>法國發酵奶油 Feat日本無麩質麵粉 </h6>
+        <h5>新鮮現做</h5>
+        <h6>BAGELICIOUS只為你手工揉捏你專屬的貝果 </h6>
+        <img class="bag01" src="./img/front/illustration bagel.png" alt="">
+        <img class="bag02" src="./img/front/illustration bagel.png" alt="">
+      </div>
 
-     <!--about: (2)背景大字-->
-     <div class="main">
-      <p class="words">
-        BAGELICIOUS</br>
-        Bagel</br>
-        From </br>
-        Taiwan</br>
-    </div>
+      <!--about: (2)背景大字-->
+      <div class="main">
+        <p class="words">
+          BAGELICIOUS</br>
+          Bagel</br>
+          From </br>
+          Taiwan</br>
+      </div>
 
-    <!--about: (2)背景大字-->
-    <div class="words">
-      <h2>BAGELICIOUS</h2>
-      <h3>ANGEL IN US BAUGL</h3>
-
-    <!--背景底圖-->
-    <div class="backgroundimg"><img src="./img/front/background logo.png" alt="" class="logoimg">
-    </div>
-    </div>
-
-
-</div>
+      <!--about: (2)背景大字-->
+      <div class="button">
+        <h1 class="but_hd">BAGELICIOUS</h1>
   
+        <div class="but_liner"></div>
+      <div class="words">
+        <!-- <h2>BAGELICIOUS</h2> -->
+        <h3>ANGEL IN US BAGEL</h3>
 
-  <!--嚴選食材標題區-->
-  <div class="contact">
-    <h2 class="contact_title">嚴選食材</h2>
-    <div class="liner"></div>
-  </div>
-
-  <!--嚴選食材內容區-->
-  <div class="contact_content">
-
-    <div class="bg_img"></div>
-    <div class="bg_cont">
-      <h3 class="bg_hd">BAGELICIOUS BAGEL</h3>
-      <h3> </h3>
-      <p class="bg_bd1">BAGELICIOUS秉持猶太人初研發Bagel的精神，將不同口味的原料，以純手工的方式一顆顆揉進麵團裏，將道地貝果製成呈現給食者。</p>
-      <p class="bg_bd2">保留手工傳統做法外，改良較適合台灣人的口感，讓小孩與長者不用擔心牙口，都能感受到紮實的嚼勁。</p>
-    </div>
-
-    <div class="cream_cont">
-      <h3 class="cream_hd">CREAM CHEESE</h3>
-      <h3> </h3>
-      <p class="cream_bd1">含有cream cheese的內餡源自於法國，不斷地測試及改良，佐上新鮮食材及自製內餡，呈現完美口感。</p>
-      <p class="cream_bd2">用心嚴選只為給你最好。</p>
-    </div>
-    <div class="cream_img"></div>
-
-    <div class="egg_img"></div>
-    <div class="egg_cont">
-      <h3 class="egg_hd">EGG & GLUTEN FREE FLOUR</h3>
-      <h3> </h3>
-      <p class="egg_bd1">捨棄過多的香精香料，BAGELICIOUS堅持使用單一成分原料及無麩質麵粉。</p>
-      <p class="egg_bd2">無添加的純粹吃得到。</p>
-    </div>
-  </div>
-
-  <!--about與ig區分隔線區域star-->
-  <div class="button">
-    <h1 class="but_hd">BAGELICIOUS</h1>
-
-    <div class="but_liner"></div>
-
-    <div class="but_follow">
-      <h3>FOLLOW US INSTAGREM</h3>
-    </div>
-  </div>
-  <!--about與ig區分隔線區域end-->
-
-  <!--follow區star-->
-  <div class="follow">
-    <!-- <a href="" class="button"><i class="fa-solid fa-play"></i></a> -->
-    <ul>
-      <li>
-        <div class="f_img1"></div>
-      </li>
-      <li>
-        <div class="f_img2"></div>
-      </li>
-      <li>
-        <div class="f_img3"></div>
-      </li>
-      <li>
-        <div class="f_img4"></div>
-      </li>
-      <li>
-        <div class="f_img5"></div>
-      </li>
-    </ul>
-  </div>
-
-  <!--footer區域star-->
-  <div class="colorBlock">
-    <img src="./img/front/footer colorblock.png" alt="">
-  </div>
-
-  <footer>
-    <div class="footer_con">
-
-      <div class="top">
-        <h1>BAGELICIOUS</h1>
-        <h2>TIBAME STUDIO</h2>
-      </div>
-
-      <div class="mid">
-        <h3>NEWSLETTER</h3>
-
-        <div class="mid_con">
-          <a class="mailicon">
-            <i class="fa-regular fa-envelope"></i></a>
-          <h4>Subscribe to Our Newsletter</h4>
+        <!--背景底圖-->
+        <div class="backgroundimg"><img src="./img/front/background logo.png" alt="" class="logoimg">
         </div>
       </div>
+
+
     </div>
 
-    <div class="bottom">
-      <p>© BAGELICIOUS KC., LTD. All rights
-        reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>如有侵權問題，請來信milkchiu0403@hotmail.com</p>
+    <!-- 嚴選食材標題區 -->
+    <div class="contact">
+      <h2 class="contact_title">嚴選食材</h2>
+      <div class="liner"></div>
     </div>
 
-  </footer>
+    <!--嚴選食材內容區-->
+    <div class="contact_content">
 
-  <!-- <script>
+      <div class="bg_img"></div>
+      <div class="bg_cont">
+        <h3 class="bg_hd">BAGELICIOUS BAGEL</h3>
+        <h3> </h3>
+        <p class="bg_bd1">BAGELICIOUS秉持猶太人初研發Bagel的精神，將不同口味所使用到的原料，以純手工一顆顆揉進麵團裏，將道地貝果製成呈現給食者。</p>
+        <p class="bg_bd2">保留手工傳統做法外，改良較適合台灣人的口感，讓小孩與長者不用擔心牙口，都能感受到紮實的嚼勁。</p>
+      </div>
+
+      <div class="cream_cont">
+        <h3 class="cream_hd">CREAM CHEESE</h3>
+        <h3> </h3>
+        <p class="cream_bd1">含有Cream Cheese的內餡源自於法國，不斷地測試及改良，佐上新鮮食材及自製內餡，讓你吃下的每一口奶油乳酪都是最完美口感。</p>
+        <p class="cream_bd2">用心嚴選只為給你最好。</p>
+      </div>
+      <div class="cream_img"></div>
+
+      <div class="egg_img"></div>
+      <div class="egg_cont">
+        <h3 class="egg_hd">EGG & GLUTEN FREE FLOUR</h3>
+        <h3> </h3>
+        <p class="egg_bd1">捨棄過多的香精香料，BAGELICIOUS堅持使用單一成分原料及無麩質麵粉。</p>
+        <p class="egg_bd2">無添加的純粹吃得到。</p>
+      </div>
+    </div>
+
+    <!--about與ig區分隔線區域star-->
+    <div class="button">
+      <h1 class="but_hd">BAGELICIOUS</h1>
+
+      <div class="but_liner"></div>
+
+      <div class="but_follow">
+        <h3>FOLLOW US INSTAGREM</h3>
+      </div>
+    </div>
+    <!--about與ig區分隔線區域end-->
+
+    <!--follow區star-->
+    <!-- <div class="follow">
+      <ul class="marquee">
+        <li class="marquee-content scroll">
+          <img class="f_img1" src="./img/front/ig img01.jpeg" alt="">
+        </li>
+        <li class="marquee-content scroll">
+          <img class="f_img2" src="./img/front/ig img02.jpg" alt="">
+        </li>
+        <li class="marquee-content scroll">
+          <img class="f_img3" src="./img/front/ig img03.jpg" alt="">
+        </li>
+        <li class="marquee-content scroll">
+          <img class="f_img4" src="./img/front/ig img04.jpg" alt="">
+        </li>
+        <li class="marquee-content scroll">
+          <img class="f_img5" src="./img/front/ig img05.jpg" alt="">
+        </li>
+        <li class="marquee-content scroll">
+          <img class="f_img6" src="./img/front/ig img06.jpg" alt="">
+        </li>
+        
+      </ul>
+    </div> -->
+
+    <div class="marquee">
+      <div class="follow marquee-content scroll">
+        <img class="f_img1 mImg" src="./img/front/ig img01.jpeg" alt="">
+        <img class="f_img2 mImg" src="./img/front/ig img02.jpg" alt="">
+        <img class="f_img3 mImg" src="./img/front/ig img03.jpg" alt="">
+        <img class="f_img4 mImg" src="./img/front/ig img04.jpg" alt="">
+        <img class="f_img5 mImg" src="./img/front/ig img05.jpg" alt="">
+        <img class="f_img6 mImg" src="./img/front/ig img06.jpg" alt="">
+        <img class="f_img1 mImg" src="./img/front/ig img01.jpeg" alt="">
+        <img class="f_img2 mImg" src="./img/front/ig img02.jpg" alt="">
+        <img class="f_img3 mImg" src="./img/front/ig img03.jpg" alt="">
+        <img class="f_img4 mImg" src="./img/front/ig img04.jpg" alt="">
+        <img class="f_img5 mImg" src="./img/front/ig img05.jpg" alt="">
+        <img class="f_img6 mImg" src="./img/front/ig img06.jpg" alt="">
+        <img class="f_img1 mImg" src="./img/front/ig img01.jpeg" alt="">
+        <img class="f_img2 mImg" src="./img/front/ig img02.jpg" alt="">
+        <img class="f_img3 mImg" src="./img/front/ig img03.jpg" alt="">
+        <img class="f_img4 mImg" src="./img/front/ig img04.jpg" alt="">
+        <img class="f_img5 mImg" src="./img/front/ig img05.jpg" alt="">
+        <img class="f_img6 mImg" src="./img/front/ig img06.jpg" alt="">
+      </div>
+    </div>
+
+    <!--footer區域star-->
+    <div class="colorBlock">
+      <img src="./img/front/footer colorblock.png" alt="">
+    </div>
+
+    <footer>
+      <div class="footer_con">
+
+        <div class="top">
+          <h1>BAGELICIOUS</h1>
+          <h2>TIBAME STUDIO</h2>
+        </div>
+
+        <div class="mid">
+          <h3>NEWSLETTER</h3>
+
+          <div class="mid_con">
+            <a class="mailicon">
+              <i class="fa-regular fa-envelope"></i></a>
+            <h4>Subscribe to Our Newsletter</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <p>© BAGELICIOUS KC., LTD. All rights
+          reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>如有侵權問題，請來信milkchiu0403@hotmail.com</p>
+      </div>
+
+    </footer>
+    <!-- <script>
     $("#nav a").on("click", function () {
       var position = $(this).parent().position();
       var width = $(this).parent().width();
@@ -252,8 +297,26 @@
     var current = $("li:nth-of-type(3) a").position();
     $("#nav .slide1").css({ left: +current.left, width: currentWidth });
   </script> -->
-<script src="./nav.js"></script>
-<script src="./js/JS-big.js"></script>
+    <script src="nav.js"></script>
+    <script src="js/JS-big.js"></script>
+    <script>
+      gsap.to('.bage' , {
+        rotation : -250,
+        // rotation : 500,
+        x: -90,
+        delay: 0.2,
+        duration : 1.2        
+      })
+
+      // gsap.to('.bage' , {
+      //   rotation : 720,
+      //   x: -300,
+      //   delay: 0.2,
+      //   duration : 3        
+      // })
+
+
+    </script>
 </body>
 
 </html>

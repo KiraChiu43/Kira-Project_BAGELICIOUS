@@ -71,76 +71,67 @@ body {
     margin: 0 auto;
 }
 
-/*---------- nav ----------*/
+/*跟蹤導航欄*/
 
-.nav {
-    width: 1440px;
-    display: flex;
-    position: fixed;
-    z-index: 5;
-    top: 0;
-}
-
-.nav .logo {
-    width: 130px;
-    height: 130px;
-    padding-left: 31px;
-    margin-right: 70px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.nav ul {
-    display: flex;
-    margin-top: 40px;
-    margin-right: 8px;
-}
-
-
-.nav ul li {
-    font-size: 20px;
-    display: flex;
-    position: relative;
-}
-
-.nav ul li a {
-    /* display: flex; */
-    /*a行內元素轉塊元素*/
-    width: 155px;
-    height: 47px;
+#nav {
+    width: 70vw;
     margin: 0 auto;
     text-align: center;
-    line-height: 47px;
-    color: #F9E5DA;
-    background-color: #BA5E62;
-    border-radius: 20px;
-    margin: 0 0 0 25px;
-    font-size: 19px;
-    text-align: center;
-    padding: 0 15px 0 0;
-    /* justify-content: space-around; */
-    box-sizing: border-box;
-}
-
-.nav i {
-    width: 32px;
-    height: 32px;
-    color: #F9E5DA;
-    /* padding: 8px 0 12px 8px; */
-    line-height: 32px;
-    display: inline-block;
-}
-
-.nav p {
-    display: inline-block;
-    /* position: absolute;
+    margin-top: 30px;
+    position: fixed;
     top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto; */
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 10em;
+    display: flex;
+    list-style: none;
+    background: #f5f5f5;
+    box-shadow: 20px 40px 40px #00000033;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#nav li a {
+    position: relative;
+    padding: 5px 50px;
+    font: 500 22px Tahoma;
+    border: none;
+    outline: none;
+    color: #ba4b50;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 3;
+}
+
+#nav li i {
+    padding-right: 10px;
+} 
+
+.slide1,
+.slide2 {
+    position: absolute;
+    display: inline-block;
+    height: 40px;
+    border-radius: 10em;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
+}
+
+.slide1 {
+    /* background-color: #E7A4A6; */
+    z-index: 2;
+}
+
+.slide2 {
+    opacity: 20;
+    background-color: #E7A4A6;
+    z-index: 1;
+    box-shadow: 0 0 20px #ffffffaa inset;
+}
+
+.squeeze {
+    transform: scale(0.9);
 }
 
 /*---------- search ----------*/
@@ -359,6 +350,7 @@ header h2 {
 /*  A welcome message or an explanation of the login form */
 header p {
     letter-spacing: 0.05em;
+    
 }
 
 
