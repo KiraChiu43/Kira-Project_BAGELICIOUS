@@ -400,4 +400,9 @@
     .footer_con .top{
         padding-left: 30px;
     }
+    .header .logo{
+        margin-left: 20px;
+        width: 16%;
+        z-index: 100;
+      }
 }

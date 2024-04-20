@@ -860,12 +860,13 @@ body {
     margin-top: 20px;
   }
   .small__img img{
-    width: 16vw;
-    height: 10vh;
+    width: 51px;
+    height: 35px;
+    margin-left: 5px;
   }
   .Box{
     text-align: center;
-    margin-left: 5px;
+    margin-left: -30px;
   }
 
   /*導航欄*/
@@ -877,10 +878,15 @@ body {
     margin-left: 10px;
     width: 18%;
   }
+  .slide1,
+  .slide2{
+    height: 25px;
+  }
+  
   .wrapper .img_1{
     width: 85%;
     margin-top: -1800px;
-    margin-left: 40px;
+    margin-left: 35px;
   }
   .wrapper .color{
     top: 370px;
@@ -901,8 +907,8 @@ body {
     margin-top: 40px;
   }
   .main .words{
-    top: -3321px;
-    font-size: 35px;
+    top: -3251px;
+    font-size: 30px;
     left: -10px;
   }
   .Box{
@@ -918,7 +924,7 @@ body {
     width: 270px;
     left: -163px;
     top: -840px;
-    z-index: 0;
+    z-index: -1;
   }
   .contact .liner{
     left: 1px;
@@ -942,7 +948,7 @@ body {
     margin-bottom: 5px;
   }
   .about_bd{
-    margin-left: 65px;
+    margin-left: 42px;
     width: 360px;
     padding-top: 5px;
     padding-left: 30px;
@@ -1099,7 +1105,7 @@ body {
   }
   .JS-big{
     margin-top: 30px;
-    margin-right: -120px;
+    margin-right: -90px;
   }
   .but_liner{
     margin-left: -20px;
@@ -1128,6 +1134,9 @@ body {
     width: 1.5vh;
     height: 1.5vh;
     padding-top: 80px;
+  }
+  .small__img, .JS-small{
+    margin-left: 50px;
   }
 /*footer*/
   .footer_con h1{
@@ -1184,6 +1193,7 @@ body {
     margin-left: -120px;
   }
 
+  
 
 
 
