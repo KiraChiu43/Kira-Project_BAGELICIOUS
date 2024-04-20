@@ -568,8 +568,8 @@ body {
   }
   /*導航欄*/
   #nav li a {
-  padding: 2px 22px;
-  font: 500 14px Tahoma;
+  padding: 2px 20px;
+  font: 600 14px Tahoma;
   }
   .header .logo{
    margin-left: 10px;
@@ -1063,25 +1063,9 @@ body {
     top: -5px;
     width: 85px;
   }
-  /*footer*/
-  .footer_con h1{
-    font-size: 40px;
-  }
-  .footer_con h2{
-    font-size: 25px;
-  }
-  .footer_con h3{
-    font-size: 18px;
-  }
-  .footer_con p{
-    font-size: 8px;
-  }
-  .footer_con .top{
-    padding-left: 40px;
-  }
   .button .but_hd{
     margin-top: 40px;
-    font-size: 32px;
+    font-size: 30px;
   }
   .JS-big{
     margin-top: 30px;
@@ -1110,7 +1094,7 @@ body {
     gap: 1px;
   }
   .colorbar{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 1.5vh;
     height: 1.5vh;
     padding-top: 80px;
