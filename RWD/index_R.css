@@ -808,6 +808,9 @@ body {
     margin-left: 9px;
     margin-top: 10px;
   }
+  .media{
+    z-index: 100;
+  }
   .media .md_icon{
     width: 20px;
     height: 20px;
@@ -909,9 +912,10 @@ body {
     margin-bottom: 5px;
   }
   .about_bd{
-    margin-left: 70px;
-    width: 375px;
+    margin-left: 65px;
+    width: 360px;
     padding-top: 5px;
+    padding-left: 30px;
     height: 154px;
   }
   .about_bd h5{
@@ -1049,6 +1053,16 @@ body {
   .but_follow h3{
     font-size: 14px;
   }
+  .about_bd .bag01{
+    left: -220px;
+    top: 85px;
+    width: 85px;
+  }
+  .about_bd .bag02{
+    left: -210px;
+    top: -5px;
+    width: 85px;
+  }
   /*footer*/
   .footer_con h1{
     font-size: 40px;
@@ -1076,10 +1090,10 @@ body {
   .but_liner{
     margin-left: -20px;
   }
-  .about_bd .bag02{
+  /* .about_bd .bag02{
     width: -240px;
     top: 45px;
-  }
+  } */
   .media .md_icon{
     font-size: 2.2vw;
   }
