@@ -550,6 +550,7 @@ body {
     position: absolute;
     top: 20px;
     right: -575px;
+    z-index: 1;
   }
   .wrapper .title_1 h2{
     font-size: 48px;
@@ -862,7 +863,7 @@ body {
     left: 20px;
   } */
   .Box .small__img{
-    width: 95%;
+    width: 115%;
     margin-top: 20px;
   }
   .small__img img{
@@ -879,24 +880,26 @@ body {
   #nav li a {
     padding: 0 2px;
     font: 400 10px Tahoma;
-    }
+  }
+
+  .slide2{
+    height: 25px;
+    width: fit-content;
+  }
+
   .header .logo{
     margin-left: 10px;
     width: 18%;
   }
-  .slide1,
-  .slide2{
-    height: 25px;
-  }
-
+  
   .wrapper .img_1{
-    width: 85%;
-    margin-top: -1800px;
-    margin-left: 35px;
+    width: 95%;
+    margin-top: -1810px;
+    margin-left: 15px;
   }
   .wrapper .color{
-    top: 370px;
-    height: 90px;
+    top: 350px;
+    height: 130px;
   }
   .wrapper .title_1 h3{
     margin-bottom: 149px;
@@ -942,7 +945,7 @@ body {
   }
   .about_hd h6{
     font-size: 16px;
-    margin-left: -710px;
+    margin-left: -720px;
   }
   .about_hd h5{
     font-size: 16px;
@@ -954,7 +957,7 @@ body {
     margin-bottom: 5px;
   }
   .about_bd{
-    margin-left: 42px;
+    margin-left: 32px;
     width: 360px;
     padding-top: 5px;
     padding-left: 30px;
@@ -1075,7 +1078,7 @@ body {
     margin-left: 50px;
   }
   .words h3{
-    margin-left: -600px;
+    margin-left: -610px;
     font-size: 24px;
     padding-top: 5px;
   }
