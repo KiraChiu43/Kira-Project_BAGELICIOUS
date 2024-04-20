@@ -89,7 +89,7 @@ video {
 
 .wrapper .color {
     position: absolute;
-    top: 635px;
+    top: 1265px;
     right: -50px;
     background-color: #69AFAD;
     opacity: 50%;
@@ -104,19 +104,19 @@ video {
 }
 
 .Box {
-    text-align: right;
-    margin-right: 50px;
+    text-align: center;
+    margin-left: 120px;
     margin-top: 40px;
 }
 
 .Box .small__img {
     cursor: pointer;
     margin-top: 50px;
-    padding-right: 17px;
+    margin-left: 120px;
 }
 
 .about_hd {
-    margin-left: 787px;
+    margin-left: 780px;
     margin-top: 50px;
 }
 
@@ -125,7 +125,7 @@ video {
     font-size: 34px;
     color: #354E52;
     font-weight: 800;
-    margin-left: 90px;
+    margin-left: -100px;
     line-height: 1.7;
 }
 
@@ -133,8 +133,8 @@ video {
     /* font-size: 1.46vw; */
     font-size: 28px;
     color: #354E52;
-    margin-left: 90px;
-    margin-top: 20px;
+    margin-left: -90px;
+    margin-top: 19px;
     letter-spacing: 1px;
 }
 
@@ -146,7 +146,7 @@ video {
     padding-top: 30px;
     padding-left: 35px;
     font-weight: 500;
-    margin-left: 710px;
+    margin-left: 630px;
     position: relative;
     z-index: 10;
 }
@@ -157,7 +157,7 @@ video {
     color: #69AFAD;
     font-weight: 800;
     margin-top: 30px;
-    margin-left: 95px;
+    margin-left: -95px;
     margin-bottom: 20px;
     line-height: 1.7;
 }
@@ -192,7 +192,7 @@ video {
 
 .about_bd .bag02 {
     position: absolute;
-    top: 140px;
+    top: 160px;
     left: 565px;
 }
 
@@ -209,9 +209,9 @@ video {
 /*(2)背景大字*/
 .main .words {
     position: absolute;
-    top: -3840px;
-    bottom: -1121px;
-    left: 190px;
+    top: -3216px;
+    bottom: -1261px;
+    left: 100px;
     z-index: 1;
     color: #FFF;
     font-weight: 750;
@@ -240,18 +240,17 @@ video {
     transform: rotate(-10deg);
     opacity: 20%;
     left: -163px;
-    top: -1140px;
+    top: -1420px;
 }
 
 .words h3 {
     font-weight: 800;
     color: #354E52;
-    font-size: 2.60vw;
-    /* font-size: 50px; */
+    font-size: 50px;
     text-align: center;
     padding-left: 3.5rem;
-    margin-top: -5px;
-    margin-left: 320px;
+    margin-top: -15px;
+    margin-left: 160px;
 }
 
 /*---------- 關於我標題區 ----------*/
@@ -296,7 +295,7 @@ video {
     height: 30px;
     display: inline;
     text-align: center;
-    font-size: 0.78vw;
+    font-size: 1.18vw;
     /* font-size: 15px; */
     margin-left: 8px;
 }
@@ -470,12 +469,12 @@ video {
 
 .contact_title {
     color: #69AFAD;
-    font-size: 1.46vw;
-    /* font-size: 28px; */
+    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 95px;
     padding-bottom: 16px;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .contact .liner {
@@ -539,8 +538,7 @@ video {
     background-color: rgba(239, 165, 166, 0.3);
     color: rgba(186, 94, 98, 0.8);
     border-bottom: 1px solid rgba(239, 165, 166, 0.3);
-    font-size: 1.25vw;
-    /* font-size: 24px; */
+    font-size: 24px;
     font-weight: 800;
     width: 450px;
     padding-left: 20px;
@@ -589,27 +587,26 @@ video {
 
 /*about與ig區分隔*/
 
-.button {
+.button1 {
     position: relative;
-    width: 1078px;
+    width: 1098px;
     height: 100px;
-    margin-top: 260px;
+    margin-top: 250px;
     margin-left: 133px;
 }
 
-.button .but_hd {
+.button1 .but_hd {
     top: 700px;
     left: 266px;
     color: #BA5E62;
     font-size: 50px;
     font-weight: 800;
     margin-left: 116px;
-    margin-left: 133px;
 }
 
 .but_liner {
     width: 1011px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
     margin-top: -7px;
     border-bottom: 1px solid #BA5E62;
 }
@@ -629,7 +626,7 @@ video {
 }
 
 .JS-big{
-    width: 903px;
+    width: 953px;
     height: 620px;
 }
 
@@ -1828,6 +1825,15 @@ footer {
     color: #354E52;
     text-align: center;
     margin-right: 180px;
+}
+.button{
+    padding-top: 30px;
+    top: 700px;
+    left: 266px;
+    color: #BA5E62;
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 200px;
 }
 
 /*--標題--*/

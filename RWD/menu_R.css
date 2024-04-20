@@ -340,38 +340,50 @@
         width: 18%;
     }
 /*紅字標題距離*/
-.bageli_title1 .hd{
-    font-size: 22px;
-    margin-left: -260px;
-}
-.menutitle{
-    margin-top: 100px;
-    margin-left: 80px;
-    font-size: 16px;
-    margin-bottom: 0px;
-}
+    .bageli_title1 .hd{
+        font-size: 22px;
+        margin-left: -260px;
+    }
+    .menutitle{
+        margin-top: 100px;
+        margin-left: 80px;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
 /*綠字*/
-.menutitle{
-    margin-left: 80px;
-}
-.menu{
-    width: 330px;
-    margin-left: 90px;
-}
-.menutitle{
-    margin-left: 0;
-    margin-top: -70px;
-}
+    .menutitle{
+        margin-left: 80px;
+    }
+    .menu{
+        width: 330px;
+        margin-left: 90px;
+    }
+    .menutitle{
+        margin-left: 0;
+        margin-top: -70px;
+    }
 /*上方banner圖*/
-.menuimg img{
-    height: 230px;
-    padding-left: 40px;
-}
+    .menuimg img{
+        height: 230px;
+        padding-left: 40px;
+    }
 
-.menuimg img{
-    height: 220px;
-    margin-left: -40px;
-}
+    .menuimg img{
+        height: 220px;
+        margin-left: -40px;
+    }
+    .menu_main h2{
+        font-size: 30px;
+        margin-left: -880px
+    }
+    .menu_main p{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: -900px;
+    }
+    .main_con{
+        font-size: 16px;
+    }
 /*footer*/
     .footer_con h1{
         font-size: 20px;
