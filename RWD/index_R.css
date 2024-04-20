@@ -574,6 +574,12 @@ body {
     height: 20px;
   }
   /*導航欄*/
+  .slide1,
+  .slide2{
+    height: 30px;
+    width: 98px;
+    margin-bottom: 5px;
+  }
   #nav li a {
   padding: 2px 20px;
   font: 600 14px Tahoma;
@@ -882,7 +888,7 @@ body {
   .slide2{
     height: 25px;
   }
-  
+
   .wrapper .img_1{
     width: 85%;
     margin-top: -1800px;
