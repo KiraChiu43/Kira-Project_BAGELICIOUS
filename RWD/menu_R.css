@@ -331,6 +331,9 @@
         width: 100%;
     }
 /*導航欄*/
+    #nav{
+        margin-top: 15px;
+    }
     #nav li a {
         padding: 0 2px;
         font: 400 11px Tahoma;
@@ -339,6 +342,12 @@
         margin-left: 10px;
         width: 18%;
     }
+ /*logo*/
+    .header .logo{
+        margin-left: 20px;
+        width: 16%;
+        z-index: 100;
+  }
 /*紅字標題距離*/
     .bageli_title1 .hd{
         font-size: 22px;
