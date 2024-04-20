@@ -1178,6 +1178,7 @@ body {
   .header .logo{
     margin-left: 20px;
     width: 16%;
+    z-index: 100;
   }
   .button .but_liner{
     margin-left: -120px;
