@@ -35,23 +35,37 @@ $(".showDialogBtn").click( function () {
   let qa_p = document.querySelector(".qa_p")
   plus.addEventListener("click", () => {
     qa_p.style.display =
-	qa_p.style.display === "block" ? "none" : "block";
- 
+	qa_p.style.display === "none" ? "block" : "none";
+    
+    // if(qa_p.style.display == 'block'){
+    //   $('.qa_p').slideDown(800, 'easeInOutQuint');
+    // }else{
+    //   $('.qa_p').slideUp(800, 'easeInOutQuint');
+
+    // }
   });
 
   let plus2 = document.querySelector(".plus2")
   let qa_p2 = document.querySelector(".qa_p2")
   plus2.addEventListener("click", () => {
     qa_p2.style.display =
-	qa_p2.style.display === "block" ? "none" : "block";
+	qa_p2.style.display === "none" ? "block" : "none";
  
   });
+
+  // let plus2 = document.querySelector(".plus2")
+  // let qa_p2 = document.querySelector(".qa_p2")
+  // plus2.addEventListener("click", () => {
+  //   qa_p2.style.transform =
+	// qa_p2.style.transform === "scale(1)" ? "scale(0)" : "Scale(1)";
+ 
+  // });
 
   let plus3 = document.querySelector(".plus3")
   let qa_p3 = document.querySelector(".qa_p3")
   plus3.addEventListener("click", () => {
     qa_p3.style.display =
-	qa_p3.style.display === "block" ? "none" : "block";
+	qa_p3.style.display === "none" ? "block" : "none";
  
   });
 
@@ -60,7 +74,7 @@ $(".showDialogBtn").click( function () {
   let qa_p4 = document.querySelector(".qa_p4")
   plus4.addEventListener("click", () => {
     qa_p4.style.display =
-	qa_p4.style.display == "block" ? "none" : "block";
+	qa_p4.style.display == "none" ? "block" : "none";
  
   });
 
@@ -68,7 +82,7 @@ $(".showDialogBtn").click( function () {
   let qa_p5 = document.querySelector(".qa_p5")
   plus5.addEventListener("click", () => {
     qa_p5.style.display =
-	qa_p5.style.display == "block" ? "none" : "block";
+	qa_p5.style.display == "none" ? "block" : "none";
  
   });
   

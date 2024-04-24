@@ -391,19 +391,6 @@ body {
     position: relative;
     top: 66px;
     left: 648px;
-    /* width: 190px;
-    height: 50px;
-    background-color: #BA5E62;
-    color: #F9E5DA;
-    filter: drop-shadow(3px 5px 4px rgba(52, 19, 19, 0.8));
-    font-weight: 800;
-    font-size: 20px;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 40px;
-    position: relative;
-    top: 66px;
-    left: 648px; */
 }
 
 .order_button a {
@@ -417,7 +404,6 @@ body {
 }
 
 /* 店舖位置標題*/
-
 section {
     margin-top: 100px;
     /* margin: 0 auto; */
@@ -447,7 +433,7 @@ section {
     text-align: center;
     margin-top: 0px;
     display: flex;
-    margin-left: 125px;
+    margin-left: 100px;
 }
 
 .shopimg {
@@ -589,4 +575,111 @@ section {
     border-radius: 40px;
     background-color: #fff;
     margin-top: 28px;
+}
+
+/*footer區*/
+.footer_hd {
+    background-color: #69AFAD;
+    width: 100vw;
+}
+
+.colorBlock {
+    height: 76px;
+    display: block;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #69AFAD;
+}
+
+.footer_con {
+    display: flex;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    padding-left: 158px;
+    display: inline-block;
+}
+
+.top h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #354E52;
+    /* width: 416px;
+    height: 44px; */
+    padding-top: 40px;
+    line-height: 1;
+}
+
+.top h2 {
+    font-size: 50px;
+    font-weight: 100;
+    color: #354E52;
+    padding-left: 19.5px;
+    /* width: 377px;
+    height: 36px; */
+    padding-top: 20px;
+    line-height: 1;
+}
+
+.mid h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1;
+    margin-top: 19px;
+}
+
+.mid_con h4 {
+    /* height: 18px; */
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 455px;
+    border-bottom: 1px solid #354E52;
+    padding: 10px 0 5px 10px;
+}
+
+.mid_con a {
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.mailicon {
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.mailicon i {
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+
+.mid_con {
+    display: flex;
+    /* margin-top: 15px; */
+}
+
+
+.mid {
+    display: flex;
+    /*並排*/
+    flex-direction: column;
+    /*直向往下排列*/
+    padding-left: 166px;
+    padding-top: 44px;
+
+}
+
+.bottom {
+    margin-top: 15px;
+    text-align: center;
+    color: #ffffff;
 }

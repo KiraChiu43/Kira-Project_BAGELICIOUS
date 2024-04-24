@@ -116,6 +116,7 @@ max-width: 100%
     padding: 3rem 2rem;
     background-color: #ffffff;
     transition: .5s all;
+    display: none;
 }
 
 /*點選彈開的叉叉*/
@@ -129,7 +130,7 @@ max-width: 100%
     border-radius: 4px;
     transform: rotate(90deg);
     background-color: #BA5E62;
-    z-index: 100;
+    z-index: -1;
 }
 
 .plus2:after{
@@ -142,7 +143,7 @@ max-width: 100%
     border-radius: 4px;
     transform: rotate(90deg);
     background-color: #BA5E62;
-    z-index: 100;
+    z-index: -1;
 }
 
 .plus3:after{
@@ -155,7 +156,7 @@ max-width: 100%
     border-radius: 4px;
     transform: rotate(90deg);
     background-color: #BA5E62;
-    z-index: 100;
+    z-index: -1;
 }
 
 .plus4:after{
@@ -168,7 +169,7 @@ max-width: 100%
     border-radius: 4px;
     transform: rotate(90deg);
     background-color: #BA5E62;
-    z-index: 100;
+    z-index: -1;
 }
 
 .plus5:after{
@@ -181,7 +182,7 @@ max-width: 100%
     border-radius: 4px;
     transform: rotate(90deg);
     background-color: #BA5E62;
-    z-index: 100;
+    z-index: -1;
 }
 
 .QA_content p,

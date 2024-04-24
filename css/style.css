@@ -314,7 +314,7 @@ video {
     z-index: 5;
     position: fixed;
     /*定位*/
-    top: 450px;
+    top: 550px;
     right: -30px;
     font-size: 0.73vw;
     /* font-size: 14px; */
@@ -377,12 +377,22 @@ video {
 }
 
 .slide2 {
+    width: 1px;
     opacity: 20;
     background-color: #E7A4A6;
     z-index: 1;
     box-shadow: 0 0 20px #ffffffaa inset;
 }
-
+.header .logo{
+    margin-left: 40px;
+    width: 10%;
+    margin-top: 5px;
+  }
+.media .md_icon{
+    line-height: 30px;
+    font-size: 1.2vw;
+    /* padding-top: 1px; */
+}
 .squeeze {
     transform: scale(0.9);
 }
@@ -516,7 +526,7 @@ video {
     /* width: 400px;
     height: 227px; */
     grid-area: bg_cont;
-    grid-column: 8 /12;
+    grid-column: 7 /12;
     grid-row: 2/3;
     /* margin-right: 237px; */
 }
@@ -528,7 +538,7 @@ video {
 .cream_cont {
     /* margin-left: 327px; */
     grid-area: cream_cont;
-    grid-column: 3/5;
+    grid-column: 2/5;
     grid-row: 7/7;
     padding-left: 40px;
 }
@@ -559,7 +569,7 @@ video {
     width: 100%;
     height: 100%;
     grid-area: cream_img;
-    grid-column: 8/11;
+    grid-column: 7/11;
     grid-row: 4/11;
     background-image: url(../img/front/contact\ img02.jpg);
     background-repeat: no-repeat;
@@ -605,9 +615,9 @@ video {
 }
 
 .but_liner {
-    width: 1011px;
+    width: 1021px;
     /* margin-left: 130px; */
-    margin-top: -7px;
+    margin-top: -17px;
     border-bottom: 1px solid #BA5E62;
 }
 
@@ -632,7 +642,7 @@ video {
 
 /*follow區*/
 .follow {
-    margin-top: 47px;
+    margin-top: 97px;
     display: flex;
     flex-direction: row;
     line-height: 1.6;
@@ -998,7 +1008,7 @@ footer {
     border-radius: 50%;
     height: 300px;
     grid-area: menu1_img;
-    grid-column: 4/9;
+    grid-column: 3/8;
     grid-row: 2/5;
     background-image: url(../img/meun/menu_prod001.svg);
     background-repeat: no-repeat;
@@ -1009,7 +1019,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu1_bd;
-    grid-column: 4/9;
+    grid-column: 3/8;
     grid-row: 4/4;
 }
 
@@ -1017,7 +1027,7 @@ footer {
     border-radius: 50%;
     height: 300px;
     grid-area: menu2_img;
-    grid-column: 11/16;
+    grid-column: 10/15;
     grid-row: 3/5;
     background-image: url(../img/meun/menu_prod002.svg);
     background-repeat: no-repeat;
@@ -1028,7 +1038,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu2_bd;
-    grid-column: 11/16;
+    grid-column: 10/15;
     grid-row: 5/6;
 }
 
@@ -1036,7 +1046,7 @@ footer {
     border-radius: 50%;
     height: 300px;
     grid-area: menu3_img;
-    grid-column: 18/23;
+    grid-column: 17/22;
     grid-row: 2/6;
     background-image: url(../img/meun/menu_prod003.svg);
     background-repeat: no-repeat;
@@ -1047,7 +1057,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu3_bd;
-    grid-column: 18/23;
+    grid-column: 17/22;
     grid-row: 4/5;
 }
 
@@ -1055,7 +1065,7 @@ footer {
     height: 300px;
     border-radius: 50%;
     grid-area: menu4_img;
-    grid-column: 4/9;
+    grid-column: 3/8;
     grid-row: 6/8;
     background-image: url(../img/meun/menu_prod004.svg);
     background-repeat: no-repeat;
@@ -1066,7 +1076,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu4_bd;
-    grid-column: 4/9;
+    grid-column: 3/8;
     grid-row: 8/9;
 }
 
@@ -1074,7 +1084,7 @@ footer {
     height: 300px;
     border-radius: 50%;
     grid-area: menu5_img;
-    grid-column: 11/16;
+    grid-column: 10/15;
     grid-row: 7/9;
     background-image: url(../img/meun/menu_prod005.svg);
     background-repeat: no-repeat;
@@ -1085,7 +1095,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu5_bd;
-    grid-column: 11/16;
+    grid-column: 10/15;
     grid-row: 9/10;
 }
 
@@ -1093,7 +1103,7 @@ footer {
     height: 300px;
     border-radius: 50%;
     grid-area: menu6_img;
-    grid-column: 18/23;
+    grid-column: 17/22;
     grid-row: 6/8;
     background-image: url(../img/meun/menu_prod006.svg);
     background-repeat: no-repeat;
@@ -1104,7 +1114,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu6_bd;
-    grid-column: 18/23;
+    grid-column: 17/22;
     grid-row: 8/9;
 }
 
@@ -1112,7 +1122,7 @@ footer {
     height: 300px;
     border-radius: 50%;
     grid-area: menu7_img;
-    grid-column: 4/9;
+    grid-column: 3/8;
     grid-row: 10/12;
     background-image: url(../img/meun/menu_prod007.svg);
     background-repeat: no-repeat;
@@ -1123,7 +1133,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu7_bd;
-    grid-column: 4/9;
+    grid-column: 3/8;
     grid-row: 12/13;
 }
 
@@ -1131,7 +1141,7 @@ footer {
     height: 300px;
     border-radius: 50%;
     grid-area: menu8_img;
-    grid-column: 11/16;
+    grid-column: 10/15;
     grid-row: 11/13;
     background-image: url(../img/meun/menu_prod008.svg);
     background-repeat: no-repeat;
@@ -1142,7 +1152,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu8_bd;
-    grid-column: 11/16;
+    grid-column: 10/15;
     grid-row: 13/14;
 }
 
@@ -1150,7 +1160,7 @@ footer {
     height: 300px;
     border-radius: 50%;
     grid-area: menu9_img;
-    grid-column: 18/23;
+    grid-column: 17/22;
     grid-row: 10/12;
     background-image: url(../img/meun/menu_prod009.svg);
     background-repeat: no-repeat;
@@ -1161,7 +1171,7 @@ footer {
     color: #354E52;
     font-size: 18px;
     grid-area: menu9_bd;
-    grid-column: 18/23;
+    grid-column: 17/22;
     grid-row: 12/13;
 }
 
@@ -1178,7 +1188,7 @@ footer {
 
 .creamnav {
     /* max-width: 1440px; */
-    width: 1440px;
+    width: 100vw;
     /* margin: 0 auto; */
 }
 
@@ -1197,7 +1207,7 @@ footer {
 }
 
 .creamnav h3 {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .creamtitle ul {
@@ -1217,7 +1227,7 @@ footer {
 .creamtitle img {
     display: block;
     width: 160px;
-    height: 160px;
+    /* height: 160px; */
     margin-bottom: 20px;
 }
 
@@ -1442,7 +1452,7 @@ footer {
 .creamnav h3,
 .bannertitle h3 {
     width: 1151px;
-    height: 115px;
+    height: 85px;
     border-bottom: 4px solid #69AFAD;
     font-size: 30px;
     font-weight: 800;
@@ -1606,7 +1616,7 @@ footer {
     font-size: 15px;
     color: #FFFFFF;
     font-weight: 400;
-    width: 455px;
+    width: 265px;
     border-bottom: 1px solid #354E52;
     padding: 10px 0 5px 10px;
 }
