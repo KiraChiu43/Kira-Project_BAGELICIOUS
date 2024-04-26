@@ -989,26 +989,35 @@ body {
 
   /*導航欄*/
   #nav{
-    margin-top: 18px;
-    padding: 4px;
+    margin-top: 10px;
+    /* padding: -16px; */
+    height: 20px;
+    line-height: 20px;
+    margin-left: -20px;
 }
 #nav li a {
     padding: 0 2px;
-    font: 400 11px Tahoma;
+    font: 400 9px Tahoma;
+    text-align: center;
+    margin: 0 auto;
 }
-
+#nav li{
+  height: 18px;
+  margin-top: 0px;
+}
   .slide2 {
     width: 60px;
+    margin-top: 5px;
+    height: 5px;
     opacity: 20;
     background-color: #E7A4A6;
-    height: 28px;
-    line-height: 28px;
+    line-height: 15px;
 }
-
-  .header .logo{
-    margin-left: 10px;
-    width: 18%;
-  }
+.header .logo{
+  margin-left: 13px;
+  width: 13%;
+  z-index: 100;
+}
   
   .wrapper .img_1{
     width: 95%;
@@ -1040,7 +1049,7 @@ body {
     z-index: -1;
   }
   .main .words{
-    top: -3211px;
+    top: -3241px;
     font-size: 28px;
     left: 30px;
   }
@@ -1123,7 +1132,7 @@ body {
   }
   /*測軸*/
   .media .md_icon{
-    line-height: 20px;
+    line-height: 19px;
     font-size: 1.4vw;
     padding-top: 1px;
   }
@@ -1252,8 +1261,10 @@ body {
     width: -240px;
     top: 45px;
   } */
+
+  /*斷點調整*/
   .media .md_icon{
-    font-size: 2.2vw;
+    font-size: 2.5vw;
   }
   .contact_title{
     font-size: 16px;
@@ -1334,11 +1345,7 @@ body {
 .footer_con .top{
   padding-left: 30px;
 }
-  .header .logo{
-    margin-left: 20px;
-    width: 16%;
-    z-index: 100;
-  }
+
   .button1 .but_hd{
     margin-top: 30px;
   }
