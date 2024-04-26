@@ -120,6 +120,10 @@ div{
         width: 98px;
         margin-bottom: 5px;
     }
+    #nav{
+        margin-top: 20px;
+        width: ;
+    }
     #nav li a {
         padding: 2px 20px;
         font: 600 14px Tahoma;
@@ -135,25 +139,35 @@ div{
     }
     .order,
     .shop{
-        width: 640px;
+        width: 80vw;
     }
     .menutitle,
     .shoptitle{
         margin-left: 1px;
-        margin-top: -40px;
+        margin-top: -90px;
         padding-bottom: 10px;
         font-size: 22px;
     }
     .orderimg img{
-        width: 810px;
-        height: 240px;
+        width: 800px;
+        height: 230px;
         margin-left: -610px;
         margin-top: -10px;
+    }
+    .logo img{
+        margin-left: 40px;
+        margin-top: -20px;
+        width: 13vw;
     }
     .media {
         right: -20px;
         top: 600px;
         line-height: 20px;
+    }
+    .bageli_title1 .hd{
+        margin-top: -40px;
+        margin-bottom: 90px;
+        width: 90vw;
     }
     /*測軸*/
     .media .md_icon{
@@ -178,7 +192,7 @@ div{
         margin-left: 10px;
     }
     .bageli_title1 .hd {
-        margin-top: -90px;
+        margin-top: -40px;
         margin-bottom: 90px
        }
     .order_set h2{
@@ -189,7 +203,7 @@ div{
       padding-left: 5px;
     }
     .order_steps{
-        margin-left:-530px;
+        margin-left:-580px;
         margin-top: -50px;
         display: flex;
         flex-direction: column;
@@ -236,8 +250,7 @@ div{
         width: 410px;
     }
     .order_button{
-        top: 46px;
-        left: 348px;
+        margin-left: 330px;
         font-size: 16px;
         width: 130px;
     }
@@ -245,8 +258,8 @@ div{
     .shop2 h3,
     .shop2 h4{
         font-size: 36px;
-        margin-left: -40px;
-        margin-top: -20px;
+        margin-left: -100px;
+        margin-top: -30px;
     }
     .shopimg{
         margin-left: 95px;
@@ -259,18 +272,20 @@ div{
         flex-direction: column;
     }
     .shop2 h1{
-        top:-5px;
+        top: 0px;
+        margin-left: -30px;
     }
     .shop2 h3{
-        left: 170px;
+        left: 240px;
         top: 35px;
         width: 640px;
     }
     .shop2 h4{
-        top: 80px;
+        top: 70px;
+        margin-left: -30px;
     }
     .shop_name h2{
-        top: 1690px;
+        top: 1840px;
         left: 120px;
         font-size: 22px;
     }
@@ -341,9 +356,6 @@ div{
         font-size: 25px;
         padding-left: 70px;
     }
-    .footer_con h3{
-        font-size: 18px;
-    }
     .footer_con p{
         font-size: 8px;
     }
@@ -394,6 +406,7 @@ div{
     }
     .footer_con h3{
         font-size: 14px;
+        margin-top: 10px;
     }
     .mailicon i{
         margin-top: -40px;
@@ -408,28 +421,61 @@ div{
     .footer{
         margin-top: -60px;
     }
+    .mid h3{
+        margin-bottom: 20px;
+      }
+}
+/* --------------- 斷點 500 --------------- */  
+@media screen and (max-width: 500px){
+.mid{
+    margin-left: -1170px;
+}
 }
 
 /* --------------- 斷點 430 --------------- */  
 @media screen and (max-width: 430px){
+    .header{
+        height: auto;
+        overflow: hidden;
+    }
+    div{
+        width: 100vw;
+    }
+    .logo img{
+        margin-left: 13px;
+        width: 13vw;
+    }
+
+    /* main{
+        width: 100vw;
+    } */
+    .bageli_title1{
+        width: 100vw;
+    }
+
     div{
         width: 100%;
     }
     #nav{
         left: 58%;
-        width: 75vw;
+        width: 70vw;
         /* padding: 8px; */
+        margin-top: 3vh;
+        /* padding: -16px; */
+        height: 20px;
+        line-height: 20px;
+        margin-left: -20px;
     }
     .footer_con h3{
-        margin-left: 80px;
-        font-size: 18px;
+        margin-left: 60px;
+        font-size: 12px;
     }
     .mid{
         margin-left: -790px;
         margin-top:20px;
     }
     .mid_con{
-        margin-top: 40px;
+        margin-top: 9px;
     }
     .mid_con h1{
         margin-top: 0px;
@@ -438,30 +484,35 @@ div{
     .bageli_title1 .hd{
         font-size: 26px;
         margin-left: -270px;
+        width: 80vw;
     }
-    
 /*導航欄*/
-    #nav{
-        margin-top: 18px;
-        padding: 4px;
-    }
+    
     #nav li a {
         padding: 0 2px;
-        font: 400 11px Tahoma;
+        font: 400 9px Tahoma;
+        text-align: center;
+        margin: 0 auto;
     }
-
+    #nav li{
+    height: 18px;
+    margin-top: -10px;
+    }
     .slide2 {
         width: 60px;
+        margin-top: 5px;
+        height: 5px;
         opacity: 20;
         background-color: #E7A4A6;
-        height: 28px;
-        line-height: 28px;
+        line-height: 15px;
+    }
+    .header .logo{
+    margin-left: 13px;
+    width: 13%;
+    z-index: 100;
     }
 /*logo*/
-    .header .logo{
-        margin-left: 10px;
-        width: 18%;
-    }
+
     .order_step h3{
         font-size: 40px;
     }
@@ -482,11 +533,17 @@ div{
         margin-top: -90px;
         margin-bottom: 90px
     }
+    .orderimg{
+        width: 100vw;
+        margin-top: 0;
+    }
+
     .orderimg img{
-        width: 25%;
-        height: 110px;
-        margin-right: 370px;
-        margin-top: -20px;
+        width: 80vw;
+        height: 100px;
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: 40px;
     }
     .menu{
         width: 330px;
@@ -494,7 +551,7 @@ div{
         margin-top: 100px;
     }
     .order{
-        width: 500px;
+        width: calc(100vw - 70px);
         margin-left: 70px;
     }
     .menutitle,
@@ -517,19 +574,22 @@ div{
     .shopimg{
         display: flex;
         flex-direction: column;
+        width: calc(100vw - 95px);
     }
+    section{
+        width: 100vw;
+    }
+
     .shop_cont{
         margin-top: 10px;
     }
     .shopimg img{
         margin-left: -30px;
+        width: 100%;
     }
     .shop_cont img{
         margin-top: 0;
         flex-wrap: wrap;
-    }
-    .shop_name h2{
-
     }
     .shop_cont ul {
         display: flex;
@@ -550,97 +610,19 @@ div{
     } */
     /*logo*/
     .header .logo{
-        margin-left: 20px;
-        width: 16%;
+        margin-left: 13px;
+        width: 13%;
         z-index: 100;
     }
   
     .orderimg{
-        height: 336px;
+        height: 366px;
     }
-    /*footer*/
-    .footer_con h1{
-        font-size: 20px;
+    .shoptitle{
+        padding-top: 40px;
     }
-    .footer_con h2{
-        font-size: 14px;
-    }
-    .footer_con h3{
-        font-size: 12px;
-    }
-    .footer_con p{
-        font-size: 8px;
-    }
-    .footer_con .top{
-        padding-left: 30px;
-    }
-    .header .logo{
-        margin-left: 10px;
-        width: 16%;
-        z-index: 100;
-    }
-    .colorBlock{
-        height: 6px;
-        margin-top: 20px;
-    }
+    
 
-    /*footer star*/
-    .footer{
-        margin-left: 150px;
-    }
-    .footer_con h1{
-        font-size: 18px;
-        padding-top: 30px;
-        margin-left: -10px;
-    }
-    .top h2{
-        font-size: 16px;
-        padding-left: 0px;
-    }
-    .footer_con h3{
-        font-size: 14px;
-    }
-    .footer_con p{
-        font-size: 8px;
-    }
-    .footer_con .top{
-        padding-left: 40px;
-    }
-    .button .but_hd{
-        margin-top: 10px;
-    }
-    .meun_cont{
-        /* padding-left: 215px; */
-    padding-left: 35px;
-    }
-    .bottom p{
-        font-size: 10px;
-        margin-left: 10px;
-    }
-    .meun_cont h2{
-        width: 100px;
-        font-size: 14px;
-        margin-top: 20px;
-    }
-    .mid{
-        margin-left: -144px;
-        margin-top: -34px;
-        font-size: 12px;
-    }
-    .mid_con a{
-        color: black;
-        height: 20px;
-        padding-bottom: 5px;
-    }
-    .footer_con h3, .mid_con h4{
-        font-size: 12px;
-    }
-    .mailicon i{
-        margin-top: 2px;
-    }    
-    .footer_con .top{
-        padding-left: 30px;
-    }
     /*右側icon*/
     .main_con{
         font-size: 16px;
@@ -653,6 +635,9 @@ div{
         height: 20px;
         line-height: 20px;
     }
+    .media{
+        right: -180px;
+    }
     .media li{
         text-align: center;
         margin: 0 auto;
@@ -660,7 +645,7 @@ div{
     }
     .shop_cont p{
         padding: 5px;
-        font-size: 12px;
+        font-size: 11px;
     }
     .shop_cont{
         margin-top: 60px;
@@ -670,7 +655,7 @@ div{
         flex-direction: column;
     }
     .shop_name h2{
-        top: 1460px;
+        top: 1580px;
         left: 68px;
         font-size: 18px;
     }
@@ -682,7 +667,7 @@ div{
         margin-top: -310px;
     }  */
     .order_steps{
-        margin-left: -790px;
+        margin-left: -812px;
         margin-top: -250px;
         /* width: 410px; */
     }
@@ -703,7 +688,7 @@ div{
         padding: 5px 20px 10px 20px;
     }
     .shop_cont h3{
-        font-size: 14px;
+        font-size: 12px;
     }
     .order_step h3{
         font-size: 32px;
@@ -714,17 +699,32 @@ div{
         font-size: 30PX;
     }
     .bottom p {
-        margin-left: -980px;
+        margin-left: -840px;
     }
     .order_button{
         height: 40px;
         line-height: 40px;
         font-size: 14px;
-        margin: 0px -190px;
+        margin: 0px;
+        margin-left: 145px;
+        margin-top: 20px;
     }
     .shop_name{
-        max-lines: 110PX;
+        margin-left: 100PX;
         margin-bottom: 220px ;
+        width: calc(100vw - 100px);
+    }
+    .shop2 h1{
+        margin-left: -100px;
+    }
+    .shop2 h3{
+        left: 170px;
+    }
+    .shop2 h4{
+        left: 100px;
+    }
+    .mid h3{
+        margin-bottom: 0;
     }
     /*footer end*/
     /* .slide2 {
@@ -750,20 +750,121 @@ div{
         margin-left: -85px;
         margin-top: -270px;
     }
+    .shop_bd1{
+        color : #ba5e62;
+    }
     .colorBlock img{
-        margin-top: -24px;
+        margin-top: 0px;
     }
     .colorBlock{
         margin: 16px;
         /* margin-top: -20px; */
     }
+    .meun_cont h2{
+        width: 100px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .mid{
+        margin-left: -1354px;
+        margin-top: -14px;
+        font-size: 12px;
+    }
+    .mid_con a{
+        color: black;
+        height: 20px;
+        padding-bottom: 5px;
+    }
+    .mid_con h4{
+        font-size: 12px;
+    }
+    .mid_con h4{
+        width: 265px;
+        border-bottom: 1px solid #354e52;
+        padding: 10px 0 5px 10px;
+    }
+    .mailicon i{
+        margin-top: 2px;
+    }    
+    .footer_con .top{
+        padding-left: 30px;
+    }
+    /*footer star*/
+    .footer{
+        margin-left: 150px;
+    }
+    .footer_con h1{
+        font-size: 20px;
+        padding-top: 30px;
+        margin-left:-5px;
+    }
+    .top h2{
+        font-size: 16px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .footer_con p{
+        font-size: 8px;
+    }
+    .footer_con .top{
+        padding-left: 40px;
+    }
+    .button .but_hd{
+        margin-top: 10px;
+    }
+    .meun_cont{
+        /* padding-left: 215px; */
+        padding-left: 35px;
+    }
     .bottom p{
-        margin-left: -1000px;
+        font-size: 6px;
+        margin-left: -820px;
+    }
+    .meun_cont h2{
+        width: 100px;
+        font-size: 14px;
+        margin-top: 20px;
     }
     .mid{
         margin-left: -144px;
         margin-top: -34px;
         font-size: 12px;
     }
-
+    .mid_con a{
+        color: black;
+        height: 20px;
+        padding-bottom: 5px;
+        width: 20px;
+    }
+    .footer_con h3, .mid_con h4{
+        font-size: 12px;
+        margin-left: -520px;
+        margin-top: 25px;
+    }
+    .footer_con h2{
+        margin-left: 0px;
+        margin-top: 5px;
+      }
+    .mid_con h4{
+        width: 265px;
+        border-bottom: 1px solid #354e52;
+        padding: 10px 0 5px 10px;
+    }
+    .mailicon i{
+        margin-top: 2px;
+    }    
+    .footer_con .top{
+        padding-left: 30px;
+    }
+    /*footer end*/
+    .slide2 {
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 27px;
+        line-height: 27px;
+    }
+    .mid_con{
+        margin-left: -550px;
+        margin-bottom: 10px;
+    }
 }

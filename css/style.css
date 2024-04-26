@@ -25,13 +25,18 @@ body {
     overflow-x: hidden;
 }
 
+.header{
+    max-width: 1440px;
+    width: 100vw;
+}
+
 /*logo*/
-.header .logo {
+.logo img {
     display: flex;
     margin: 0 auto;
     margin-left: 50px;
     position: fixed;
-    top: 0;
+    top: 10px;
     left: 0;
     z-index: 10;
 }
@@ -383,9 +388,9 @@ video {
     z-index: 1;
     box-shadow: 0 0 20px #ffffffaa inset;
 }
-.header .logo{
-    margin-left: 40px;
-    width: 8%;
+.logo img{
+    margin-left: 0;
+    width: 15vw;
     margin-top: -13px;
   }
 .media .md_icon{

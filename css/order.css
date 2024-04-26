@@ -11,6 +11,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
+    /* max-width: 1440px; */
     width: 1440px;
     margin: 0 auto;
     background-color: #F9E5DA;
@@ -18,6 +19,11 @@ body {
     /*.begelimg"的父相子絕*/
     align-items: center;
     /* overflow: hidden; */
+}
+
+.wrapper{
+    max-width: 1440px;
+    overflow: hidden;
 }
 
 /*---------- ig fb  teitter follow icon ----------*/
@@ -59,7 +65,7 @@ body {
 .media {
     display: flex;
     /* padding-left: 15px; */
-    float: right;
+    /* float: right; */
     transform: rotate(90DEG);
     z-index: 5;
     position: fixed;
@@ -605,6 +611,7 @@ section {
 /*footer區*/
 .footer_hd {
     background-color: #69AFAD;
+    max-width: 1440px;
     width: 100vw;
 }
 
@@ -677,7 +684,7 @@ footer {
 
 .mailicon {
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: -2px;
     font-size: 15px;
 }
 

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- <html> -->
 <html lang="en">
 
 <head>
@@ -10,216 +9,195 @@
     <link rel="icon" href="./img/front/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/order.css">
-    <!-- RWD  -->
-  <link rel="stylesheet" href="RWD/order_R.CSS">
+    <link rel="stylesheet" href="RWD/order_R.CSS">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <div class="wrapper">
+        <!-- <div class="header"> -->
+            <!--ig fb  twitter follow icon--->
+            <section class="media">
+                <a class="md_icon" href="pickup.html"><i class="fa-solid fa-cart-plus"></i></a>
+                <a class="md_icon1"></a>
+                <a class="md_icon" href="https://www.instagram.com/bbagelbakery/"><i
+                    class="fa-brands fa-square-instagram"></i></a>
+                <a class="md_icon" href="https://www.facebook.com/bbagel"><i class="fa-brands fa-facebook"></i></a>
+            </section>
 
-    <div class="header">
-        <!--ig fb  twitter follow icon--->
-    <section class="media">
-        <a class="md_icon" href="pickup.html"><i class="fa-solid fa-cart-plus"></i></a>
-        <a class="md_icon1"></a>
-        <a class="md_icon" href="https://www.instagram.com/bbagelbakery/"><i
-            class="fa-brands fa-square-instagram"></i></a>
-        <a class="md_icon" href="https://www.facebook.com/bbagel"><i class="fa-brands fa-facebook"></i></a>
-      </section>
-
-        <!---nav--->
-        <!-- <nav class="nav"> -->
-
-        <!---logo-->
-        <div class="logo">
-            <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
-        </div>
-
-        <!--主選單-->
-        <ul id="nav">
-            <li class="slide1"></li>
-            <li class="slide2"></li>
-            <li><a href="index.html" title="About"><i class="fa-solid fa-store"></i>About</a></li>
-            <li><a href="menu.html" title="Menu"><i class="fa-solid fa-calendar-minus"></i>Menu</a></li>
-            <li><a href="order.html" title="Order"><i class="fa-solid fa-bell"></i>Order</a></li>
-            <li><a href="QA.html" title="Q&A"><i class="fa-solid fa-comments"></i>Q&A</a></li>
-            <li><a href="login.html" title="LogIn"><i class="fa-solid fa-user"></i>LogIn</a></li>
-        </ul>
-
-        <!---nav-搜索框-->
-        <!-- <div class="search">
-            <input type="text" value="Search...">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-        </div>
-    </nav> -->
-
-        <!--header-->
-        <header class="header">
-            <div class="bageli_title1">
-                <h1 class="hd">BAGELICIOUS</h1>
+            <!---logo-->
+            <div class="logo">
+                <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
             </div>
 
-            <!--order標題區 引用<about>abouttitle -->
-            <div class="order">
-                <h2 class="ordertitle menutitle">預定三步驟</h2>
-            </div>
+            <!--主選單-->
+            <ul id="nav">
+                <li class="slide1"></li>
+                <li class="slide2"></li>
+                <li><a href="index.html" title="About"><i class="fa-solid fa-store"></i>About</a></li>
+                <li><a href="menu.html" title="Menu"><i class="fa-solid fa-calendar-minus"></i>Menu</a></li>
+                <li><a href="order.html" title="Order"><i class="fa-solid fa-bell"></i>Order</a></li>
+                <li><a href="QA.html" title="Q&A"><i class="fa-solid fa-comments"></i>Q&A</a></li>
+                <li><a href="login.html" title="LogIn"><i class="fa-solid fa-user"></i>LogIn</a></li>
+            </ul>
 
-        </header>
-
-        <main>
-            <div class="orderimg">
-                <img src="./img/order/add2-removebg-preview.png" alt="">
-            </div>
-
-            <!--order三步驟說明文字區 引用menu.html banner_set -->
-            <div class="order_set">
-                <h2>預定三步驟</h2>
-                <h3>只需要三步驟，立刻預定美味Bagelicious的貝果。</h3>
-            </div>
-            <div>
-                <ul class="order_steps">
-                    <li class="order_con">
-                        <h1>STEP1</h1>
-                        <div class="order_step">
-                            <h3>選</h3>
-                            <p>從Bagelicious官網，選取今天想吃的貝果口味與內餡，並加入購物車。</p>
+                        <!---nav-搜索框-->
+                        <!-- <div class="search">
+                            <input type="text" value="Search...">
+                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
-                    </li>
+                    </nav> -->
 
-                    <li class="order_con">
-                        <h1>STEP2</h1>
-                        <div class="order_step">
-                            <h3>訂</h3>
-                            <p>確認購物車內容，送出訂單並等待取餐時間。</p>
-                        </div>
-                    </li>
-
-                    <li class="order_con">
-                        <h1>STEP3</h1>
-                        <div class="order_step">
-                            <h3>取</h3>
-                            <p>至Bagelicious店鋪出示您的取餐號碼，付款取餐，享受美味的一餐。</p>
-                        </div>
-                    </li>
-
-                    <!-- <li class="order_con2">
-                    <h1>STEP2</h1>
-                    <div class="order_step2">
-                        <h3>訂</h3>
-                        <p>確認購物車內容，送出訂單並等待取餐時間。</p>
-                    </div>
-                </li>
-
-                <li class="order_con3">
-                    <h1>STEP1</h1>
-                    <div class="order_step3">
-                        <h3>取</h3>
-                        <p>至Bagelicious店鋪出示您的取餐號碼，付款取餐，享受美味的一餐。</p>
-                    </div>
-                </li> -->
-
-                </ul>
-            </div>
-            <!--立即下單按鈕-->
-            <div class="order_button">
-                <a href="pickup.html">立即下單<i class="fa-solid fa-hand-point-up"></i></a>
-            </div>
-        </main>
-
-        <section>
-            <!--shop標題區 引用<about>abouttitle -->
-            <div class="shop">
-                <h2 class="shoptitle">店鋪位置</h2>
-            </div>
-
-            <div class="shop2">
-                <h1>TAIPEI</h1>
-                <h3>BAGELICIOUS</h3>
-                <h4>XIMENDIND</h4>
-            </div>
-
-            <div class="shopimg">
-                <img src="./img/order/shop img_01.jpg" alt="">
-                <img src="./img/order/shop img_02.png" alt="">
-            </div>
-        </section>
-
-        <div class="shop_name">
-            <h2><i class="fa-solid fa-location-dot"></i>
-                TAIPEI BAGELICIOUS西門町店
-            </h2>
-
-            <div class="shop_cont">
-                <ul>
-                    <li>
-                        <h3 class="shop_hd">地址</h3>
-                        <p class="shop_bd">台北市萬華區中華路一段67號1F<br>
-                            / 捷運西門町站</p>
-                    </li>
-
-                    <li>
-                        <h3 class="shop_hd1">電話</h3>
-                        <p class="shop_bd1">02 - 234 4245</p>
-                    </li>
-
-                    <li>
-                        <h3 class="shop_hd2">HOURS</h3>
-                        <p class="shop_bd2">11:30 - 15:00 (l.O. 14:30) <br>/
-                            年中無休 或老闆任性想休就休<br>(臉書公告為主)</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </section>
-
-        <!--footer區域star-->
-        <div class="colorBlock">
-            <img src="./img/front/footer colorblock.png" alt="">
-        </div>
-
-        <footer>
-            <div class="footer_con">
-
-                <div class="top">
-                    <h1>BAGELICIOUS</h1>
-                    <h2>TIBAME STUDIO</h2>
+            <!--header-->
+            <header class="header">
+                <div class="bageli_title1">
+                    <h1 class="hd">BAGELICIOUS</h1>
                 </div>
 
-                <div class="mid">
-                    <h3>NEWSLETTER</h3>
+                <!--order標題區 引用<about>abouttitle -->
+                <div class="order">
+                    <h2 class="ordertitle menutitle">預定三步驟</h2>
+                </div>
 
-                    <div class="mid_con">
-                        <a href="" class="mailicon">
-                            <i class="fa-regular fa-envelope"></i></a>
-                        <hl>Subscribe to Our Newsletter</hl>
-                    </div>
+            </header>
+
+            <main>
+                <div class="orderimg">
+                    <img src="./img/order/add2-removebg-preview.png" alt="">
+                </div>
+
+                <!--order三步驟說明文字區 引用menu.html banner_set -->
+                <div class="order_set">
+                    <h2>預定三步驟</h2>
+                    <h3>只需要三步驟，立刻預定美味Bagelicious的貝果。</h3>
+                </div>
+                <div>
+                    <ul class="order_steps">
+                        <li class="order_con">
+                            <h1>STEP1</h1>
+                            <div class="order_step">
+                                <h3>選</h3>
+                                <p>從Bagelicious官網，選取今天想吃的貝果口味與內餡，並加入購物車。</p>
+                            </div>
+                        </li>
+
+                        <li class="order_con">
+                            <h1>STEP2</h1>
+                            <div class="order_step">
+                                <h3>訂</h3>
+                                <p>確認購物車內容，送出訂單並等待取餐時間。</p>
+                            </div>
+                        </li>
+
+                        <li class="order_con">
+                            <h1>STEP3</h1>
+                            <div class="order_step">
+                                <h3>取</h3>
+                                <p>至Bagelicious店鋪出示您的取餐號碼，付款取餐，享受美味的一餐。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--立即下單按鈕-->
+                <div class="order_button">
+                    <a href="pickup.html">立即下單<i class="fa-solid fa-hand-point-up"></i></a>
+                </div>
+            </main>
+
+            <section>
+                <!--shop標題區 引用<about>abouttitle -->
+                <div class="shop">
+                    <h2 class="shoptitle">店鋪位置</h2>
+                </div>
+
+                <div class="shop2">
+                    <h1>TAIPEI</h1>
+                    <h3>BAGELICIOUS</h3>
+                    <h4>XIMENDIND</h4>
+                </div>
+
+                <div class="shopimg">
+                    <img src="./img/order/shop img_01.jpg" alt="">
+                    <img src="./img/order/shop img_02.png" alt="">
+                </div>
+            </section>
+
+            <div class="shop_name">
+                <h2>
+                    <i class="fa-solid fa-location-dot"></i>
+                    TAIPEI BAGELICIOUS西門町店
+                </h2>
+
+                <div class="shop_cont">
+                    <ul>
+                        <li>
+                            <h3 class="shop_hd">地址</h3>
+                            <p class="shop_bd">台北市萬華區中華路一段67號1F<br>/ 捷運西門町站</p>
+                        </li>
+
+                        <li>
+                            <h3 class="shop_hd1">電話</h3>
+                            <p class="shop_bd1">02 - 234 4245</p>
+                        </li>
+
+                        <li>
+                            <h3 class="shop_hd2">HOURS</h3>
+                            <p class="shop_bd2">11:30 - 15:00 (l.O. 14:30) <br>/年中無休 或老闆任性想休就休<br>(臉書公告為主)</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="bottom">
-                <p>© BAGELICIOUS KC., LTD. All rights reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>
-                    如有侵權問題，請來信milkchiu0403@hotmail.com</p>
+            <!--footer區域star-->
+            <div class="colorBlock">
+                <img src="./img/front/footer colorblock.png" alt="">
             </div>
 
-        </footer>
-        <!--footer區域end-->
-        <script>
-            $("#nav a").on("click", function () {
-              var position = $(this).parent().position();
-              var width = $(this).parent().width();
-              $("#nav .slide1").css({ opacity: 1, left: +position.left, width: width });
-            });
-            $("#nav a").on("mouseover", function () {
-              var position = $(this).parent().position();
-              var width = $(this).parent().width();
-              $("#nav .slide2").css({ opacity: 1, left: +position.left, width: width }).addClass("squeeze");
-            });
-            $("#nav a").on("mouseout", function () {
-              $("#nav .slide2").css({ opacity: 0 }).removeClass("squeeze");
-            });
-            var currentWidth = $("#nav li:nth-of-type(3) a").parent("li").width();
-            var current = $("li:nth-of-type(3) a").position();
-            $("#nav .slide1").css({ left: +current.left, width: currentWidth });
-          </script>
+            <footer>
+                <div class="footer_con">
+
+                    <div class="top">
+                        <h1>BAGELICIOUS</h1>
+                        <h2>TIBAME STUDIO</h2>
+                    </div>
+
+                    <div class="mid">
+                        <h3>NEWSLETTER</h3>
+
+                        <div class="mid_con">
+                            <a href="" class="mailicon">
+                                <i class="fa-regular fa-envelope"></i>
+                            </a>
+                            <hl>Subscribe to Our Newsletter</hl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <p>© BAGELICIOUS KC., LTD. All rights reserved<br>本網站為緯育TibaMe前端設計工程師班學員專題作品，本平台僅供學習、展示之用。<br>如有侵權問題，請來信milkchiu0403@hotmail.com</p>
+                </div>
+            </footer>
+            <!--footer區域end-->
+        <!-- </div> -->
+    </div>
+    <script>
+        $("#nav a").on("click", function () {
+            var position = $(this).parent().position();
+            var width = $(this).parent().width();
+            $("#nav .slide1").css({ opacity: 1, left: +position.left, width: width });
+        });
+        $("#nav a").on("mouseover", function () {
+            var position = $(this).parent().position();
+            var width = $(this).parent().width();
+            $("#nav .slide2").css({ opacity: 1, left: +position.left, width: width }).addClass("squeeze");
+        });
+        $("#nav a").on("mouseout", function () {
+            $("#nav .slide2").css({ opacity: 0 }).removeClass("squeeze");
+        });
+        var currentWidth = $("#nav li:nth-of-type(3) a").parent("li").width();
+        var current = $("li:nth-of-type(3) a").position();
+        $("#nav .slide1").css({ left: +current.left, width: currentWidth });
+    </script>
 </body>
+</html>

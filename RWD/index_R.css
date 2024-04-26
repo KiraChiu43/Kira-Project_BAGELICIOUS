@@ -769,7 +769,7 @@ body {
   .media{
     line-height: 20px;
     top: 410px;
-    right: -15px;
+    right: -20px;
     font-size: 0.73vw;
     margin: 0 auto;
     text-align: center;
@@ -946,6 +946,7 @@ body {
   }
   .media{
     z-index: 100;
+    right: -25px;
   }
   .media .md_icon{
     width: 20px;
@@ -994,17 +995,17 @@ body {
     height: 20px;
     line-height: 20px;
     margin-left: -20px;
-}
+  }
 #nav li a {
     padding: 0 2px;
     font: 400 9px Tahoma;
     text-align: center;
     margin: 0 auto;
-}
+  }
 #nav li{
   height: 18px;
   margin-top: 0px;
-}
+  }
   .slide2 {
     width: 60px;
     margin-top: 5px;
@@ -1012,7 +1013,7 @@ body {
     opacity: 20;
     background-color: #E7A4A6;
     line-height: 15px;
-}
+  }
 .header .logo{
   margin-left: 13px;
   width: 13%;
@@ -1298,8 +1299,9 @@ body {
   margin-left: -10px;
 }
 .top h2{
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 0px;
+  padding-top: 10px;
 }
 .footer_con h3{
   font-size: 14px;
@@ -1334,10 +1336,14 @@ body {
 .mid_con a{
   color: black;
   height: 20px;
+  width: 20px;
   padding-bottom: 5px;
 }
 .footer_con h3, .mid_con h4{
   font-size: 12px;
+}
+.footer_con h2{
+  margin-left: 10px;
 }
 .mailicon i{
   margin-top: 2px;
@@ -1346,12 +1352,12 @@ body {
   padding-left: 30px;
 }
 
-  .button1 .but_hd{
-    margin-top: 30px;
-  }
-  .button .but_liner{
-    margin-left: -120px;
-    margin-top: -10px;
-  }
+.button1 .but_hd{
+  margin-top: 30px;
+}
+.button .but_liner{
+  margin-left: -120px;
+  margin-top: -10px;
+}
 }
 
