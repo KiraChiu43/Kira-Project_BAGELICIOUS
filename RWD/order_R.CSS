@@ -43,6 +43,23 @@ div{
 .bannerSet li{
     margin-left: 70px;
 }
+/*測軸*/
+.media .md_icon{
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 1.0vw;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+.media{
+    font-size: 0.73vw;
+    top: 550px;
+    right: -30px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
 /* --------------- 斷點 1280 --------------- */  
 @media screen and (max-width: 1280px){
     div{
@@ -62,37 +79,53 @@ div{
         width: 160px;
         line-height: 30px;
     }
+    .shop_name h2{
+        left: 150px;
+    }
+    .shop_cont{
+        margin-left: -70px;
+    }
+    .shop_name{
+        margin-bottom: 50px;
+    }
+    .bottom{
+        margin-left: -90px;
+    }
     /*測軸*/
     .media .md_icon{
-        line-height: 30px;
-        /* padding-top: 6px; */
-        font-size: 1.4vw;
+        line-height: 18px;
+        padding-top: 5px;
+        font-size: 1.3vw;
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
     }
-    .order_con{
-        margin-left: -35px;
-    }
-    .shopimg img{
-        width: 85%;
+    .media{
+        font-size: 0.73vw;
+        top: 550px;
+        right: -30px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
 
 /* --------------- 斷點 820 --------------- */  
 @media screen and (max-width: 820px){
-    /*導航欄*/
-.slide2 {
-    opacity: 20;
-    background-color: #E7A4A6;
-    height: 30px;
-    width: 110px;
-    line-height: 20px;
-}
+ /*導航欄*/
+    .slide1,
+    .slide2{
+        height: 30px;
+        width: 98px;
+        margin-bottom: 5px;
+    }
     #nav li a {
         padding: 2px 20px;
         font: 600 14px Tahoma;
     }
     .header .logo{
-        margin-left: 40px;
+        margin-left: 30px;
     }
 
     .bageli_title1 .hd {
@@ -117,6 +150,37 @@ div{
         margin-left: -610px;
         margin-top: -10px;
     }
+    .media {
+        right: -20px;
+        top: 600px;
+        line-height: 20px;
+    }
+    /*測軸*/
+    .media .md_icon{
+        padding-top: 1px;
+        width: 27px;
+        height: 27px;
+    }
+    .bottom p{
+        margin-left: -440px;
+    }
+    .media{
+        line-height: 20px;
+        top: 510px;
+        right: -15px;
+        font-size: 0.73vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .media li{
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+    .bageli_title1 .hd {
+        margin-top: -90px;
+        margin-bottom: 90px
+       }
     .order_set h2{
       margin-top: -110px;  
       width: 160px;
@@ -186,7 +250,7 @@ div{
     }
     .shopimg{
         margin-left: 95px;
-        margin-top: 70px;
+        margin-top: 90px;
     }
     .shopimg img{
         width: 50%;
@@ -206,7 +270,7 @@ div{
         top: 80px;
     }
     .shop_name h2{
-        top: 1610px;
+        top: 1690px;
         left: 120px;
         font-size: 22px;
     }
@@ -215,6 +279,9 @@ div{
         padding-left: 0;
         /* display: flex; */
         /* flex-direction: column; */
+    }
+    .colorBlock{
+        margin-top: 50px;
     }
     /*測軸*/
     .media .md_icon{
@@ -253,7 +320,7 @@ div{
         margin: 0px;
     }
     .shop_cont{
-        margin-top:-190px;
+        margin-top:-170px;
         margin-left: 10px;
     }
     .order_step{
@@ -263,6 +330,7 @@ div{
     /*footer*/
     .footer{
         margin-left: 150px;
+        margin-top: 16px;
     }
     .footer_con h1{
         font-size: 28px;
@@ -280,7 +348,7 @@ div{
         font-size: 8px;
     }
     .footer_con .top{
-        padding-left: 40px;
+        padding-left: 60px;
     }
     .button .but_hd{
         margin-top: 10px;
@@ -291,7 +359,7 @@ div{
     }
     .bottom p{
         font-size: 12px;
-        margin-left: 100px;
+        margin-left: -400px;
     }
     .meun_cont h2{
         width: 100px;
@@ -307,13 +375,18 @@ div{
     }
     .top h2{
         padding-left: 0;
+        margin-top: -15px;
     }
     .bottom p{
-        margin-left: -690px;
+        margin-top: 0px;
+        margin-left: -440px;
+    }
+    .footer_con {
+        margin-right: 18px;
     }
     .mid{
         margin-left: -790px;
-        margin-top: -10px;
+        margin-top: -20px;
     }
     .mid_con a{
         height: 20px;
@@ -327,7 +400,13 @@ div{
     }
     .colorBlock{
         height: 0;
-        padding-top: 0;
+        padding-top: 0px;
+    }
+    .footer_con{
+        margin-top: 44px;
+    }
+    .footer{
+        margin-top: -60px;
     }
 }
 
@@ -368,23 +447,25 @@ div{
     }
     #nav li a {
         padding: 0 2px;
-        font: 400 10px Tahoma;
+        font: 400 11px Tahoma;
     }
+
+    .slide2 {
+        width: 60px;
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 28px;
+        line-height: 28px;
+    }
+/*logo*/
     .header .logo{
         margin-left: 10px;
         width: 18%;
     }
-    .slide2 {
-        opacity: 20;
-        background-color: #E7A4A6;
-        width: 70px;
-        height: 24px;
-        line-height: 26px;
-    }
     .order_step h3{
         font-size: 40px;
     }
-    /*紅字標題距離*/
+/*紅字標題距離*/
     /* .bageli_title1 .hd{
         font-size: 22px;
         margin-left: -290px;
@@ -398,11 +479,14 @@ div{
     } */
 /*綠字*/
     .bageli_title1 .hd{
-        margin-left: 0px;
+        margin-top: -90px;
+        margin-bottom: 90px
     }
     .orderimg img{
-        width: 30%;
-        /* height: 200px; */
+        width: 25%;
+        height: 110px;
+        margin-right: 370px;
+        margin-top: -20px;
     }
     .menu{
         width: 330px;
@@ -411,128 +495,275 @@ div{
     }
     .order{
         width: 500px;
+        margin-left: 70px;
     }
-    .menutitle{
-        margin: -70px 0 0 0;
-        margin-top: -140px;
+    .menutitle,
+    .shoptitle{
+        /* margin: -70px 0 0 0; */
+        margin-top: -120px;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .shoptitle{
+        margin-top: 10px;
+    }
+    .shop{
+        margin-left: 59px;
     }
     .menutitle h2{
         margin-left: 140px;
+        font-size: 22px;
     }
+    .shopimg{
+        display: flex;
+        flex-direction: column;
+    }
+    .shop_cont{
+        margin-top: 10px;
+    }
+    .shopimg img{
+        margin-left: -30px;
+    }
+    .shop_cont img{
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    .shop_name h2{
+
+    }
+    .shop_cont ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .shop_cont ul li{
+    }
+    .shop_hd1, .shop_bd1{
+        /* flex-wrap: row; */
+    }
+    .shop_cont p{
+        padding: 10px;
+    }
+
     /* .order_step p{
         padding: 20px 50px 20px 20px;
         font-size: 14px;
     } */
- /*logo*/
+    /*logo*/
     .header .logo{
         margin-left: 20px;
         width: 16%;
         z-index: 100;
-  }
-  /*footer*/
-  .footer_con h1{
-    font-size: 20px;
-}
-.footer_con h2{
-    font-size: 14px;
-}
-.footer_con h3{
-    font-size: 12px;
-}
-.footer_con p{
-    font-size: 8px;
-}
-.footer_con .top{
-    padding-left: 30px;
-}
-.header .logo{
-    margin-left: 10px;
-    width: 16%;
-    z-index: 100;
-}
-.colorBlock{
-    height: 6px;
-    margin-top: 20px;
-}
+    }
+  
+    .orderimg{
+        height: 336px;
+    }
+    /*footer*/
+    .footer_con h1{
+        font-size: 20px;
+    }
+    .footer_con h2{
+        font-size: 14px;
+    }
+    .footer_con h3{
+        font-size: 12px;
+    }
+    .footer_con p{
+        font-size: 8px;
+    }
+    .footer_con .top{
+        padding-left: 30px;
+    }
+    .header .logo{
+        margin-left: 10px;
+        width: 16%;
+        z-index: 100;
+    }
+    .colorBlock{
+        height: 6px;
+        margin-top: 20px;
+    }
 
-/*footer star*/
-.footer{
-    margin-left: 150px;
-}
-.footer_con h1{
-    font-size: 18px;
-    padding-top: 30px;
-    margin-left: -10px;
-}
-.top h2{
-    font-size: 16px;
-    padding-left: 0px;
-}
-.footer_con h3{
-    font-size: 14px;
-}
-.footer_con p{
-    font-size: 8px;
-}
-.footer_con .top{
-    padding-left: 40px;
-}
-.button .but_hd{
-    margin-top: 10px;
-}
-.meun_cont{
-    /* padding-left: 215px; */
+    /*footer star*/
+    .footer{
+        margin-left: 150px;
+    }
+    .footer_con h1{
+        font-size: 18px;
+        padding-top: 30px;
+        margin-left: -10px;
+    }
+    .top h2{
+        font-size: 16px;
+        padding-left: 0px;
+    }
+    .footer_con h3{
+        font-size: 14px;
+    }
+    .footer_con p{
+        font-size: 8px;
+    }
+    .footer_con .top{
+        padding-left: 40px;
+    }
+    .button .but_hd{
+        margin-top: 10px;
+    }
+    .meun_cont{
+        /* padding-left: 215px; */
     padding-left: 35px;
+    }
+    .bottom p{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .meun_cont h2{
+        width: 100px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .mid{
+        margin-left: -144px;
+        margin-top: -34px;
+        font-size: 12px;
+    }
+    .mid_con a{
+        color: black;
+        height: 20px;
+        padding-bottom: 5px;
+    }
+    .footer_con h3, .mid_con h4{
+        font-size: 12px;
+    }
+    .mailicon i{
+        margin-top: 2px;
+    }    
+    .footer_con .top{
+        padding-left: 30px;
+    }
+    /*右側icon*/
+    .main_con{
+        font-size: 16px;
+        margin-left: 36px;
+    }
+    .media .md_icon{
+        font-size: 10px;
+        margin-left: 11px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .media li{
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+    .shop_cont p{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .shop_cont{
+        margin-top: 60px;
+    }
+    .shop_cont ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .shop_name h2{
+        top: 1460px;
+        left: 68px;
+        font-size: 18px;
+    }
+    .bageli_title1 .hd {
+        margin-top: -90px;
+        margin-bottom: 90px;
+    }
+    /* .order_con{
+        margin-top: -310px;
+    }  */
+    .order_steps{
+        margin-left: -790px;
+        margin-top: -250px;
+        /* width: 410px; */
+    }
+    .order_step{
+        height: 110px;
+        width: 270px;
+        margin-right: 180px;
+        margin-top: 20px;
+    }
+    .order_steps h1{
+        width: 70px;
+        height: 40px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+    .order_step p{
+        font-size: 13px;
+        padding: 5px 20px 10px 20px;
+    }
+    .shop_cont h3{
+        font-size: 14px;
+    }
+    .order_step h3{
+        font-size: 32px;
+        line-height: 100px;
+    }
+    .shop2 h1, .shop2 h3, .shop2 h4{
+        max-lines: -110px;
+        font-size: 30PX;
+    }
+    .bottom p {
+        margin-left: -980px;
+    }
+    .order_button{
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        margin: 0px -190px;
+    }
+    .shop_name{
+        max-lines: 110PX;
+        margin-bottom: 220px ;
+    }
+    /*footer end*/
+    /* .slide2 {
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 30px;
+        line-height: 28px;
+    } */
+    .order_set>h3{
+        margin: 5px 25px 0 0;
+    }
+    .order_set h3{
+        font-size: 13px;
+        line-height: 25px;
+        margin-left: -60px;
+    }
+    .order_set h2{
+        font-size: 14px;
+        width: 125px;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 25px;
+        margin-left: -85px;
+        margin-top: -270px;
+    }
+    .colorBlock img{
+        margin-top: -24px;
+    }
+    .colorBlock{
+        margin: 16px;
+        /* margin-top: -20px; */
+    }
+    .bottom p{
+        margin-left: -1000px;
+    }
+    .mid{
+        margin-left: -144px;
+        margin-top: -34px;
+        font-size: 12px;
+    }
+
 }
-.bottom p{
-    font-size: 10px;
-    margin-left: 10px;
-}
-.meun_cont h2{
-    width: 100px;
-    font-size: 14px;
-    margin-top: 20px;
-}
-.mid{
-    margin-left: -144px;
-    margin-top: -34px;
-    font-size: 12px;
-}
-.mid_con a{
-    color: black;
-    height: 20px;
-    padding-bottom: 5px;
-}
-.footer_con h3, .mid_con h4{
-    font-size: 12px;
-}
-.mailicon i{
-    margin-top: 2px;
-}    
-.footer_con .top{
-    padding-left: 30px;
-}
-/*footer end*/
-.slide2 {
-    opacity: 20;
-    background-color: #E7A4A6;
-    height: 30px;
-    line-height: 28px;
-}
-.order_set>h3{
-    margin: 5px 25px 0 0;
-}
-.order_set h3{
-    font-size: 16px;
-    line-height: 25px;
-}
-.order_set h2{
-    margin-left: 25px;
-}
-.colorBlock{
-    height: 196px;
-}
-.bottom p{
-    margin-left: -700px;
-}
-  }

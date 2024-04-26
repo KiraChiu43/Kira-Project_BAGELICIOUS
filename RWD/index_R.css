@@ -41,6 +41,49 @@ body {
   }
 }
 
+
+
+/* --------------- 斷點 1440 --------------- */
+@media screen and (max-width: 1440px){
+  div{
+    width: 100%;
+  }
+  #nav li a {
+    padding: 5px 36px;
+    font: 800 22px Tahoma;
+  }
+  /*貝果滾*/
+  .bage[alt]{
+    width: 560px;
+  }
+  .begelimg {
+  position: absolute;
+  top: 90px;
+  right: -400px;
+  /* right: -110px; */
+  /* width: 700px;
+  height: 700px; */
+  /* overflow: hidden; */
+  } 
+  /*測軸*/
+  .media .md_icon{
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 1.0vw;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+  }
+  .media{
+    font-size: 0.73vw;
+    top: 550px;
+    right: -30px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
 /* --------------- 斷點 1280 --------------- */
 @media screen and (max-width: 1280px){
   div{
@@ -106,46 +149,26 @@ body {
     font-size: 1.3vw;
   }
 }
-
-/* --------------- 斷點 1440 --------------- */
-@media screen and (max-width: 1440px){
-  div{
-    width: 100%;
-  }
-  #nav li a {
-    padding: 5px 36px;
-    font: 800 22px Tahoma;
-  }
-  /*貝果滾*/
-  .bage[alt]{
-    width: 560px;
-  }
-  .begelimg {
-  position: absolute;
-  top: 90px;
-  right: -400px;
-  /* right: -110px; */
-  /* width: 700px;
-  height: 700px; */
-  /* overflow: hidden; */
-  } 
-}
-
-/* --------------- 斷點 1280 --------------- */
-@media screen and (max-width: 1280px){
+/* --------------- 斷點 1255 --------------- */
+@media screen and (max-width: 1255px){
   div{
   width: 100%;
+  }
+  #nav{
+    width: 79vw;
   }
   #nav li a {
   padding: 5px 36px;
   font: 700 22px Tahoma;
   }
+  .logoimg{
+    left: -273px;
+    top: -1150px;
+  }
   .begelimg {
   position: absolute;
   top:40px;
   right: -460px;
-  /* width: 700px;
-  height: 700px; */
   }
   .about_hd h3{
   margin-left: -225px;
@@ -188,14 +211,29 @@ body {
   font-size: 3.8vw;
   margin-top: -15px;
   }
+  .main .words{
+    top:-3280px;
+    right: -20px;
+  }
   .marquee{
   top: 40px;
   }
   /*測軸*/
   .media .md_icon{
-  line-height: 18px;
-  padding-top: 5px;
-  font-size: 1.3vw;
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 1.3vw;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+  }
+  .media{
+    font-size: 0.73vw;
+    top: 550px;
+    right: -30px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
@@ -638,7 +676,7 @@ body {
   font: 600 14px Tahoma;
   }
   .header .logo{
-   margin-left: 10px;
+   margin-left: 30px;
   }
   .wrapper .img_1{
     width: 75%;
@@ -728,8 +766,16 @@ body {
     font-size: 1.4vw;
     padding-top: 1px;
   }
+  .media{
+    line-height: 20px;
+    top: 410px;
+    right: -15px;
+    font-size: 0.73vw;
+    margin: 0 auto;
+    text-align: center;
+  }
   .contact_content p{
-    margin-left: 20px;
+    margin-left: 15px;
     font-size: 16px;
   }
   .contact_content{
@@ -838,6 +884,7 @@ body {
   }
   .but_liner{
     margin-left: -50px;
+    margin-top: -9px;
   }
   .button1 .but_hd {
     margin-left: -50px;
@@ -908,6 +955,9 @@ body {
     /* margin-left: 30px; */
     margin-right: 100px;
   }
+  .main .words{
+    top: -3361px;
+  }
   /* .main .words {
     bottom: -471px;
     top: -281px;
@@ -927,6 +977,15 @@ body {
     text-align: center;
     margin-left: -30px;
   }
+  .but_follow h3{
+
+  }
+  .button .but_hd{
+    margin-top: -40px;
+  }
+  .but_follow h3{
+    margin-top: 30px;
+  }
 
   /*導航欄*/
   #nav{
@@ -939,6 +998,7 @@ body {
 }
 
   .slide2 {
+    width: 60px;
     opacity: 20;
     background-color: #E7A4A6;
     height: 28px;
@@ -973,8 +1033,14 @@ body {
     margin-right: 60px;
     margin-top: 40px;
   }
+  .logoimg{
+    width: 350px;
+    left: -223px;
+    top: -690px;
+    z-index: -1;
+  }
   .main .words{
-    top: -3251px;
+    top: -3211px;
     font-size: 28px;
     left: 30px;
   }
@@ -987,12 +1053,12 @@ body {
   .small__img, .JS-small{
     margin-top: 30px;
   }
-  .logoimg{
+  /* .logoimg{
     width: 270px;
     left: -163px;
     top: -840px;
     z-index: -1;
-  }
+  } */
   .contact .liner{
     left: 1px;
   }
@@ -1115,6 +1181,7 @@ body {
     font-size: 15px;
     width: 80vw;
     margin-left: 40px;
+    padding-left: 45px;
   }
   .contact_content .cream_hd{
     margin-left: 40px;
@@ -1127,9 +1194,9 @@ body {
   }
   .contact_content p{
     font-size: 12px;
-    padding: 5px 5px;
-    width: 80vw;
-    margin-left: 40px;
+    padding: 15px 5px;
+    width: 70vw;
+    margin-left: 80px;
     /* margin-left: 40px; */
   }
   .bg_hd{
@@ -1138,7 +1205,7 @@ body {
   .words h3{
     margin-left: -610px;
     font-size: 22px;
-    padding-top: 5px;
+    padding-top: 15px;
   }
   .but_follow{
     padding-top: 0;
@@ -1175,7 +1242,11 @@ body {
     margin-right: -90px;
   }
   .but_liner{
-    margin-left: -20px;
+    margin-left: -50px;
+    margin-top: -10px;
+  }
+  .colorBlock{
+    margin-top: 30px;
   }
   /* .about_bd .bag02{
     width: -240px;
@@ -1229,7 +1300,7 @@ body {
   padding-left: 40px;
 }
 .button .but_hd{
-  margin-top: 10px;
+  margin-top: -30px;
 }
 .meun_cont{
   /* padding-left: 215px; */
@@ -1268,8 +1339,12 @@ body {
     width: 16%;
     z-index: 100;
   }
+  .button1 .but_hd{
+    margin-top: 30px;
+  }
   .button .but_liner{
     margin-left: -120px;
+    margin-top: -10px;
   }
 }
 

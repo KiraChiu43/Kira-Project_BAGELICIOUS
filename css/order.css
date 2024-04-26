@@ -377,7 +377,7 @@ body {
 
 /*立即下單按鈕*/
 
-.order_button {
+/* .order_button {
     width: 190px;
     height: 50px;
     background-color: #BA5E62;
@@ -391,6 +391,31 @@ body {
     position: relative;
     top: 66px;
     left: 648px;
+} */
+
+.order_button {
+    line-height: 50px;
+    margin-left: 100px;
+    width: 280px;
+    height: 50px;
+
+    padding: 0 20px;
+    background-color: #BA5E62;
+    color: #fff;
+    border-radius: 5px;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+
+    margin: 55px 610px;
+    letter-spacing: 0.05em;
+
+    font-size: 20px;
+    font-weight: 400px;
 }
 
 .order_button a {
@@ -516,7 +541,7 @@ section {
     height: 50px;
     color: #BA5E62;
     position: absolute;
-    top: 1830px;
+    top: 1900px;
     left: 200px;
 }
 

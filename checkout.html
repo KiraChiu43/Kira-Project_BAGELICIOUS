@@ -39,8 +39,8 @@
         <div class="logo">
             <a href="index.html"><img src="./img/front/logo.png" alt="" class="logo"></a>
         </div>
-
-
+    
+    
 
         <!---搜索框-->
         <!-- <div class="search">
@@ -84,9 +84,33 @@
                             <span> +$40</span>
                         </div>
                         <div class="prod4">
-                            <button><i class="fa-solid fa-plus"></i></button>
-                            <input type="text" placeholder="1">
-                            <button><i class="fa-solid fa-minus"></i></button>
+                            <button onclick ="decrement()"><i class="fa-solid fa-minus"></i></button>
+                            <input type="text" id="prod4" value="1">
+                            <button onclick ="increment()"><i class="fa-solid fa-plus"></i></button>
+                        <script>
+                                // 宣告輸入框
+                                        var quantityInput = document.getElementById('prod4');
+
+                                // 減少數量
+                                function decrement() {
+                                    // 宣告目前的數量
+                                    var currentValue = parseInt(quantityInput.value);
+
+                                    // 如果大於1，可以減少，-1
+                                    if (currentValue > 1) {
+                                        quantityInput.value = currentValue - 1;
+                                    }
+                                }
+
+                                // 增加數量
+                                function increment() {
+                                    // 宣告目前的數量
+                                    var currentValue = parseInt(quantityInput.value);
+
+                                    // 目前的數量 Ａ＋＋
+                                    quantityInput.value = currentValue + 1;
+                                }
+                        </script>
                         </div>
                     </div>
                     <i class="fa-solid fa-rectangle-xmark"></i>
@@ -109,7 +133,7 @@
                             <input type="text" placeholder="1">
                             <button><i class="fa-solid fa-minus"></i></button>
                         </div> -->
-                        <div class="prod7">
+                        <div class="prod4">
                             <button><i class="fa-solid fa-plus"></i></button>
                             <input type="text" placeholder="1">
                             <button><i class="fa-solid fa-minus"></i></button>
@@ -142,8 +166,7 @@
                             <button><i class="fa-solid fa-plus"></i></button>
                             <input type="text" placeholder="1">
                             <button><i class="fa-solid fa-minus"></i></button>
-                        </div> -->
-                        <div class="prod9">
+                        </div> -->                        <div class="prod4">
                             <button><i class="fa-solid fa-plus"></i></button>
                             <input type="text" placeholder="1">
                             <button><i class="fa-solid fa-minus"></i></button>

@@ -119,8 +119,23 @@
     {
         grid-column: 17/22;
     }
-    
- /*footer*/
+    /*測軸*/
+    .media .md_icon{
+        line-height: 18px;
+        padding-top: 5px;
+        font-size: 1.0vw;
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+    .media{
+        font-size: 0.73vw;
+        top: 550px;
+        right: -30px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 /* --------------- 斷點 1280 --------------- */  
@@ -144,9 +159,20 @@
     }
     /*測軸*/
     .media .md_icon{
-        line-height: 30px;
-        /* padding-top: 6px; */
-        font-size: 1.4vw;
+        line-height: 18px;
+        padding-top: 5px;
+        font-size: 1.3vw;
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+    .media{
+        font-size: 0.73vw;
+        top: 550px;
+        right: -30px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-align: center;
     }
     /*標題紅字*/
     .bageli_title1 .hd{
@@ -162,31 +188,85 @@
     .menuimg img{
         height: 600px;
     }
+}
+
+/* --------------- 斷點 1160 --------------- */  
+@media screen and (max-width: 1160px){
+    div{
+        width: 100%;
+    }
+    #nav{
+        width: 77vw;
+    
+    /*測軸*/
+    .media .md_icon{
+        line-height: 30px;
+        /* padding-top: 6px; */
+        font-size: 1.4vw;
+    }
+    /*標題紅字*/
+    .bageli_title1 .hd{
+        font-size: 45px;
+    }
+
+    /*標題綠字*/
+    .menutitle{
+        font-size: 28px;
+    }
+
+    /*內容*/
+    .menu_content .menu6_img{
+        grid-column: 16/22;
+    }
+    .creamtitle ul{
+        width: 883px;
+    }
+    .bannerSet ul{
+        width: ;
+    }
+}
     
 }
 
 /* --------------- 斷點 820 --------------- */  
 @media screen and (max-width: 820px){
 /*導航欄*/
-.slide2 {
-    opacity: 20;
-    background-color: #E7A4A6;
-    height: 30px;
-    width: 110px;
-    line-height: 20px;
-}
+    .slide1,
+    .slide2{
+        height: 30px;
+        width: 98px;
+        margin-bottom: 5px;
+    }
     #nav li a {
         padding: 2px 20px;
         font: 600 14px Tahoma;
     }
     .header .logo{
-        margin-left: 40px;
+        margin-left: 30px;
     }
-/*測軸*/
+    /*測軸*/
     .media .md_icon{
-        line-height: 30px;
+        line-height: 26px;
         font-size: 1.8vw;
+        padding-top: 1px;
+        width: 26px;
+        height: 26px;
     }
+    .media{
+        line-height: 20px;
+        top: 630px;
+        right: -25px;
+        font-size: 0.6vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .main_con{
+        width: 600px;
+    }
+      .contact_content p{
+        margin-left: 15px;
+        font-size: 16px;
+      }
 /*內容*/
     .menuimg img{
         height: 410px;
@@ -449,23 +529,19 @@
         padding: 0 2px;
         font: 400 11px Tahoma;
     }
+
+    .slide2 {
+        width: 60px;
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 28px;
+        line-height: 28px;
+    }
+ /*logo*/
     .header .logo{
         margin-left: 10px;
         width: 18%;
     }
-    .slide2 {
-        opacity: 20;
-        background-color: #E7A4A6;
-        height: 30px;
-        line-height: 28px;
-    }
-    
- /*logo*/
-    .header .logo{
-        margin-left: 20px;
-        width: 16%;
-        z-index: 100;
-  }
 /*紅字標題距離*/
     .bageli_title1 .hd{
         font-size: 22px;
@@ -521,6 +597,7 @@
         margin-left: 11px;
         width: 20px;
         height: 20px;
+        line-height: 20px;
     }
     .media li{
         text-align: center;
@@ -671,7 +748,7 @@
         margin-left: 40px;
     }
     .bannertitle h3{
-        margin-top: 620px;
+        margin-top: 660px;
     }
     .bannertitle>h2{
         height: 25px;
@@ -711,7 +788,8 @@
     .bannerSet .banner_p{
         font-size: 13px;
         padding: 20px;
-        margin-left: 10px;
+        /* margin-left: 10px; */
+        margin: -10px 10px;
     }
     .bannertitle p{
         display: inline-block;
@@ -726,10 +804,6 @@
         width: 250px;
         height: 250px;
     }
-    .bannerSet .banner_p{
-        width: 230px;
-        margin-top: -10px;
-    }
 
 /*footer*/
     .footer_con h1{
@@ -738,7 +812,7 @@
     .footer_con h2{
         font-size: 14px;
     }
-  .footer_con h3{
+    .footer_con h3{
         font-size: 12px;
     }
     .footer_con p{
@@ -817,8 +891,8 @@
     .slide2 {
         opacity: 20;
         background-color: #E7A4A6;
-        height: 30px;
-        line-height: 28px;
+        height: 27px;
+        line-height: 27px;
     }
-    
+     
 }

@@ -1,0 +1,170 @@
+/* --------------- 斷點 1920 --------------- */  
+@media screen and (max-width: 1920px){
+    /*導航*/
+    div{
+        width: 100%;
+    }
+    #nav li a {
+        padding: 18px 70px;
+        font: 800 26px Tahoma;
+        text-align: center;
+    }
+    #nav li {
+        flex-basis: 100%;
+    }
+    .slide2 {
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 70px;
+        width: 250px;
+        line-height: 28px;
+    }
+    /*測軸*/
+    .media .md_icon{
+        line-height: 30px;
+        width: 35px;
+        height: 35px;
+        font-size: 1.0vw;
+    }
+    .media .md_icon{
+        font-size: 16px;
+        line-height: 35px;
+        width: 35px;
+        height: 35px;
+    }
+}
+/* --------------- 斷點 1440 --------------- */  
+@media screen and (max-width: 1440px){
+    /*導航*/
+    .slide2 {
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 40px;
+        width: 200px;
+        line-height: 30px;
+    }
+    div{
+        width: 100%;
+    }
+    #nav li a {
+        padding: 5px 40px;
+        font: 800 20px Tahoma;
+    }
+    .bannerSet li{
+        margin-left: 70px;
+    }
+}
+
+/* --------------- 斷點 1440 --------------- */  
+@media screen and (max-width: 1440px){
+    /*導航*/    
+    div{
+        width: 100%;
+    }
+    #nav li a {
+        padding: 5px 40px;
+        font: 800 20px Tahoma;
+    }
+    .bannerSet li{
+        margin-left: 70px;
+    }
+    .slide2 {
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 40px;
+        width: 200px;
+        line-height: 30px;
+    }
+    /*測軸*/
+  .media .md_icon{
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 1.0vw;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+  }
+  .media{
+    font-size: 0.73vw;
+    top: 550px;
+    right: -30px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+/* --------------- 斷點 1280 --------------- */  
+@media screen and (max-width: 1280px){
+    div{
+        width: 100%;
+    }
+    #nav{
+        left: 55%;
+    }
+    #nav li a {
+        padding: 5px 36px;
+        font: 700 22px Tahoma;
+    }
+    .slide2 {
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 40px;
+        width: 160px;
+        line-height: 30px;
+    }
+    .shop_name h2{
+        left: 150px;
+    }
+    .shop_cont{
+        margin-left: -70px;
+    }
+    .shop_name{
+        margin-bottom: 50px;
+    }
+    .bottom{
+        margin-left: -90px;
+    }
+    /*測軸*/
+  .media .md_icon{
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 1.3vw;
+  }
+}
+
+/* --------------- 斷點 820 --------------- */  
+@media screen and (max-width: 820px){
+/*導航欄*/
+    .slide1,
+    .slide2{
+        height: 30px;
+        width: 98px;
+        margin-bottom: 5px;
+    }
+    #nav li a {
+        padding: 2px 20px;
+        font: 600 14px Tahoma;
+    }
+    .header .logo{
+        margin-left: 30px;
+    }
+    /*測軸*/
+  .media .md_icon{
+    line-height: 20px;
+    font-size: 1.4vw;
+    padding-top: 1px;
+  }
+  .media{
+    line-height: 20px;
+    top: 410px;
+    right: -15px;
+    font-size: 0.73vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+    .QA_content h3, .QA_content2 h3, .QA_content3 h3, .QA_content4 h3, .QA_content5 h3{
+        font-size: 16px;
+    }
+
+}
+

@@ -604,13 +604,14 @@ footer {
 }
 
 .field-set{
-    font-size: 20px;
+    font-size: 19px;
+    margin-top:-15px;
 }
 
 .log-in a{
     color: #BA5E62;
     text-decoration: none;
-
+    font-size: 14px;
 }
 
 .log-in:hover{
@@ -623,7 +624,7 @@ footer {
 
 /*----okorder頁面------*/
 .head-form p{
-    color: #ba4b50;
+    color: #3e403f;
     font-size: 23px;
 }
 
