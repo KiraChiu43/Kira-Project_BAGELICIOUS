@@ -1,0 +1,365 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    background-color: #F9E5DA;
+    position: relative; 
+    align-items: center;
+    overflow-x: hidden;
+  }
+/* --------------- 斷點 1920 --------------- */  
+@media screen and (max-width: 1920px){
+ /*導航*/
+    div{
+        width: 100%;
+    }
+    #nav li a {
+        padding: 18px 70px;
+        font: 800 26px Tahoma;
+        text-align: center;
+    }
+    #nav li {
+        flex-basis: 100%;
+    }
+    .slide2 {
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 60px;
+        width: 260px;
+        line-height: 28px;
+    }
+    .logo img{
+        width: 8vw;
+        margin-left: 60px;
+        margin-top: -33px;
+    }
+}
+
+/* --------------- 斷點 1440 --------------- */  
+@media screen and (max-width: 1440px){
+    /*導航*/    
+        div{
+            width: 100%;
+        }
+        #nav li a {
+            padding: 5px 40px;
+            font: 800 20px Tahoma;
+        }
+        .bannerSet li{
+            margin-left: 70px;
+        }
+        .slide2 {
+            opacity: 20;
+            background-color: #E7A4A6;
+            height: 40px;
+            width: 200px;
+            line-height: 30px;
+        }
+
+        input[class="form-input"]{
+            width: 298px;
+        }
+
+        .log-in{
+            margin-left: 40px;
+        }
+
+        .input-item{
+            padding: 15px 0px 15px 9px;
+        }
+        form{
+            margin-left: 430px;
+        }
+        .logoimg{
+            width: 800px;
+            left: 657px;
+            top: 37px;
+        }
+    }
+/* --------------- 斷點 820 --------------- */  
+@media screen and (max-width: 820px){
+    /*導航欄*/
+  #nav{
+    width: 77vw;
+    margin-left: 40px;
+  }
+  .slide1,
+  .slide2{
+    height: 30px;
+    width: 98px;
+    margin-bottom: 5px;
+  }
+  #nav li a {
+  padding: 2px 20px;
+  font: 600 14px Tahoma;
+  }
+  .header .logo{
+   margin-left: 30px;
+   margin-bottom: 50px;;
+  }
+  .logo img{
+    margin-left: 40px;
+    margin-top: -20px;
+    width: 13vw;
+}
+    #eye{
+        right: 14%;
+    }
+    /* input[class="form-input"]{
+        width: 290px;
+    } */
+    .field-set,.log-in{
+        text-align: center;
+    }
+    /*測軸*/
+    .media .md_icon{
+        line-height: 26px;
+        font-size: 1.8vw;
+        padding-top: 1px;
+        width: 26px;
+        height: 26px;
+    }
+    .media{
+        line-height: 20px;
+        top: 480px;
+        right: -30px;
+        font-size: 0.6vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .main_con{
+        width: 600px;
+    }
+    .contact_content p{
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    /*紅字標題距離*/
+    .check_title .hd{
+        font-size: 32px;
+        margin-left: 60px;
+        width: 630px;
+        padding-top: 50px;
+    }
+    .check_title{
+        margin-top: 100px;
+        margin-left: 80px;
+        font-size: 16px;
+        margin-bottom: px;
+    }
+/*綠字*/
+    .menutitle{
+        margin-left: 80px;
+    }
+    .menu{
+        width: 330px;
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .checktitle{
+        margin-left: 10px;
+        width: 330px;
+        margin-top: -60px;
+        font-size: 22px;
+    }
+    /* form{
+        margin-left: 230px;
+    } */
+    /*footer*/
+    .footer{
+        margin-left: 150px;
+    }
+    .footer_con h1{
+        font-size: 28px;
+        padding-top: 30px;
+        margin-left: 50px;
+    }
+    .top h2{
+        font-size: 25px;
+        padding-left: 70px;
+    }
+    .footer_con h3{
+        font-size: 18px;
+    }
+    .footer_con p{
+        font-size: 8px;
+    }
+    .footer_con .top{
+        padding-left: 40px;
+    }
+    .button .but_hd{
+        margin-top: 10px;
+    }
+    .meun_cont{
+        /* padding-left: 215px; */
+        padding-left: 125px;
+    }
+    .bottom p{
+        font-size: 12px;
+        margin-left: 100px;
+    }
+    .meun_cont h2{
+        width: 100px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .logoimg{
+        width: 800px;
+        left: 657px;
+        top: 37px;
+    }
+    form{
+        margin-left: 180px;
+        margin-top: 50px;
+    }
+    .logoimg{
+        width: 600px;
+        left: 380px;
+        top: 10px;
+    }
+    .colorBlock{
+        padding-top: 50px;
+    }
+    .bottom p{
+        margin-top: 30px;
+    }
+    .mid{
+        padding-top: 24px;
+    }
+    .top h2{
+        padding-left: 40px;
+        
+    }
+    .footer_con h1{
+        margin-left: 30px;
+    }
+}
+
+/* --------------- 斷點 430 --------------- */  
+@media screen and (max-width: 430px){
+    div{
+        width: 100%;
+    }
+    
+    .slide2 {
+        opacity: 20;
+        background-color: #E7A4A6;
+        height: 18px;
+        width: 65px;
+        line-height: 18px;
+    }
+    .media{
+        right: 870px;
+    }
+    .media .md_icon {
+        font-size: 3.0vw;
+    }
+    /*導航欄*/
+    #nav{
+        margin-top: 10px;
+        /* padding: -16px; */
+        height: 30px;
+        line-height: 30px;
+        margin-left: 18px;
+    }
+    #nav li a {
+        padding: 0 2px;
+        font: 400 9px Tahoma;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 9px;
+    }
+    #nav li{
+        height: 18px;
+        margin-top: -10px;
+    }
+    .slide2 {
+        width: 60px;
+        margin-top: 0px;
+        height: 5px;
+        line-height: 15px;
+        opacity: 20;
+        background-color: #E7A4A6;
+        /* line-height: 5px; */
+    }
+    .header .logo{
+        margin-left: 13px;
+        width: 18%;
+        z-index: 100;
+        margin-top: -13px;
+    }
+    footer{
+        max-width: 100%;   
+    }
+    .check{
+        width: 440px;
+        margin-left: 80px;
+    }
+    
+    .check_title .hd{
+        margin-left: 0px;
+        width: 300px;
+        padding-top: 10px;
+        font-size: 28px;
+    }
+    form {
+        margin-left: 80px;
+        margin-top: 50px;
+        width: 330px;
+    }
+    .logoimg{
+        width: 130vw;
+        left: 115px;
+        top: -30px;
+    }
+    .header .logo{
+        margin-left: 13px;
+        width: 14%;
+        z-index: 100;
+    }
+  
+    .orderimg{
+        height: 366px;
+    }
+    header h2{
+        font-size: 28px;
+    }
+    header p{
+        font-size: 18px;
+    }
+    .log-in{
+        margin-left: 10px;
+    }
+    footer {
+        width: 100%;
+    }
+    .bottom p{
+        margin-top: 0px;
+        margin-left: 460px;
+    }
+    .mid{
+        padding-left: 46px;
+    }
+    .footer_con .top{
+        padding-left: 0px;
+    }
+    input[class="form-input"]{
+        width: 258px;
+    }
+
+    .mid h3{
+        margin-left: -430px;
+    }
+    .bottom{
+        margin-top: 0;
+    }
+    .btn submits sign-up a{
+        color: #252537;
+    }
+}

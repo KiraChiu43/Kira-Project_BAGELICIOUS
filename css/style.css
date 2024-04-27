@@ -345,7 +345,7 @@ video {
     list-style: none;
     background: #f5f5f5;
     box-shadow: 20px 40px 40px #00000033;
-    padding: 10px;
+    padding: 15px;
     z-index: 100;
 }
 
@@ -389,9 +389,9 @@ video {
     box-shadow: 0 0 20px #ffffffaa inset;
 }
 .logo img{
-    margin-left: 0;
-    width: 15vw;
-    margin-top: -13px;
+    margin-left: 40px;
+    width: 9vw;
+    margin-top: -23px;
   }
 .media .md_icon{
     line-height: 30px;
@@ -753,6 +753,7 @@ marquee {
 /*footer區*/
 footer {
     background-color: #69AFAD;
+    width: 100vw;
 }
 
 .footer_con {
@@ -787,6 +788,15 @@ footer {
     line-height: 1;
 }
 
+.mid {
+    display: flex;
+    /*並排*/
+    flex-direction: column;
+    /*直向往下排列*/
+    padding-left: 166px;
+    padding-top: 44px;
+}
+
 .mid h3 {
     font-size: 20px;
     font-weight: 400;
@@ -795,14 +805,9 @@ footer {
     margin-top: 19px;
 }
 
-.mid_con h4 {
-    /* height: 18px; */
-    font-size: 15px;
-    color: #FFFFFF;
-    font-weight: 400;
-    width: 455px;
-    border-bottom: 1px solid #354E52;
-    padding: 10px 0 5px 10px;
+.mid_con {
+    display: flex;
+    /* margin-top: 15px; */
 }
 
 .mid_con a {
@@ -810,6 +815,20 @@ footer {
     width: 30px;
     background-color: #ffffff;
     text-align: center;
+    border-radius: 50%;
+}
+
+.mid_con h4 {
+    /* height: 18px; */
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+
+    width: 265px;
+    width: 455px;
+
+    border-bottom: 1px solid #354E52;
+    padding: 10px 0 5px 10px;
 }
 
 .mailicon {
@@ -824,21 +843,7 @@ footer {
     margin-top: 7px;
 }
 
-.mid_con {
-    display: flex;
-    /* margin-top: 15px; */
-}
 
-
-.mid {
-    display: flex;
-    /*並排*/
-    flex-direction: column;
-    /*直向往下排列*/
-    padding-left: 166px;
-    padding-top: 44px;
-
-}
 
 .bottom {
     margin-top: 15px;
@@ -1608,48 +1613,7 @@ footer {
     line-height: 1;
 }
 
-.mid h3 {
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF;
-    line-height: 1;
-    margin-top: 19px;
-}
 
-.mid_con h4 {
-    /* height: 18px; */
-    font-size: 15px;
-    color: #FFFFFF;
-    font-weight: 400;
-    width: 265px;
-    border-bottom: 1px solid #354E52;
-    padding: 10px 0 5px 10px;
-}
-
-.mid_con a {
-    /* display: inline; */
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-.mid_con {
-    display: flex;
-    /* margin-top: 15px; */
-}
-
-
-.mid {
-    display: flex;
-    /*並排*/
-    flex-direction: column;
-    /*直向往下排列*/
-    padding-left: 166px;
-    padding-top: 44px;
-
-}
 
 .bottom {
     margin-top: 15px;

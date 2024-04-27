@@ -15,6 +15,9 @@
 /* --------------- 斷點 1920 --------------- */  
 @media screen and (max-width: 1920px){
  /*導航*/
+    .wrapper{
+        margin: 0 auto;
+    }
     div{
         width: 100%;
     }
@@ -33,6 +36,19 @@
         width: 260px;
         line-height: 28px;
     }
+    /*logo 側icon*/
+    .logo img{
+        margin-left: 60px;
+        width: 9vw;
+    }
+    .media{
+        top: 840px;
+        right: 200px;
+      }
+      .media .md_icon{
+        line-height: 30px;
+        font-size: 0.9vw;
+      }
     /*商品調整*/
     .menu_content .menu1_img{
         grid-column: 4/7;
@@ -244,6 +260,11 @@
     .header .logo{
         margin-left: 30px;
     }
+    .logo img{
+        margin-left: 40px;
+        margin-top: -20px;
+        width: 13vw;
+    }
     /*測軸*/
     .media .md_icon{
         line-height: 26px;
@@ -254,8 +275,8 @@
     }
     .media{
         line-height: 20px;
-        top: 630px;
-        right: -25px;
+        top: 480px;
+        right: -30px;
         font-size: 0.6vw;
         margin: 0 auto;
         text-align: center;
@@ -291,6 +312,9 @@
         font-size: 32px;
         /* margin-left: -150px; */
         margin-left: -200px;
+    }
+    .bageli_title1{
+        margin-top: 150px;
     }
     .menutitle{
         margin-left: 1px;
@@ -550,12 +574,13 @@
     margin-left: 13px;
     width: 13%;
     z-index: 100;
+    margin-top: -13px;
     }
   
 /*紅字標題距離*/
     .bageli_title1 .hd{
         font-size: 28px;
-        margin-left: -290px;
+        margin-left: -270px;
     }
     .menutitle{
         margin-top: 100px;
@@ -608,6 +633,7 @@
         width: 20px;
         height: 20px;
         line-height: 20px;
+        margin-left: 8px;
     }
     .media li{
         text-align: center;
@@ -615,7 +641,7 @@
         margin-left: 10px;
     }
     .bageli_title1 .hd {
-        margin-top: -90px;
+        margin-top: -70px;
         margin-bottom: 90px
        }
     
@@ -848,7 +874,7 @@
     .top h2{
         font-size: 16px;
         padding-left: 0px;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     .footer_con h3{
         font-size: 14px;

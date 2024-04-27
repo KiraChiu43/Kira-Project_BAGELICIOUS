@@ -96,7 +96,7 @@ body {
     list-style: none;
     background: #f5f5f5;
     box-shadow: 20px 40px 40px #00000033;
-    padding: 10px;
+    padding: 15px;
     z-index: 1000;
 }
 
@@ -547,7 +547,7 @@ section {
     height: 50px;
     color: #BA5E62;
     position: absolute;
-    top: 1900px;
+    top: 2090px;
     left: 200px;
 }
 
@@ -657,6 +657,15 @@ footer {
     line-height: 1;
 }
 
+.mid {
+    display: flex;
+    /*並排*/
+    flex-direction: column;
+    /*直向往下排列*/
+    padding-left: 166px;
+    padding-top: 44px;
+}
+
 .mid h3 {
     font-size: 20px;
     font-weight: 400;
@@ -665,14 +674,8 @@ footer {
     margin-top: 19px;
 }
 
-.mid_con h4 {
-    /* height: 18px; */
-    font-size: 15px;
-    color: #FFFFFF;
-    font-weight: 400;
-    width: 455px;
-    border-bottom: 1px solid #354E52;
-    padding: 10px 0 5px 10px;
+/* .mid_con {
+    display: flex;
 }
 
 .mid_con a {
@@ -681,6 +684,15 @@ footer {
     background-color: #ffffff;
     text-align: center;
 }
+
+.mid_con h4 {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 455px;
+    border-bottom: 1px solid #354E52;
+    padding: 10px 0 5px 10px;
+} */
 
 .mailicon {
     margin-right: 10px;
@@ -694,24 +706,45 @@ footer {
     margin-top: 7px;
 }
 
-.mid_con {
-    display: flex;
-    /* margin-top: 15px; */
-}
-
-
-.mid {
-    display: flex;
-    /*並排*/
-    flex-direction: column;
-    /*直向往下排列*/
-    padding-left: 166px;
-    padding-top: 44px;
-
-}
-
 .bottom {
     margin-top: 15px;
     text-align: center;
     color: #ffffff;
+}
+
+.mid_con h4 {
+    /* height: 18px; */
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+
+    width: 265px;
+    width: 455px;
+
+    border-bottom: 1px solid #354E52;
+    padding: 10px 0 5px 10px;
+}
+
+.mailicon {
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.mailicon i {
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+
+.mid_con h1{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+
+    width: 265px;
+    width: 455px;
+
+    border-bottom: 1px solid #354E52;
+    padding: 10px 0 5px 10px;
 }

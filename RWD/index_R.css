@@ -15,7 +15,9 @@ body {
 
 /* --------------- 斷點 1920 --------------- */
 @media screen and (max-width: 1920px){
-  /*貝果滾*/
+  .wrapper{
+    margin: 0 auto;
+  }
   .bage[alt]{
     width: 900px;
   }
@@ -23,10 +25,6 @@ body {
     position: absolute;
     top: 40px;
     right: -330px;
-    /* right: -110px; */
-    /* width: 700px;
-    height: 700px; */
-    /* overflow: hidden; */
   }  
   div{
     width: 100%;
@@ -39,8 +37,19 @@ body {
   #nav li {
   flex-basis: 100%;
   }
-}
-
+  /* .logo img{
+    margin-left: 60px;
+    width: 9vw;
+  } */
+  .media{
+    top: 840px;
+    right: 200px;
+  }
+  .media .md_icon{
+    line-height: 30px;
+    font-size: 0.9vw;
+  }
+} 
 
 
 /* --------------- 斷點 1440 --------------- */
@@ -665,6 +674,9 @@ body {
     height: 20px;
   }
   /*導航欄*/
+  #nav{
+    width: 77vw;
+  }
   .slide1,
   .slide2{
     height: 30px;
@@ -760,6 +772,11 @@ body {
   .contact_title{
     margin-top: 0px;
   }
+  .logo img{
+    margin-left: 40px;
+    margin-top: -20px;
+    width: 13vw;
+}
   /*測軸*/
   .media .md_icon{
     line-height: 20px;
@@ -888,8 +905,9 @@ body {
   }
   .button1 .but_hd {
     margin-left: -50px;
-}
   }
+}
+
 /* --------------- 斷點 430 --------------- */
   @media screen and (max-width: 430px){
   div{
@@ -898,16 +916,46 @@ body {
   video {
     margin-top: 0px;
   }
-  #nav li a{
-    padding: 0px 3px;
-    font: 400 1px Tahoma;
+  div{
+    width: 100%;
   }
   #nav{
-    padding: 0;
-    margin-top: 20px;
-    margin-left: 15px;
+      left: 58%;
+      width: 75vw;
+      /* padding: 8px; */
   }
- 
+  .slide2 {
+    width: 60px;
+    margin-top: 5px;
+    height: 5px;
+    opacity: 20;
+    background-color: #E7A4A6;
+    line-height: 15px;
+}
+/*導航欄*/
+  #nav{
+      margin-top: 10px;
+      /* padding: -16px; */
+      height: 20px;
+      line-height: 20px;
+      margin-left: -20px;
+  }
+  #nav li a {
+      padding: 0 2px;
+      font: 400 9px Tahoma;
+      text-align: center;
+      margin: 0 auto;
+  }
+  #nav li{
+  height: 18px;
+  margin-top: -10px;
+  }
+  .header .logo{
+  margin-left: 13px;
+  width: 13%;
+  z-index: 100;
+  margin-top: -17px;
+  }
   .big__img{
     width: 100%;
   }
@@ -918,8 +966,6 @@ body {
     position: absolute;
     top: -20px;
     right: -735px;
-    /* width: 500px;
-    height: 500px; */
   }
   .wrapper .title_1 h2{
     font-size: 26px;
@@ -959,12 +1005,7 @@ body {
   .main .words{
     top: -3361px;
   }
-  /* .main .words {
-    bottom: -471px;
-    top: -281px;
-    font-size: 30px;
-    left: 20px;
-  } */
+  
   .Box .small__img{
     width: 115%;
     margin-top: 20px;
@@ -989,36 +1030,7 @@ body {
   }
 
   /*導航欄*/
-  #nav{
-    margin-top: 10px;
-    /* padding: -16px; */
-    height: 20px;
-    line-height: 20px;
-    margin-left: -20px;
-  }
-#nav li a {
-    padding: 0 2px;
-    font: 400 9px Tahoma;
-    text-align: center;
-    margin: 0 auto;
-  }
-#nav li{
-  height: 18px;
-  margin-top: 0px;
-  }
-  .slide2 {
-    width: 60px;
-    margin-top: 5px;
-    height: 5px;
-    opacity: 20;
-    background-color: #E7A4A6;
-    line-height: 15px;
-  }
-.header .logo{
-  margin-left: 13px;
-  width: 13%;
-  z-index: 100;
-}
+
   
   .wrapper .img_1{
     width: 95%;
@@ -1266,6 +1278,7 @@ body {
   /*斷點調整*/
   .media .md_icon{
     font-size: 2.5vw;
+    margin-left: 8px;
   }
   .contact_title{
     font-size: 16px;
@@ -1343,7 +1356,7 @@ body {
   font-size: 12px;
 }
 .footer_con h2{
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .mailicon i{
   margin-top: 2px;
