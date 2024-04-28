@@ -343,6 +343,7 @@
     .bottom p{
         margin-top: 0px;
         margin-left: 460px;
+        font-size: 11px;
     }
     .mid{
         padding-left: 46px;
@@ -355,10 +356,12 @@
     }
 
     .mid h3{
-        margin-left: -430px;
+        margin-left: -500px;
     }
     .bottom{
-        margin-top: 0;
+        margin-top: 20px;
+        font-size: 10px;
+        margin-left: -760px;
     }
     .btn submits sign-up a{
         color: #252537;
