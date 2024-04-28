@@ -323,19 +323,19 @@ body {
 }
 
 .order_step {
-    width: 350px;
+    width: 340px;
     height: 190px;
     display: flex;
     border: 6px dashed #EFA5A6;
     border-radius: 40px;
     background-color: #fff;
     margin-top: 28px; 
-    margin-right: 60px;
+    /* margin-right: 60px; */
 }
 
 .order_steps{
     display: flex;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 .order_step p {
@@ -350,7 +350,7 @@ body {
 
 .order_step {
     position: relative;
-    margin-right: 70px;
+    margin-right: 40px;
 }
 
 .order_steps h1 {

@@ -128,7 +128,7 @@ body {
     margin-left: 450px;
   }
   .words h3 {
-    margin-left: 150px;
+    margin-left: 70px;
   }
   .contact_title{
     font-size: 2.5vw;
@@ -146,7 +146,7 @@ body {
     left: -10px;
   }
   .cream_img {
-    grid-column: 7/10;
+    grid-column: 7/11;
   }
   .cream_cont {
     grid-column: 2/5;
@@ -156,6 +156,9 @@ body {
     line-height: 18px;
     padding-top: 5px;
     font-size: 1.3vw;
+  }
+  .contact_content p{
+    width: 390px;
   }
 }
 /* --------------- 斷點 1255 --------------- */
@@ -313,8 +316,8 @@ body {
   }
 }
 
-/* --------------- 斷點 1030 --------------- */
-@media screen and (max-width: 1030px){
+/* --------------- 斷點 1024 --------------- */
+@media screen and (max-width: 1024px){
   /*貝果滾*/
   .bage[alt]{
     width: 480px;
@@ -323,6 +326,7 @@ body {
     position: absolute;
     top: 40px;
     right: -485px;
+    
     /* width: 500px;
     height: 500px; */
   }
@@ -333,7 +337,7 @@ body {
     flex-basis: 100%;
   }
   .words h3{
-    margin-left: -10px;
+    margin-left: -120px;
   }
   .about_bd{
     margin-left: 280px;
@@ -360,6 +364,22 @@ body {
   .egg_cont{
     padding-left: 42px;
   }
+  .bg_img{
+    margin-left: -50px;;
+  } 
+  .contact_content {
+    width: 1104px;
+  }
+  .cream_img{
+    grid-column: 7/11;
+  }
+  .egg_img{
+    grid-column: 2/8;
+  }
+  .egg_cont{
+    grid-column: 5/10;
+    margin-left: 30px;
+  } 
 }
 /* --------------- 斷點 947 --------------- */
 @media screen and (max-width: 947px){
@@ -678,18 +698,23 @@ body {
     width: 77vw;
   }
   .slide1,
-  .slide2{
-    height: 30px;
-    width: 98px;
-    margin-bottom: 5px;
-  }
-  #nav li a {
-  padding: 2px 20px;
-  font: 600 14px Tahoma;
-  }
-  .header .logo{
-   margin-left: 30px;
-  }
+    .slide2{
+        height: 30px;
+        width: 98px;
+        margin-top: -9px;
+    }
+    #nav{
+        margin-top: 25px;
+        height: 40px;
+    }
+    #nav li a {
+        padding: 2px 20px;
+        font: 600 14px Tahoma;
+        top: -5px;
+    }
+    .header .logo{
+        margin-left: 30px;
+    }
   .wrapper .img_1{
     width: 75%;
     margin-left: 146px;

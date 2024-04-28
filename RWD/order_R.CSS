@@ -132,6 +132,9 @@ div{
         margin: 0 auto;
         text-align: center;
     }
+    .order_button {
+        margin: 55px 540px;
+    }
 }
 
 
@@ -142,18 +145,24 @@ div{
     .slide2{
         height: 30px;
         width: 98px;
-        margin-bottom: 5px;
+        margin-top: -9px;
     }
     #nav{
-        margin-top: 20px;
-        width: ;
+        margin-top: 25px;
+        height: 40px;
     }
     #nav li a {
         padding: 2px 20px;
         font: 600 14px Tahoma;
+        top: -5px;
     }
     .header .logo{
         margin-left: 30px;
+    }
+    .logo img{
+        margin-left: 40px;
+        margin-top: -20px;
+        width: 13vw;
     }
 
     .bageli_title1 .hd {
@@ -180,7 +189,7 @@ div{
     }
     .logo img{
         margin-left: 40px;
-        margin-top: 0px;
+        margin-top: -20px;
         width: 13vw;
     }
     .media {

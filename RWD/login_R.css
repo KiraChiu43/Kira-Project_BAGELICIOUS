@@ -73,7 +73,7 @@
             padding: 15px 0px 15px 9px;
         }
         form{
-            margin-left: 430px;
+            margin-left: 480px;
         }
         .logoimg{
             width: 800px;
@@ -83,26 +83,27 @@
     }
 /* --------------- 斷點 820 --------------- */  
 @media screen and (max-width: 820px){
-    /*導航欄*/
-  #nav{
-    width: 77vw;
-    margin-left: 40px;
-  }
-  .slide1,
-  .slide2{
+/*導航欄*/
+.slide1,
+.slide2{
     height: 30px;
     width: 98px;
-    margin-bottom: 5px;
-  }
-  #nav li a {
-  padding: 2px 20px;
-  font: 600 14px Tahoma;
-  }
-  .header .logo{
-   margin-left: 30px;
-   margin-bottom: 50px;;
-  }
-  .logo img{
+    margin-top: -5px;
+}
+#nav{
+    margin-top: 25px;
+    height: 40px;
+    margin-left: -290px;
+}
+#nav li a {
+    padding: 2px 20px;
+    font: 600 14px Tahoma;
+    /* top: -5px; */
+}
+.header .logo{
+    margin-left: 30px;
+}
+.logo img{
     margin-left: 40px;
     margin-top: -20px;
     width: 13vw;
