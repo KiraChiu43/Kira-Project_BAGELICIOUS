@@ -34,8 +34,7 @@
         right: 200px;
       }
       .media .md_icon{
-        line-height: 30px;
-        font-size: 0.9vw;
+        line-height: 20px;
       }
 
 .slide2 {
@@ -68,21 +67,23 @@ div{
     margin-left: 70px;
 }
 /*測軸*/
-.media .md_icon{
-    line-height: 18px;
-    padding-top: 5px;
-    font-size: 1.0vw;
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
-}
-.media{
+.media {
     font-size: 0.73vw;
+    display: flex;
+    z-index: 5;
+    position: fixed;
     top: 550px;
-    right: -30px;
-    line-height: 40px;
-    margin: 0 auto;
-    text-align: center;
+    right: 10px;
+    flex-direction: column-reverse;
+}
+.media .md_icon {
+    border-radius: 50%;
+    background-color: #354E52;
+    color: #fff;
+    margin-top: 8px;
+    width: 28px;
+    height: 28px;
+    flex-direction:column-reverse;
 }
 /* --------------- 斷點 1280 --------------- */  
 @media screen and (max-width: 1280px){

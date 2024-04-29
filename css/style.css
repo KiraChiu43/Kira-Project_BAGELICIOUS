@@ -28,25 +28,246 @@ body {
 .header{
     max-width: 1440px;
     width: 100vw;
-    /* margin-left: 30px; */
 }
+
+/*-----------------------------------------------------修正-右上定選icon*/
+.nav_icon ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 90%;
+    margin-top: 22px;
+}
+.nav_icon ul :nth-child(2){
+    margin-left: 30px;
+}
+nav{
+    display: flex;
+    max-width: 100vw;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    /* flex-direction: row; */
+}
+.nav_icon li>a{
+    font-size: 24px;
+    color: #ba4b50;
+    /* justify-content: end; */
+    z-index: 3;
+    background: #f5f5f5;
+    box-shadow: 15px 15px 20px #00000033;
+    border-radius: 50%;
+    width: 100px;
+}
+/*-----------------------------------------------------修正-右上定選icon*/
 
 /*logo*/
 .logo img {
     display: flex;
     margin: 0 auto;
-    margin-left: 50px;
+    margin-top: -23px;
     position: fixed;
-    top: 10px;
+    top: 12px;
     left: 0;
     z-index: 10;
+    margin-left: 50px;
+    width: 6vw; /*調整*/
 }
 
 video {
     width: 100%;
-    margin-top: 40px;
-    /* margin-top: 100px; */
+    margin-top: 70px;
 }
+
+/*----------shoppcar/ig/fb follow icon ----------*/
+/*-----------------------------------------------------修正*/
+/*測軸*/
+.med_con {
+    color: #354E52;
+    text-align: top;
+}
+.media {
+    display: flex;
+    z-index: 5;
+    position: fixed;
+    flex-direction: column-reverse;
+}
+.media .md_icon {
+    border-radius: 50%;
+    background-color: #354E52;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/*跟蹤導航欄*/
+#nav {
+    width: 75vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3px;
+    position: fixed;
+    top: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 8em;     /*---------------------修正*/
+    display: flex;
+    list-style: none;
+    background: #f5f5f5;
+    box-shadow: 15px 15px 20px #00000033;
+    padding: 9px;
+    z-index: 100;
+}
+
+#nav li a {
+    position: relative;
+    padding: 5px 48px;
+    font: 500 22px Tahoma;
+    border: none;
+    outline: none;
+    color: #ba4b50;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 3;
+}
+
+#nav li i {
+    padding-right: 10px;
+} 
+
+.slide1,
+.slide2 {
+    position: absolute;
+    display: inline-block;
+    height: 35px;             /*---------------------------------------修正*/
+    border-radius: 10em;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
+}
+
+.slide1 {
+    z-index: 2;
+}
+
+.slide2 {
+    width: 1px;
+    opacity: 20;
+    background-color: #E7A4A6;
+    z-index: 1;
+    box-shadow: 0 0 20px #ffffffaa inset;
+}
+
+.squeeze {
+    transform: scale(0.9);
+}
+/*-----------------------------------------------------修正*/
+
+/*漢堡線*/
+/*
+選單線
+*/
+.hamburger{
+
+}
+.line {
+    width: 24px;
+    height: 24px;
+    background: #FFF;
+    cursor: pointer;
+    display: block;
+    padding: 16px;
+    position: fixed;
+    z-index: 2;
+}
+.line .hamburger,
+.line .hamburger::before,
+.line .hamburger::after {
+    background: #3e403f;
+    content: '';
+    display: block;
+    /* height: 2px; */
+    position: absolute;
+    transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+    width: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.line .hamburger {
+    left: 18px;
+    top: 27px;
+}
+
+.line .hamburger::before {
+    top: -8px;
+}
+
+.line .hamburger::after {
+    top: 8px;
+}
+/*
+點選選單變叉叉
+*/
+#hamburger:checked + .line .hamburger {
+    background: transparent;
+}
+
+#hamburger:checked + .line .hamburger::before {
+    transform: rotate(45deg);
+}
+
+#hamburger:checked + .line .hamburger::after {
+    transform: rotate(-45deg);
+}
+
+#hamburger:checked + .line .hamburger::before,
+#hamburger:checked + .line .hamburger::after {
+    top: 0;
+    transition: top ease .3s, transform ease .3s .3s;
+}
+
+/*
+選單開合
+*/
+#hamburger:checked ~ .hamburger-list {
+    width: 230px;
+}
+
+.hamburger-list {
+    width: 60px;
+    height: 100vh;
+    background: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    padding-top: 60px;
+    position: fixed;
+    z-index: 1;
+    transition: all .6s;
+    overflow: hidden;
+}
+/*
+選單向外推
+*/
+.hamburger-list ul {
+    list-style: none;
+    margin-left:70px;
+    padding: 0;
+    /* border: 1px solid #3e0407; */
+}
+.hamburger-list ul>li{
+    display:block;
+    width:150px;
+    font-size: 20px;
+    color: #ba5e62;
+    font-weight: 800px;
+    margin-top: 40px;
+}
+
+/*
+隱藏核許框
+*/
+input#menu {
+ display: none;
+}
+
 
 /*Wrapper字*/
 .wrapper {
@@ -67,7 +288,6 @@ video {
 .wrapper .title_1 h6 {
     display: flex;
     color: #E7A4A6;
-    /* font-size: 1.25vw; */
     font-size: 24px;
     font-weight: 600;
     display: inline;
@@ -278,134 +498,9 @@ video {
     left: 60px;
 }
 
-/*----------shoppcar/ig/fb follow icon ----------*/
-
-.media p {
-    display: flex;
-    /*橫向排列*/
-}
-
-.med_con {
-    color: #354E52;
-    text-align: top;
-    line-height: 40px;
-    margin-right: 5px;
-}
-
-.media .md_icon {
-    border-radius: 50%;
-    background-color: #354E52;
-    color: #F9E5DA;
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    display: inline;
-    text-align: center;
-    font-size: 1.18vw;
-    /* font-size: 15px; */
-    margin-left: 8px;
-}
-
-.md_icon1 {
-    color: #354E52;
-    font-size: 0.83vw;
-    /* font-size: 16px; */
-    font-weight: 500;
-}
-
-.media {
-    display: flex;
-    float: right;
-    transform: rotate(90DEG);
-    z-index: 5;
-    position: fixed;
-    /*定位*/
-    top: 560px;
-    right: 0px;
-    font-size: 0.73vw;
-    /* font-size: 14px; */
-    line-height: 40px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-
-/*跟蹤導航欄*/
-#nav {
-    width: 70vw;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 18px;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    border: none;
-    border-radius: 10em;
-    display: flex;
-    list-style: none;
-    background: #f5f5f5;
-    box-shadow: 20px 40px 40px #00000033;
-    padding: 15px;
-    z-index: 100;
-}
-
-#nav li a {
-    position: relative;
-    /* padding: 15px 50px; */
-    padding: 5px 50px;
-    font: 500 22px Tahoma;
-    border: none;
-    outline: none;
-    color: #ba4b50;
-    font-weight: 600;
-    display: inline-block;
-    text-decoration: none;
-    z-index: 3;
-}
-
-#nav li i {
-    padding-right: 10px;
-} 
-
-.slide1,
-.slide2 {
-    position: absolute;
-    display: inline-block;
-    height: 40px;
-    border-radius: 10em;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
-}
-
-.slide1 {
-    /* background-color: #E7A4A6; */
-    z-index: 2;
-}
-
-.slide2 {
-    width: 1px;
-    opacity: 20;
-    background-color: #E7A4A6;
-    z-index: 1;
-    box-shadow: 0 0 20px #ffffffaa inset;
-}
-.logo img{
-    margin-left: 40px;
-    width: 9vw;
-    margin-top: -23px;
-  }
-.media .md_icon{
-    line-height: 30px;
-    font-size: 1.2vw;
-    /* padding-top: 1px; */
-}
-.squeeze {
-    transform: scale(0.9);
-}
 
 /*---------- search ----------*/
-
-.search {
+/* .search {
     display: flex;
     margin-top: 38px;
     z-index: 5;
@@ -421,7 +516,6 @@ video {
     background-color: #BA5E62;
     color: #F9E5DA;
     font-size: 0.99vw;
-    /* font-size: 19px; */
     border: none;
     margin-right: 23px;
     text-align: center;
@@ -446,7 +540,7 @@ video {
 
 .search i {
     color: #F9E5DA;
-}
+} */
 
 /*---------- begelimg ----------*/
 
@@ -454,12 +548,8 @@ video {
     position: absolute;
     top: -80px;
     right: -200px;
-    /*原設定right: -450px;
-    width: 800px;
-    height: 800px;*/
     width: 800px;
     height: 800px;
-    /* overflow: hidden; */
 } 
 
 @keyframes roll {

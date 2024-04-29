@@ -66,10 +66,22 @@ body {
 
 /*----------shoppcar/ig/fb follow icon ----------*/
 
-.media p {
-    display: flex;
-
-    /*橫向排列*/
+/*測軸*/
+.med_con {
+  color: #354E52;
+  text-align: top;
+}
+.media {
+  display: flex;
+  z-index: 5;
+  position: fixed;
+  flex-direction: column-reverse;
+}
+.media .md_icon {
+  border-radius: 50%;
+  background-color: #354E52;
+  color: #fff;
+  margin-top: 10px;
 }
 
 .med_con {

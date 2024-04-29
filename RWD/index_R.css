@@ -45,10 +45,6 @@ body {
     top: 840px;
     right: 200px;
   }
-  .media .md_icon{
-    line-height: 30px;
-    font-size: 0.9vw;
-  }
 } 
 
 
@@ -58,8 +54,8 @@ body {
     width: 100%;
   }
   #nav li a {
-    padding: 5px 36px;
-    font: 800 22px Tahoma;
+    padding: 3px 36px;
+    font: 600 19px Tahoma;
   }
   /*貝果滾*/
   .bage[alt]{
@@ -86,7 +82,7 @@ body {
   .media{
     font-size: 0.73vw;
     top: 550px;
-    right: -30px;
+    right: 10px;
     line-height: 40px;
     margin: 0 auto;
     text-align: center;

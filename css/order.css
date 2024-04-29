@@ -28,56 +28,35 @@ body {
 
 /*---------- ig fb  teitter follow icon ----------*/
 
-.media p {
-    display: flex;
-    /*橫向排列*/
-}
-
+/*測軸*/
 .med_con {
     color: #354E52;
-    text-align: center;
-    line-height: 27px;
-    margin-right: 10px;
-}
-
-.media .md_icon {
-    border-radius: 50%;
-    background-color: #354E52;
-    color: #F9E5DA;
-    /* line-height: 30px; */
-    width: 27px;
-    height: 27px;
-    /* margin: 0 5px 0 5px;
-    border: 1px solid #354E52; */
-    display: inline-block;
-    text-align: center;
-    font-size: 14px;
-    margin-left: 5px;
-}
-
-.md_icon1 {
-    color: #354E52;
-    font-size: 16px;
-    font-weight: 500;
-    /* padding-left: 10px; */
-}
-
-.media {
+    text-align: top;
+  }
+  .media {
     display: flex;
-    /* padding-left: 15px; */
-    /* float: right; */
-    transform: rotate(90DEG);
     z-index: 5;
     position: fixed;
-    /*定位*/
-    top: 600px;
-    right: -10px;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
+    flex-direction: column-reverse;
+    font-size: 0.73vw;
+    top: 550px;
+    right: 10px;
+    line-height: 40px;
     margin: 0 auto;
-    /* background-color: #69AFAD; */
-}
+    text-align: center;
+  }
+  .media .md_icon {
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 1.0vw;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: #354E52;
+    color: #fff;
+    margin-top: 10px;
+  }
 
 /*跟蹤導航欄*/
 
@@ -85,9 +64,9 @@ body {
     width: 70vw;
     margin: 0 auto;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 18px;
     position: fixed;
-    top: 0;
+    top: 12px;
     left: 50%;
     transform: translateX(-50%);
     border: none;
@@ -273,7 +252,7 @@ body {
 
 /*第一個步驟*/
 .order_set {
-    padding-left: 60px;
+    padding-left: 110px;
     /* padding-top: 40px; */
     /* display: flex;
     position: relative; */
@@ -335,7 +314,7 @@ body {
 
 .order_steps{
     display: flex;
-    margin-left: 120px;
+    margin-left: 170px;
 }
 
 .order_step p {
@@ -417,7 +396,7 @@ body {
     text-align: center;
     transition: all 0.2s linear;
 
-    margin: 55px 610px;
+    margin: 55px 570px;
     letter-spacing: 0.05em;
 
     font-size: 20px;

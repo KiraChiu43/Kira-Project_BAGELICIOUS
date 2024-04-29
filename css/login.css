@@ -20,66 +20,32 @@ body {
 
 /*----------shoppcar/ig/fb follow icon ----------*/
 
-.media p {
-    display: flex;
-
-    /*橫向排列*/
-}
-
+/*測軸*/
 .med_con {
     color: #354E52;
     text-align: top;
-    line-height: 40px;
-    margin-right: 5px;
 }
-
+.media {
+    display: flex;
+    z-index: 5;
+    position: fixed;
+    flex-direction: column-reverse;
+}
 .media .md_icon {
     border-radius: 50%;
     background-color: #354E52;
-    color: #F9E5DA;
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    /* margin: 0 5px 0 5px;
-    border: 1px solid #354E52; */
-    display: inline;
-    text-align: center;
-    font-size: 15px;
-    margin-left: 8px;
+    color: #fff;
+    margin-top: 10px;
 }
-
-.md_icon1 {
-    color: #354E52;
-    font-size: 16px;
-    font-weight: 500;
-    /* padding-left: 5px; */
-}
-
-.media {
-    display: flex;
-    /* padding-left: 15px; */
-    float: right;
-    transform: rotate(90DEG);
-    z-index: 5;
-    position: fixed;
-    /*定位*/
-    top: 580px;
-    right: -20px;
-    font-size: 14px;
-    line-height: 40px;
-    text-align: center;
-    margin: 0 auto;
-}
-
 /*跟蹤導航欄*/
 
 #nav {
     width: 70vw;
     margin: 0 auto;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 18px;
     position: fixed;
-    top: 0;
+    top: 12px;
     left: 50%;
     transform: translateX(-50%);
     border: none;
@@ -88,7 +54,7 @@ body {
     list-style: none;
     background: #f5f5f5;
     box-shadow: 20px 40px 40px #00000033;
-    padding: 10px;
+    padding: 15px;
     z-index: 1000;
 }
 
@@ -297,37 +263,31 @@ body {
     border-radius: 50%;
     background-color: #354E52;
     color: #F9E5DA;
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    display: inline;
-    text-align: center;
-    font-size: 1.18vw;
-    /* font-size: 15px; */
-    margin-left: 8px;
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+    font-size: 1.0vw;
+    margin-top: 5px;
 }
 
 .md_icon1 {
     color: #354E52;
     font-size: 0.83vw;
-    /* font-size: 16px; */
     font-weight: 500;
 }
 
 .media {
     display: flex;
     float: right;
-    transform: rotate(90DEG);
     z-index: 5;
     position: fixed;
-    /*定位*/
     top: 550px;
-    right: -30px;
+    right: 10px;
     font-size: 0.73vw;
-    /* font-size: 14px; */
     line-height: 40px;
     text-align: center;
     margin: 0 auto;
+    flex-direction: column-reverse;
 }
 
 /*-----------------------------會員登入頁面-----------------------------*/

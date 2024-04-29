@@ -1,4 +1,21 @@
 /*-----------------------------QA頁面-----------------------------*/
+/*測軸*/
+.med_con {
+    color: #354E52;
+    text-align: top;
+}
+.media {
+    display: flex;
+    z-index: 5;
+    position: fixed;
+    flex-direction: column-reverse;
+}
+.media .md_icon {
+    border-radius: 50%;
+    background-color: #354E52;
+    color: #fff;
+    margin-top: 10px;
+}
 /*-----標題:QA-----*/
 .bageli_title1 .hd {
     /* position: absolute;

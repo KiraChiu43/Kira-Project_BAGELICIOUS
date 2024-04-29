@@ -53,6 +53,23 @@
     .bannerSet li{
         margin-left: 70px;
     }
+    /*測軸*/
+  .media .md_icon{
+    line-height: 18px;
+    padding-top: 5px;
+    font-size: 1.0vw;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+  }
+  .media{
+    font-size: 0.73vw;
+    top: 550px;
+    right: 10px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 /* --------------- 斷點 1440 --------------- */  
@@ -87,7 +104,7 @@
   .media{
     font-size: 0.73vw;
     top: 550px;
-    right: -30px;
+    right: 10px;
     line-height: 40px;
     margin: 0 auto;
     text-align: center;
