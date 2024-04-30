@@ -32,10 +32,10 @@ body {
 
 /*-----------------------------------------------------修正-右上定選icon*/
 .nav_icon ul{
-    display: flex;
-    flex-direction: row;
-    margin-left: 90%;
-    margin-top: 22px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-left: 93%;
+    padding-top: 30px;
 }
 .nav_icon ul :nth-child(2){
     margin-left: 30px;
@@ -51,32 +51,35 @@ nav{
 }
 .nav_icon li>a{
     font-size: 24px;
+    margin-right: 10px;
     color: #ba4b50;
-    /* justify-content: end; */
-    z-index: 3;
-    background: #f5f5f5;
-    box-shadow: 15px 15px 20px #00000033;
+    /* background: #f5f5f5; */
+    /* box-shadow: 15px 15px 20px #00000033; */
     border-radius: 50%;
-    width: 100px;
+    position: fixed;
+    z-index: 100;
+    margin-top: -7px;
 }
 /*-----------------------------------------------------修正-右上定選icon*/
 
 /*logo*/
+/*-----------------------------------------------------修正*/
 .logo img {
     display: flex;
     margin: 0 auto;
-    margin-top: -20px;
+    margin-top: -235px;
     position: fixed;
-    top: 12px;
-    left: 0;
+    top: 220px;
+    left: 120px;
     z-index: 10;
-    margin-left: 50px;
-    width: 6vw; /*調整*/
+    margin-left: 80px;
+    width: 7vw; /*調整*/
 }
 
+/*-----------------------------------------------------修正*/
 video {
     width: 100%;
-    margin-top: 70px;
+    margin-top: 32px;
 }
 
 /*----------shoppcar/ig/fb follow icon ----------*/
@@ -91,26 +94,41 @@ video {
     z-index: 5;
     position: fixed;
     flex-direction: column-reverse;
+    top: 520px;
+    right: 4px;
 }
 .media .md_icon {
+    font-size: 1.2vw;
+    width: 27px;
+    height: 27px;
+    margin-left: 12px;
     border-radius: 50%;
     background-color: #354E52;
     color: #fff;
-    margin-top: 10px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+/*follow us*/
+.media p{
+    transform: rotate(90deg);
+    margin-top: 33px;
+    margin-left: -5px;
+    font-size: 14px;
 }
 
 /*跟蹤導航欄*/
 #nav {
-    width: 75vw;
+    width: 68vw;
     margin: 0 auto;
     text-align: center;
     margin-top: 3px;
     position: fixed;
     top: 11px;
-    left: 50%;
+    left: 57%;
     transform: translateX(-50%);
     border: none;
-    border-radius: 8em;     /*---------------------修正*/
+    border-radius: 2em;     /*---------------------修正*/
     display: flex;
     list-style: none;
     background: #f5f5f5;
@@ -119,21 +137,20 @@ video {
     z-index: 100;
 }
 
-#nav li a {
+#nav li a {                     /*---------------------------------------修正*/
     position: relative;
-    padding: 5px 48px;
-    font: 500 22px Tahoma;
+    padding: 3px 26px;
+    font: 600 19px Tahoma;     
     border: none;
     outline: none;
     color: #ba4b50;
-    font-weight: 600;
     display: inline-block;
     text-decoration: none;
     z-index: 3;
 }
 
 #nav li i {
-    padding-right: 10px;
+    padding-right: 7px;        /*---------------------------------------修正*/
 } 
 
 .slide1,
@@ -144,13 +161,8 @@ video {
     border-radius: 10em;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
 }
-
-.slide1 {
-    z-index: 2;
-}
-
 .slide2 {
-    width: 1px;
+    width: 60px;
     opacity: 20;
     background-color: #E7A4A6;
     z-index: 1;
@@ -161,66 +173,69 @@ video {
     transform: scale(0.9);
 }
 /*-----------------------------------------------------修正*/
+.checkbox{
+    /* display: flex; */
+    display: none;
+}
 
-/*漢堡線*/
 /*
 選單線
 */
-.hamburger{
-
-}
 .line {
     width: 24px;
     height: 24px;
-    background: #FFF;
+    background: #F9E5DA;
     cursor: pointer;
     display: block;
     padding: 16px;
     position: fixed;
     z-index: 2;
+    margin-left: 5px;
+
+    display: none;
 }
-.line .hamburger,
-.line .hamburger::before,
-.line .hamburger::after {
-    background: #3e403f;
+.line .menu,
+.line .menu::before,
+.line .menu::after {
+    background: #3e0407;
     content: '';
     display: block;
-    /* height: 2px; */
+    height: 3px;
     position: absolute;
     transition: background ease .3s, top ease .3s .3s, transform ease .3s;
-    width: 20px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    width: 25px;
+
+    display: none; 
 }
-.line .hamburger {
-    left: 18px;
-    top: 27px;
+.line .menu {
+    left: -112px;
+    top: 37px;
 }
 
-.line .hamburger::before {
-    top: -8px;
+.line .menu::before {
+    top: -6px;
 }
 
-.line .hamburger::after {
-    top: 8px;
+.line .menu::after {
+    top: 6px;
 }
 /*
 點選選單變叉叉
 */
-#hamburger:checked + .line .hamburger {
+#menu:checked + .line .menu {
     background: transparent;
 }
 
-#hamburger:checked + .line .hamburger::before {
+#menu:checked + .line .menu::before {
     transform: rotate(45deg);
 }
 
-#hamburger:checked + .line .hamburger::after {
+#menu:checked + .line .menu::after {
     transform: rotate(-45deg);
 }
 
-#hamburger:checked + .line .hamburger::before,
-#hamburger:checked + .line .hamburger::after {
+#menu:checked + .line .menu::before,
+#menu:checked + .line .menu::after {
     top: 0;
     transition: top ease .3s, transform ease .3s .3s;
 }
@@ -228,39 +243,48 @@ video {
 /*
 選單開合
 */
-#hamburger:checked ~ .hamburger-list {
-    width: 230px;
+#menu:checked ~ .menu-list {
+    width: 200px;
+    display: none; 
 }
 
-.hamburger-list {
+.menu-list {
     width: 60px;
-    height: 100vh;
-    background: #FFF;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    height: 95vh;
+    background: #F9E5DA;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
     padding-top: 60px;
     position: fixed;
     z-index: 1;
     transition: all .6s;
     overflow: hidden;
+    margin-left: 5px;
+    display: none;  /*------------------------------1280px打開*/
+}
+.line .menu{
+    display: none;  /*------------------------------1280px打開*/
 }
 /*
 選單向外推
 */
-.hamburger-list ul {
+.menu-list ul {
     list-style: none;
     margin-left:70px;
     padding: 0;
-    /* border: 1px solid #3e0407; */
 }
-.hamburger-list ul>li{
+.menu-list ul>li{
     display:block;
-    width:150px;
+    width:100px;
     font-size: 20px;
-    color: #ba5e62;
-    font-weight: 800px;
-    margin-top: 40px;
+    color: #ba4b50;
 }
-
+.menu-list li>a{
+    display:block;
+    width:100px;
+    font-size: 20px;
+    color: #ba4b50;
+    padding-top: 30px;
+}
 /*
 隱藏核許框
 */
@@ -268,6 +292,15 @@ input#menu {
  display: none;
 }
 
+/*貝果*/
+.bage[alt]{
+    width: 560px;
+}
+.begelimg {
+    position: absolute;
+    top: 160px;
+    right: -400px;
+} 
 
 /*Wrapper字*/
 .wrapper {
@@ -278,8 +311,7 @@ input#menu {
     display: flex;
     margin-top: 60px;
     color: #69AFAD;
-    /* font-size: 6.77vw; */
-    font-size: 74px;
+    font-size: 80px;
     font-weight: 800;
     display: inline;
     margin-left: 60px;
@@ -969,7 +1001,7 @@ footer {
 
 .menu {
     width: 1210px;
-    border-bottom: 4px solid #69AFAD;
+    /* border-bottom: 4px solid #69AFAD; */
     margin-bottom: 32px;
     margin-left: 130px;
 }

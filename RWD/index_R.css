@@ -29,22 +29,92 @@ body {
   div{
     width: 100%;
   }
+
+  /*測軸*/
+.med_con {
+  color: #354E52;
+  text-align: top;
+}
+.media {
+  display: flex;
+  z-index: 5;
+  position: fixed;
+  flex-direction: column-reverse;
+  top: 750px;
+  right: 244px;
+}
+.media
+.media .md_icon {
+  line-height: 18px;
+  padding-top: 5px;
+  padding-left: 7px;
+  font-size: 1.2vw;
+  width: 37px;
+  height: 37px;
+  margin-left: 7px;
+  border-radius: 50%;
+  background-color: #354E52;
+  color: #fff;
+  margin-top: 12px;
+}
+
+ /*導航藍*/
+  #nav {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    top: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 2em;     /*---------------------修正*/
+    display: flex;
+    list-style: none;
+    background: #f5f5f5;
+    box-shadow: 15px 15px 20px #00000033;
+    padding: 9px;
+    z-index: 100;
+}
   #nav li a {
-  padding: 18px 70px;
-  font: 800 26px Tahoma;
-  text-align: center;
+    position: relative;
+    padding: 3px 26px;
+    font: 600 19px Tahoma;     
+    border: none;
+    outline: none;
+    color: #ba4b50;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 3;
   }
   #nav li {
-  flex-basis: 100%;
+    padding-right: 55px;    
+    font-size: 20px;
   }
-  /* .logo img{
-    margin-left: 60px;
-    width: 9vw;
-  } */
-  .media{
-    top: 840px;
-    right: 200px;
+
+  /*logo*/
+  .logo img{
+    margin-top: -235px;
+    top: 220px;
+    left: 220px;
+    margin-left: 80px;
+    width: 5vw;
   }
+
+  /*logo*/
+/*-----------------------------------------------------修正*/
+.logo img {
+  display: flex;
+  margin: 0 auto;
+  margin-top: -235px;
+  position: fixed;
+  top: 220px;
+  left: 120px;
+  z-index: 10;
+  margin-left: 80px;
+  width: 7vw; /*調整*/
+}
+
 } 
 
 
@@ -53,40 +123,158 @@ body {
   div{
     width: 100%;
   }
-  #nav li a {
-    padding: 3px 36px;
-    font: 600 19px Tahoma;
-  }
-  /*貝果滾*/
+  
   .bage[alt]{
     width: 560px;
   }
   .begelimg {
   position: absolute;
-  top: 90px;
+  top: 160px;
   right: -400px;
-  /* right: -110px; */
-  /* width: 700px;
-  height: 700px; */
-  /* overflow: hidden; */
   } 
-  /*測軸*/
-  .media .md_icon{
+  .med_con {
+    color: #354E52;
+    text-align: top;
+  }
+  .media {
+    display: flex;
+    z-index: 5;
+    position: fixed;
+    flex-direction: column-reverse;
+  }
+  .media .md_icon {
     line-height: 18px;
-    padding-top: 5px;
-    font-size: 1.0vw;
+    padding-top: -2px;
+    font-size: 1.2vw;
     width: 25px;
     height: 25px;
-    margin-left: 5px;
+    margin-left: 12px;
+    border-radius: 50%;
+    background-color: #354E52;
+    color: #fff;
+    margin-top: 12px;
   }
-  .media{
-    font-size: 0.73vw;
-    top: 550px;
-    right: 10px;
-    line-height: 40px;
+
+  /*導航攔*/
+  .nav_icon ul{
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-left: 93%;
+    padding-top: 30px;
+}
+.nav_icon ul :nth-child(2){
+    margin-left: 30px;
+}
+nav{
+    display: flex;
+    max-width: 100vw;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    /* flex-direction: row; */
+}
+.nav_icon li>a{
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ba4b50;
+    /* background: #f5f5f5; */
+    /* box-shadow: 15px 15px 20px #00000033; */
+    border-radius: 50%;
+    position: fixed;
+    z-index: 100;
+    margin-top: -7px;
+}
+
+/*測軸*/
+.med_con {
+  color: #354E52;
+  text-align: top;
+}
+.media {
+  display: flex;
+  z-index: 5;
+  position: fixed;
+  flex-direction: column-reverse;
+  top: 520px;
+  right: 4px;
+}
+.media .md_icon {
+  font-size: 1.2vw;
+  width: 27px;
+  height: 27px;
+  margin-left: 12px;
+  border-radius: 50%;
+  background-color: #354E52;
+  color: #fff;
+  padding-left: 6px;
+  padding-top: 4px;
+}
+
+  /*跟蹤導航欄*/
+  #nav {
+    width: 68vw;
     margin: 0 auto;
     text-align: center;
+    margin-top: 3px;
+    position: fixed;
+    top: 11px;
+    left: 57%;
+    transform: translateX(-50%);
+    border: none;
+    border-radius: 2em;     /*---------------------修正*/
+    display: flex;
+    list-style: none;
+    background: #f5f5f5;
+    box-shadow: 15px 15px 20px #00000033;
+    padding: 9px;
+    z-index: 100;
   }
+
+  #nav li a {                     /*---------------------------------------修正*/
+    position: relative;
+    padding: 3px 26px;
+    font: 600 19px Tahoma;     
+    border: none;
+    outline: none;
+    color: #ba4b50;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 3;
+  }
+
+  #nav li i {
+    padding-right: 7px;        /*---------------------------------------修正*/
+  } 
+
+  .slide1,
+  .slide2 {
+    position: absolute;
+    display: inline-block;
+    height: 35px;             /*---------------------------------------修正*/
+    border-radius: 10em;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
+  }
+  .slide2 {
+    width: 1px;
+    opacity: 20;
+    background-color: #E7A4A6;
+    z-index: 1;
+    box-shadow: 0 0 20px #ffffffaa inset;
+  }
+
+  .squeeze {
+    transform: scale(0.9);
+  }
+  /*貝果*/
+  .bage[alt]{
+    width: 560px;
+  }
+  .begelimg {
+    position: absolute;
+    top: 160px;
+    right: -400px;
+  } 
 }
 
 /* --------------- 斷點 1280 --------------- */
@@ -95,8 +283,8 @@ body {
     width: 100%;
   }
   #nav li a {
-    padding: 5px 36px;
-    font: 800 22px Tahoma;
+    padding: 5px 20px;
+    font: 800 17px Tahoma;
   }
   /*貝果滾*/
   .bage[alt]{
@@ -106,10 +294,6 @@ body {
     position: absolute;
     top: 90px;
     right: -400px;
-    /* right: -110px; */
-    /* width: 700px;
-    height: 700px; */
-    /* overflow: hidden; */
   } 
   .about_hd h3{
     margin-left: -225px;
@@ -147,15 +331,11 @@ body {
   .cream_cont {
     grid-column: 2/5;
   }
-  /*測軸*/
-  .media .md_icon{
-    line-height: 18px;
-    padding-top: 5px;
-    font-size: 1.3vw;
+  .media{
+    top: 470px;
+    right: 4px;
   }
-  .contact_content p{
-    width: 390px;
-  }
+  
 }
 /* --------------- 斷點 1255 --------------- */
 @media screen and (max-width: 1255px){
@@ -243,6 +423,18 @@ body {
     margin: 0 auto;
     text-align: center;
   }
+  /*follow欄位*/
+  .media{
+    top: 470px;
+    right: 4px;
+  }
+  .media .md_icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    padding-left: 2px;
+  }
+
 }
 
 /* --------------- 斷點 1100 --------------- */
@@ -252,13 +444,34 @@ body {
   }
   #nav{
     width: 70vw;
-    left: 55%;
+    top: 10px;
+    left: 57%;
   }
   #nav li a {
-    padding: 10px 19px;
-    font: 600 19px Tahoma;
+  padding: 5px 18px;
+  font: 700 16px Tahoma;
+  }
+  #nav li{
+    padding-right: 45px;
+    }
+  .logoimg{
+    left: -273px;
+    top: -1150px;
+  }
+  .begelimg {
+  position: absolute;
+  top:40px;
+  right: -460px;
+  }
+  .logo img{
+    top: 230px;
+    left: 60px;
   }
   /*測軸*/
+  .media{
+    margin-left: 1060px;
+    left: 464px;
+  }
   .media .md_icon{
     line-height: 18px;
     padding-top: 5px;
@@ -272,8 +485,6 @@ body {
     position: absolute;
     top: 50px;
     right: -505px;
-    /* width: 500px;
-    height: 500px; */
   }
   .about_hd h6{
     margin-left: -265px;
@@ -310,9 +521,27 @@ body {
   .marquee{
     margin-top: 90px;
   }
+  .wrapper .title_1 h2{
+  font-size: 70px;
+  }
+
+  /*follow欄位*/
+  .media{
+    top: 470px;
+    right: 4px;
+  }
+  .media .md_icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    padding-left: 2px;
+  }
+
+  
 }
 
 /* --------------- 斷點 1024 --------------- */
+/*漢堡出現*/
 @media screen and (max-width: 1024px){
   /*貝果滾*/
   .bage[alt]{
@@ -376,7 +605,157 @@ body {
     grid-column: 5/10;
     margin-left: 30px;
   } 
-}
+  .logo img{
+    top:230px;
+  }
+  video{
+    width: 100%;
+    /* margin-left: 50px; */
+  }
+  /*共同樣式調整*/
+  /*購物車*/
+ 
+  .nav_icon li>a{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -3px;
+  }
+
+  /*漢堡出現:選單線-1280出現*/
+  .line {
+    width: 24px;
+    height: 24px;
+    background: #F9E5DA;
+    cursor: pointer;
+    display: block;
+    padding: 16px;
+    position: fixed;
+    z-index: 2;
+    margin-left: 5px;
+
+    display: block;
+  }
+  .line .menu,
+  .line .menu::before,
+  .line .menu::after {
+    background: #3e0407;
+    content: '';
+    display: block;
+    height: 3px;
+    position: absolute;
+    transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+    width: 25px;
+    display: block;
+  }
+  .line .menu {
+    left: -120px;
+    top: 37px;
+    display: block;
+  }
+
+  .line .menu::before {
+    top: -6px;
+    display: block;
+  }
+
+  .line .menu::after {
+    top: 6px;
+  }
+  /*
+  點選選單變叉叉
+  */
+  #menu:checked + .line .menu {
+    background: transparent;
+    display: block;
+  }
+
+  #menu:checked + .line .menu::before {
+    transform: rotate(45deg);
+  }
+
+  #menu:checked + .line .menu::after {
+    transform: rotate(-45deg);
+  }
+
+  #menu:checked + .line .menu::before,
+  #menu:checked + .line .menu::after {
+    top: 0;
+    transition: top ease .3s, transform ease .3s .3s;
+  }
+
+  /*上排nav隱藏*/
+  #nav{
+    display: none;
+  }
+  .nav_icon{
+
+  }
+  .menu-list li>a{
+    font-size: 16px;
+    padding-top: 40px;
+  }
+  
+  /*
+  選單開合
+  */
+  #menu:checked ~ .menu-list {
+    width: 200px;
+    
+    display: block;
+  }
+  .nav-box{
+    display: block;
+  }
+  .menu-list {
+    width: 45px;
+    height: 73vh;
+    background: #F9E5DA;
+    /* box-shadow: 0 2px 2px rgba(0, 0, 0, .1); */
+    padding-top: 60px;
+    position: fixed;
+      /* z-index: 1;
+      transition: all .6s;
+      overflow: hidden;
+      margin-left: 5px;
+      display: block; */
+    }
+    .line .menu{
+      display: block;  /*------------------------------1280px打開*/
+    }
+    /*
+    選單向外推
+    */
+    .menu-list ul {
+      list-style: none;
+      margin-left:70px;
+      padding: 0;
+    }
+    .menu-list ul>li{
+      display:block;
+      width:100px;
+      font-size: 20px;
+      color: #ba4b50;
+    }
+    /*
+    隱藏核許框
+    */
+    input#menu {
+      /* display: block; */
+    }
+
+    /*共同樣式區-footer*/
+    .top{
+      margin-left: -22px;
+    }
+    .mid{
+      padding-left: 66px;
+    }
+
+    .wrapper .title_1 h2{
+      font-size: 68px;
+    }
+  }
+
 /* --------------- 斷點 947 --------------- */
 @media screen and (max-width: 947px){
   .wrapper .title_1 h3{
@@ -438,8 +817,9 @@ body {
     margin-left: -40px;
     font-size: 60px;
   }
-
-
+  .wrapper .title_1 h2 {
+    font-size: 61px;
+  }
 } 
 
 /* --------------- 斷點 902 --------------- */
@@ -478,9 +858,14 @@ body {
   .about_bd h5{
     font-size: 22px;
   }
+  .button{
+    padding-top: 130px;
+    margin-left: 150px;
+  }
   /*貝果滾*/
   .bage[alt]{
-    width: 500px;
+    width: 440px;
+    margin-left: 190px;
   }
   .begelimg {
     position: absolute;
@@ -927,6 +1312,37 @@ body {
   .button1 .but_hd {
     margin-left: -50px;
   }
+  .logo img{
+    margin-top: -237px;
+    width: 9vw;
+  }
+  .media{
+    margin-left: 320px;
+  }
+  .bage[alt]{
+    width: 400px;
+    margin-left: 20px;
+  }
+
+  /*----------------------------------漢堡*/
+  #menu:checked ~ .menu-list {
+    width: 160px;
+  }
+  .menu-list li>a {
+    font-size: 16px;
+    padding-top: 30px;
+  }
+  .menu-list{
+    height: 62vh;
+  }
+  .nav_icon li>a{
+    font-size: 20px;
+    margin-left: -10px;
+    margin-top: -5px;
+  }
+  .line .menu, .line .menu::before, .line .menu::after{
+    width: 15px;
+  }
 }
 
 /* --------------- 斷點 430 --------------- */
@@ -1051,8 +1467,6 @@ body {
   }
 
   /*導航欄*/
-
-  
   .wrapper .img_1{
     width: 95%;
     margin-top: -1810px;
@@ -1083,7 +1497,7 @@ body {
     z-index: -1;
   }
   .main .words{
-    top: -3241px;
+    top: -3291px;
     font-size: 28px;
     left: 30px;
   }
@@ -1393,5 +1807,33 @@ body {
   margin-left: -120px;
   margin-top: -10px;
 }
-}
 
+/*----------------------------------漢堡*/
+  #menu:checked ~ .menu-list {
+    width: 140px;
+  }
+  .menu-list li>a {
+    font-size: 12px;
+    padding-top: 30px;
+  }
+  .menu-list{
+    height: 58vh;
+  }
+  .nav_icon li>a{
+    font-size: 16px;
+    margin-left: -10px;
+    margin-top: -27px;
+  }
+  .line .menu, .line .menu::before, .line .menu::after{
+    width: 15px;
+  }
+
+  .bage[alt]{
+    width: 200px;
+    margin-top: 50px;
+  }
+
+  .line{
+    margin-top: -20px;
+  }
+}
