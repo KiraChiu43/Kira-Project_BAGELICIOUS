@@ -1268,6 +1268,12 @@ input#menu {
   .nav_icon{
     margin-top: -40px;
   }
+
+  .nav_icon li>a{
+    font-size: 20px;
+    margin-left: 300px;
+    padding-top: 18px;
+}
   /*調整影片*/
   video{
     margin-top: 70px;
@@ -1414,7 +1420,7 @@ input#menu {
     width: 9vw;
   }
   .media{
-    margin-left: 320px;
+    margin-left: 360px;
   }
   .bage[alt]{
     width: 400px;
@@ -1434,9 +1440,9 @@ input#menu {
     height: 62vh;
   }
   .nav_icon li>a{
-    font-size: 16px;
-    margin-left: -20px;
-    padding-top: 30px;
+    font-size: 20px;
+    margin-left: -30px;
+    padding-top: 38px;
   }
   .line .menu, .line .menu::before, .line .menu::after{
     width: 25px;
@@ -1946,7 +1952,7 @@ video{
   .nav_icon li>a{
     font-size: 16px;
     margin-left: -10px;
-    margin-top: -27px;
+    margin-top: -37px;
   }
   .line .menu, .line .menu::before, .line .menu::after{
     width: 18px;

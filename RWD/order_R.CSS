@@ -17,8 +17,8 @@
         top: 220px;
         left: 120px;
         z-index: 10;
-        margin-top: -227px;
-        width: 9vw; /*調整*/
+        margin-left: 80px;
+        width: 7vw; /*調整*/
     }
         /*測軸*/
     .med_con {
@@ -83,7 +83,6 @@
   }
 /* --------------- 斷點 1440 --------------- */  
 @media screen and (max-width: 1440px){
-}
 /*導航攔*/
 .nav_icon ul{
     /* display: flex; */
@@ -188,6 +187,7 @@
         z-index: 1;
         box-shadow: 0 0 20px #ffffffaa inset;
     }
+}
 
 /* --------------- 斷點 1280 --------------- */  
 @media screen and (max-width: 1280px){
@@ -240,7 +240,7 @@
         margin: 55px 540px;
     }
     .nav_icon li>a{
-        font-size: 24px;
+        font-size: 20px;
         margin-right: 10px;
         color: #ba4b50;
         border-radius: 50%;
@@ -271,7 +271,16 @@
         padding: 2px 20px;
         font: 600 14px Tahoma;
         top: -5px;
-        }
+    }
+    .nav_icon li>a{
+        margin-top: 5px;
+        margin-left: -30px;
+    }
+
+    .nav_icon ul{
+        margin-left: 53%;
+        padding-top: 30px;
+    }
     .header .logo{
         margin-left: 30px;
     }
@@ -298,6 +307,7 @@
     .logo img{
         margin-top: -227px;
         width: 9vw;
+        margin-left: -50px;
     }
     /* .media{
         top: 510px;
@@ -321,7 +331,7 @@
         font-size: 22px;
     }
     .orderimg img{
-        width: 800px;
+        width: 770px;
         height: 230px;
         margin-left: -610px;
         margin-top: -10px;
@@ -568,7 +578,7 @@
 .line {
     width: 24px;
     height: 24px;
-    background: #F9E5DA;
+    /* background: #F9E5DA; */
     cursor: pointer;
     display: block;
     padding: 16px;
@@ -703,11 +713,28 @@
     div{
         width: 100vw;
     }
+
+    /*logo*/
     .logo img{
-        margin-left: 13px;
-        width: 13vw;
-        margin-top: -13px;
+        /* margin-top: -220px; */
+        width: 9vw;
+        margin-left: 30px;
+        left: 26px;
     }
+    .header .logo {
+        margin-left: -60px;
+        width: 9%;
+        z-index: 100;
+        margin-top: -17px;
+    }
+
+    /*購物車*/
+    .nav_icon li>a{
+        font-size: 16px;
+        margin-left: -10px;
+        margin-top: -17px;
+     }
+
     .bageli_title1{
         width: 100vw;
     }
@@ -722,16 +749,26 @@
     div{
         width: 100%;
     }
+
+    /*導航欄*/
     #nav{
-        left: 58%;
-        width: 70vw;
-        /* padding: 8px; */
         margin-top: 10px;
         /* padding: -16px; */
         height: 20px;
         line-height: 20px;
         margin-left: -20px;
     }
+    #nav li a {
+        padding: 0 2px;
+        font: 400 9px Tahoma;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #nav li{
+        height: 18px;
+        margin-top: -10px;
+    }
+  
     .footer_con h3{
         margin-left: 60px;
         font-size: 12px;
@@ -752,8 +789,8 @@
         margin-left: -270px;
         width: 80vw;
     }
+
 /*導航欄*/
-    
     #nav li a {
         padding: 0 2px;
         font: 400 9px Tahoma;
@@ -761,8 +798,8 @@
         margin: 0 auto;
     }
     #nav li{
-    height: 18px;
-    margin-top: -10px;
+        height: 18px;
+        margin-top: -10px;
     }
     .slide2 {
         width: 60px;
@@ -773,15 +810,96 @@
         line-height: 15px;
     }
     .header .logo{
-    margin-left: 13px;
-    width: 13%;
-    z-index: 100;
+        margin-left: 13px;
+        width: 13%;
+        z-index: 100;
     }
-/*logo*/
 
-    .order_step h3{
-        font-size: 40px;
+/*
+    點選選單變叉叉
+    */
+    #menu:checked + .line .menu {
+        background: transparent;
+        margin-top: ;
+        display: block;
     }
+    #menu:checked ~ .menu-list {
+        width: 140px;
+        height: 100vh;
+        /* display: block; */
+    }
+
+    .line{
+        margin-left: 90px;
+        height: 24px;
+        width: 24px;
+        /* background: #F9E5DA; */
+        cursor: pointer;
+        display: block;
+        padding: 16px;
+        position: fixed;
+        z-index: 2;
+        display: block;
+    }
+    
+.menu-list {
+    width: 25px;
+    height: 100vh;
+    background: #F9E5DA;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    padding-top: 60px;
+    /* position: fixed; */
+    z-index: 1;
+    transition: all .6s;
+    overflow: hidden;
+    margin-left: -25px;
+    display: block;
+    
+}
+    .menu-list li>a {
+        font-size: 12px;
+        padding-top: 30px;
+        display: block;
+        margin-left: -20px;
+    }
+    .line .menu{
+        display: block; 
+    }
+    
+    .line .menu, .line .menu::before, .line .menu::after{
+        width: 15px;    
+    }
+    #menu:checked + .line .menu::before,
+    #menu:checked + .line .menu::after {
+        top: 0;
+        transition: top ease .3s, transform ease .3s .3s;
+    }
+
+    .line .menu,
+    .line .menu::before,
+    .line .menu::after {
+        background: #3e0407;
+        content: '';
+        height: 3px;
+        position: absolute;
+        transition: background ease .3s, top ease .3s .3s, transform ease .3s;
+        width: 20px;
+    }
+
+    .line .menu::before {
+    top: -6px;
+    }
+
+    .line .menu {
+    left: -115px;
+    top: -90px;
+    display: block;
+    }
+
+    .line .menu::after{
+        top: 6px;
+      }
+
 /*紅字標題距離*/
     /* .bageli_title1 .hd{
         font-size: 22px;
@@ -901,9 +1019,11 @@
         width: 20px;
         height: 20px;
         line-height: 16px;
+        padding-left: 3px;
     }
     .media{
-        right: -180px;
+        right: -400px;
+        top: 280px;
     }
     .media li{
         text-align: center;
@@ -913,6 +1033,7 @@
     .shop_cont p{
         padding: 5px;
         font-size: 11px;
+        padding-left: 20px;
     }
     .shop_cont{
         margin-top: 60px;
@@ -934,7 +1055,7 @@
         margin-top: -310px;
     }  */
     .order_steps{
-        margin-left: -852px;
+        margin-left: -812px;
         margin-top: -250px;
         /* width: 410px; */
     }
@@ -973,11 +1094,11 @@
         line-height: 40px;
         font-size: 14px;
         margin: 0px;
-        margin-left: 145px;
+        margin-left: 165px;
         margin-top: 20px;
     }
     .shop_name{
-        margin-left: 100PX;
+        margin-left: 70px;
         margin-bottom: 220px ;
         width: calc(100vw - 100px);
     }
@@ -994,7 +1115,8 @@
         margin-bottom: 0;
     }
     footer{
-        margin-top: -20px;
+        margin-top: 0px;
+        margin-left: 13px;
     }
     /*footer end*/
     /* .slide2 {
@@ -1009,7 +1131,7 @@
     .order_set h3{
         font-size: 13px;
         line-height: 25px;
-        margin-left: -80px;
+        margin-left: -110px;
     }
     .order_set h2{
         font-size: 14px;
@@ -1017,7 +1139,7 @@
         height: 30px;
         line-height: 30px;
         padding-left: 25px;
-        margin-left: -95px;
+        margin-left: -115px;
         margin-top: -270px;
     }
     .shop_bd1{
@@ -1028,7 +1150,7 @@
     }
     .colorBlock{
         margin: 16px;
-        /* margin-top: -20px; */
+        margin-top: 26px;
     }
     .meun_cont h2{
         width: 100px;
@@ -1160,5 +1282,8 @@
     .mid_con{
         margin-left: -580px;
         margin-bottom: 10px;
+    }
+    .nav_icon ul{
+        margin-left: 28%;
     }
 }
