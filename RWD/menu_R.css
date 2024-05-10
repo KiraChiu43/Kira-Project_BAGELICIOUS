@@ -139,7 +139,7 @@
     .nav_icon ul{
     /* display: flex; */
     /* flex-direction: row; */
-    margin-left: 93%;
+    /* margin-left: 93%; */
     padding-top: 30px;
     }
     .nav_icon ul :nth-child(2){
