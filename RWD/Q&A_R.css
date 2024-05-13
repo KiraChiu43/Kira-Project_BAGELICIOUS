@@ -167,8 +167,9 @@
         border-radius: 50%;
         background-color: #354E52;
         color: #fff;
-        padding-left: 6px;
+        padding-left: 3px;
         padding-top: 4px;
+        line-height: 22px;
     }
     /*跟蹤導航欄*/
     #nav {

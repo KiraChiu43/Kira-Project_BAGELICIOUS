@@ -164,6 +164,7 @@
         position: fixed;
         z-index: 100;
         margin-top: -7px;
+        right: 60px;
     }
 
     /*測軸*/
