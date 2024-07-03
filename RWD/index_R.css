@@ -677,9 +677,6 @@ body {
   #nav{
     display: none;
   }
-  .nav_icon{
-
-  }
   .menu-list li>a{
     font-size: 16px;
     padding-top: 40px;
@@ -729,9 +726,9 @@ body {
     /*
     隱藏核許框
     */
-    input#menu {
-      /* display: block; */
-    }
+    /* input#menu {
+      display: block; 
+    }*/
 
     /*共同樣式區-footer*/
     .top{
@@ -1091,9 +1088,9 @@ body {
   /*
 隱藏核許框
 */
-input#menu {
-  /* display: block; */
- }
+/* input#menu {
+  display: block; 
+ } */
 
  /*調整影片*/
  video{
@@ -1557,9 +1554,7 @@ input#menu {
     text-align: center;
     margin-left: -30px;
   }
-  .but_follow h3{
-
-  }
+  
   .button .but_hd{
     margin-top: -40px;
   }
