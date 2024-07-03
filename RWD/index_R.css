@@ -458,8 +458,7 @@ body {
   }
   /*測軸*/
   .media{
-    margin-left: 590px;
-    left: 464px;
+    left: 441px;
   }
   .media .md_icon{
     line-height: 18px;
@@ -601,7 +600,7 @@ body {
   }
   .media{
     margin-left: 520px;
-    left: 464px;
+    /* left: 464px; */
   }
   /*共同樣式調整*/
   /*購物車*/

@@ -1375,7 +1375,7 @@ footer {
     /* line-height: 20px; */
     margin-bottom: 20px;
 
-    width: 160px;
+    /*width: 160px;*/
     /*菜單外觀樣式*/
     height: 35px;
     color: #ffffff;
@@ -1528,7 +1528,7 @@ footer {
 }
 
 .bannerSet li {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .bannertitle p {
