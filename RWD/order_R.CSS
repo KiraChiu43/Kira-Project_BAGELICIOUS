@@ -463,9 +463,9 @@
         /* display: flex; */
         /* flex-direction: column; */
     }
-    .colorBlock{
+    /* .colorBlock{
         margin-top: 50px;
-    }
+    } */
     /*測軸*/
     /* .media .md_icon{
         line-height: 27px;
@@ -559,9 +559,6 @@
         left: 380px;
         top: 10px;
     }
-    .colorBlock{
-        padding-top: 50px;
-    }
     .mid{
         padding-top: 24px;
         padding-left: 6px;
@@ -642,9 +639,9 @@
   #nav{
     display: none;
   }
-  .nav_icon{
+  /* .nav_icon{
 
-  }
+  } */
   .menu-list li>a{
     font-size: 16px;
     padding-top: 40px;
@@ -694,9 +691,9 @@
     /*
     隱藏核許框
     */
-    input#menu {
-      /* display: block; */
-    }
+    /* input#menu {
+      display: block; 
+    } */
     
 }
 /* --------------- 斷點 500 --------------- */  
@@ -733,7 +730,7 @@
     /*購物車*/
     .nav_icon li>a{
         font-size: 16px;
-        margin-left: -10px;
+        margin-left: 50vw;
         margin-top: -17px;
      }
 
@@ -822,7 +819,6 @@
     */
     #menu:checked + .line .menu {
         background: transparent;
-        margin-top: ;
         display: block;
     }
     #menu:checked ~ .menu-list {
@@ -982,11 +978,11 @@
         display: flex;
         flex-direction: row;
     }
-    .shop_cont ul li{
-    }
-    .shop_hd1, .shop_bd1{
-        /* flex-wrap: row; */
-    }
+    /* .shop_cont ul li{
+    } */
+    /* .shop_hd1, .shop_bd1{
+        flex-wrap: row;
+    } */
     .shop_cont p{
         padding: 0px;
     }
@@ -1118,7 +1114,11 @@
     }
     footer{
         margin-top: 0px;
-        margin-left: 13px;
+        width: 100%;
+        /* margin-left: 13px; */
+    }
+    footer img{
+        margin-top: 16px;
     }
     /*footer end*/
     /* .slide2 {
@@ -1151,8 +1151,8 @@
         margin-top: 0px;
     }
     .colorBlock{
-        margin: 16px;
-        margin-top: 26px;
+        margin: 0px;
+        /* margin-top: 26px; */
     }
     .meun_cont h2{
         width: 100px;

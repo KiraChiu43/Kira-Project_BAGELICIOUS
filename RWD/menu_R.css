@@ -291,7 +291,7 @@
     
     /*標題紅字*/
     .bageli_title1 .hd{
-        font-size: 45px;
+        font-size: 50px;
     }
 
     /*標題綠字*/
@@ -594,9 +594,9 @@
     /*
     隱藏核許框
     */
-    input#menu {
-      /* display: block; */
-    }
+    /* input#menu {
+      display: block;
+    } */
 
     /*共同樣式區-footer*/
     .top{
@@ -1114,9 +1114,9 @@
         margin-left: 40px;
         font-size: 14px;
     }
-    .bageli_title1{
-        /* display: flex; */
-    }
+    /* .bageli_title1{
+        display: flex; 
+    } */
     .bannertitle p{
         font-size: 13px;
     }
@@ -1190,7 +1190,7 @@
     .footer_con h1{
         font-size: 18px;
         padding-top: 30px;
-        margin-left: -10px;
+        margin-left: 0px;
     }
     .top h2{
         font-size: 16px;
@@ -1223,7 +1223,7 @@
         margin-top: 20px;
     }
     .mid{
-        margin-left: -144px;
+        /*margin-left: -144px;*/
         margin-top: -34px;
         font-size: 12px;
     }
@@ -1241,6 +1241,7 @@
     }
     .footer_con h2{
         margin-left: 0px;
+        width: 29vw;
       }
     .mid_con h4{
         width: 265px;
@@ -1251,7 +1252,7 @@
         margin-top: 2px;
     }    
     .footer_con .top{
-        padding-left: 30px;
+        padding-left: 36px;
     }
     .mid_con a{
         margin-left: 30px;
@@ -1311,7 +1312,7 @@
     /*購物車*/
     .nav_icon li>a{
        font-size: 16px;
-       margin-left: 160px;
+       /* margin-left: 160px; */
        margin-top: -17px;
     }
 
@@ -1330,7 +1331,6 @@
     */
     #menu:checked + .line .menu {
         background: transparent;
-        margin-top: ;
         display: block;
     }
     #menu:checked ~ .menu-list {
@@ -1361,9 +1361,10 @@
 }
     .menu-list li>a {
         font-size: 12px;
-        padding-top: 30px;
+        padding: 30px 0 0;
         display: block;
-        margin-left: -20px;
+        margin: 0 0 0 -20px;
+        padding-top: 30px;
     }
     .line .menu{
         display: block; 

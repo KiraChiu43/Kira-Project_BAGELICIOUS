@@ -303,9 +303,9 @@ input#menu {
 } 
 
 /*Wrapper字*/
-.wrapper {
-    /* margin-left: 150px; */
-}
+/* .wrapper {
+    margin-left: 150px;
+} */
 
 .wrapper .title_1 h2 {
     display: flex;
@@ -1511,7 +1511,7 @@ footer {
 }
 
 .bannerSet ul {
-    width: 1144px;
+    width: 90vw;
 }
 
 .bannerSet p {

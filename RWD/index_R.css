@@ -185,7 +185,7 @@ body {
     z-index: 5;
     position: fixed;
     flex-direction: column-reverse;
-    top: 520px;
+    top: 560px;
     right: 4px;
   }
   .media .md_icon {
@@ -1437,7 +1437,7 @@ body {
   }
   .nav_icon li>a{
     font-size: 20px;
-    margin-left: -30px;
+    margin-left: -58px;
     padding-top: 38px;
   }
   .line .menu, .line .menu::before, .line .menu::after{
@@ -1874,7 +1874,6 @@ body {
   margin-top: 20px;
 }
 .mid{
-  margin-left: -144px;
   margin-top: -34px;
   font-size: 12px;
 }
@@ -1893,9 +1892,9 @@ body {
 .mailicon i{
   margin-top: 2px;
 }    
-.footer_con .top{
+/* .footer_con .top{
   padding-left: 30px;
-}
+} */
 
 .button1 .but_hd{
   margin-top: 30px;
@@ -1945,7 +1944,7 @@ video{
   }
   .nav_icon li>a{
     font-size: 16px;
-    margin-left: -10px;
+    /* margin-left: -10px; */
     margin-top: -37px;
   }
   .line .menu, .line .menu::before, .line .menu::after{
