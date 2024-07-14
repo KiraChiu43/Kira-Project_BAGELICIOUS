@@ -139,7 +139,7 @@ video {
 
 #nav li a {                     /*---------------------------------------修正*/
     position: relative;
-    padding: 3px 26px;
+    padding: 3px 55px;
     font: 600 19px Tahoma;     
     border: none;
     outline: none;
